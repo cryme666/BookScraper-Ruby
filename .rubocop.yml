@@ -1,0 +1,134 @@
+# RuboCop configuration for parsing project
+
+# Enable all cops by default
+AllCops:
+  # Exclude files and directories
+  Exclude:
+    - 'vendor/**/*'
+    - 'tmp/**/*'
+    - 'Gemfile.lock'
+    - 'node_modules/**/*'
+    - 'db/schema.rb'
+    - 'bin/**/*'
+  
+  # Ruby version
+  TargetRubyVersion: 3.0
+  
+  # New cops enabled by default
+  NewCops: enable
+
+# Line length settings
+Layout/LineLength:
+  Max: 120
+  Exclude:
+    - 'spec/**/*'
+    - 'test/**/*'
+
+# Indentation settings
+Layout/IndentationWidth:
+  Width: 2
+
+Layout/IndentationConsistency:
+  EnforcedStyle: spaces
+
+# String style settings
+Style/StringLiterals:
+  EnforcedStyle: double_quotes
+
+Style/Documentation:
+  Enabled: false
+
+# Allow comments in non-ASCII languages
+Style/AsciiComments:
+  Enabled: false
+
+# Method settings
+Style/MethodDefParentheses:
+  EnforcedStyle: require_parentheses
+
+# Hash settings
+Style/HashSyntax:
+  EnforcedStyle: ruby19
+
+# Block settings
+Style/BlockDelimiters:
+  EnforcedStyle: line_count_based
+
+# Allow using puts for logging
+Style/StderrPuts:
+  Enabled: false
+
+# Complexity metrics settings
+Metrics/AbcSize:
+  Max: 20
+
+Metrics/MethodLength:
+  Max: 30
+  Exclude:
+    - 'spec/**/*'
+    - 'test/**/*'
+
+Metrics/ClassLength:
+  Max: 150
+
+Metrics/ModuleLength:
+  Max: 150
+
+Metrics/BlockLength:
+  Max: 50
+  Exclude:
+    - 'spec/**/*'
+    - 'test/**/*'
+    - 'Rakefile'
+
+# Cyclomatic complexity settings
+Metrics/CyclomaticComplexity:
+  Max: 10
+
+# Nesting depth settings
+Metrics/BlockNesting:
+  Max: 4
+
+# Method parameters settings
+Metrics/ParameterLists:
+  Max: 5
+
+# Allow using eval (may be needed for dynamic code)
+Security/Eval:
+  Enabled: false
+
+# Naming style check settings
+Naming/VariableNumber:
+  EnforcedStyle: snake_case
+
+Naming/MethodName:
+  EnforcedStyle: snake_case
+
+# Trailing whitespace check settings
+Layout/TrailingWhitespace:
+  Enabled: true
+
+Layout/EmptyLines:
+  Enabled: true
+
+Layout/EmptyLineBetweenDefs:
+  Enabled: true
+
+# End of line check settings
+Layout/EndOfLine:
+  EnforcedStyle: lf
+
+# Allow using print for logging
+Style/Print:
+  Enabled: false
+
+# Comment check settings
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+# Variable usage check settings
+Style/GlobalVars:
+  AllowedVariables:
+    - $stdout
+    - $stderr
+
