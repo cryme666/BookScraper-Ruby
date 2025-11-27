@@ -1,0 +1,14 @@
+web_scraping:
+  start_page: https://books.toscrape.com
+  base_url: https://books.toscrape.com
+  product_name_selector: "article.product_pod h3 a"
+  product_price_selector: "article.product_pod .price_color"
+  product_description_selector: "#product_description"
+  product_image_selector: "article.product_pod img"
+  product_availability_selector: "article.product_pod .instock"
+  product_rating_selector: "article.product_pod p.star-rating"
+  pagination_next_selector: "li.next a"
+  delay_between_requests: 1
+  timeout: 30
+  max_retries: 3
+
