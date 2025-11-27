@@ -2,3 +2,157 @@
 2025-11-27 23:56:28 [INFO] Application started successfully
 2025-11-27 23:56:28 [INFO] Configuration files loaded
 2025-11-27 23:56:28 [ERROR] Test error message for verification
+2025-11-28 01:02:12 [INFO] Test processed file message 1764284532
+2025-11-28 01:02:12 [ERROR] Test error message 1764284532
+2025-11-28 01:02:13 [INFO] Item initialized: name=Logged Item, price=50.0, category=Log Category
+2025-11-28 01:02:13 [INFO] Item initialized: name=Update Test, price=10.0, category=
+2025-11-28 01:02:13 [INFO] Item updated: name=Update Test, price=20.0, category=
+2025-11-28 01:02:13 [INFO] Item initialized: name=, price=10.0, category=
+2025-11-28 01:02:13 [INFO] Item initialized: name=, price=20.0, category=
+2025-11-28 01:02:13 [INFO] Item initialized: name=, price=30.0, category=
+2025-11-28 01:02:13 [INFO] Item initialized: name=, price=15.0, category=
+2025-11-28 01:02:13 [INFO] Item initialized: name=, price=25.0, category=
+2025-11-28 01:02:13 [INFO] Item initialized: name=, price=25.0, category=
+2025-11-28 01:02:13 [INFO] Item initialized: name=, price=10.0, category=
+2025-11-28 01:02:13 [INFO] Item initialized: name=, price=20.0, category=
+2025-11-28 01:02:13 [INFO] Item initialized: name=, price=10.0, category=
+2025-11-28 01:02:13 [INFO] Item initialized: name=, price=30.0, category=
+2025-11-28 01:02:13 [INFO] Item initialized: name=, price=15.0, category=
+2025-11-28 01:02:13 [INFO] Item initialized: name=, price=30.0, category=
+2025-11-28 01:02:13 [INFO] Item initialized: name=, price=10.0, category=
+2025-11-28 01:02:13 [INFO] Item initialized: name=, price=20.0, category=
+2025-11-28 01:02:13 [INFO] Item initialized: name=, price=10.0, category=
+2025-11-28 01:02:13 [INFO] Item initialized: name=, price=10.0, category=
+2025-11-28 01:02:13 [INFO] Item initialized: name=Item3, price=30.0, category=
+2025-11-28 01:02:13 [INFO] Item initialized: name=Item1, price=10.0, category=
+2025-11-28 01:02:13 [INFO] Item initialized: name=Item2, price=20.0, category=
+2025-11-28 01:02:13 [INFO] Item initialized: name=, price=30.0, category=
+2025-11-28 01:02:13 [INFO] Item initialized: name=, price=10.0, category=
+2025-11-28 01:02:13 [INFO] Item initialized: name=, price=20.0, category=
+2025-11-28 01:02:13 [INFO] Item initialized: name=, price=0.0, category=
+2025-11-28 01:02:13 [INFO] Item initialized: name=, price=0.0, category=
+2025-11-28 01:02:13 [INFO] Item initialized: name=, price=0.0, category=
+2025-11-28 01:02:13 [INFO] Item initialized: name=, price=-10.0, category=
+2025-11-28 01:02:13 [INFO] Item initialized: name=, price=-10.0, category=
+2025-11-28 01:02:13 [INFO] Item initialized: name=, price=10.0, category=
+2025-11-28 01:02:13 [INFO] Item initialized: name=, price=999999999.99, category=
+2025-11-28 01:02:13 [INFO] Item initialized: name=, price=0.0, category=
+2025-11-28 01:02:13 [INFO] Item initialized: name=Item & Co. <Test> "Special" 'Chars', price=0.0, category=
+2025-11-28 01:02:13 [INFO] Item initialized: name=Товар №1 - Україна, price=0.0, category=
+2025-11-28 01:02:13 [INFO] Item initialized: name=, price=0.0, category=
+2025-11-28 01:02:13 [INFO] Item initialized: name=, price=0.0, category=
+2025-11-28 01:02:13 [INFO] Item initialized: name=, price=0.0, category=
+2025-11-28 01:02:13 [INFO] Item initialized: name=Chain, price=10.0, category=
+2025-11-28 01:02:13 [INFO] Item updated: name=Chain, price=20.0, category=
+2025-11-28 01:02:13 [INFO] Item updated: name=Chain, price=30.0, category=
+2025-11-28 01:02:13 [INFO] Item initialized: name=Error Test, price=10.0, category=
+2025-11-28 01:02:13 [ERROR] Error retrieving item info: Test error
+2025-11-28 01:05:35 [INFO] Application Initialization
+2025-11-28 01:05:35 [INFO] 
+2025-11-28 01:05:35 [INFO] Loading libraries...
+2025-11-28 01:05:35 [INFO] System libraries loaded: date, time
+2025-11-28 01:05:35 [INFO] 
+2025-11-28 01:05:35 [INFO] Loading configurations...
+2025-11-28 01:05:35 [INFO] Configurations loaded successfully
+2025-11-28 01:05:35 [INFO] 
+2025-11-28 01:05:35 [INFO] Displaying configuration data...
+2025-11-28 01:05:35 [INFO] --- Configuration Data (JSON format) ---
+{
+  "default": {
+    "root_dir": "D:/uchoba/5 course/Distributed database development technologies/1 lab",
+    "config_dir": "config",
+    "yaml_dir": "config/yaml_config",
+    "media_dir": "media"
+  },
+  "database_config": {
+    "database_type": "sqlite",
+    "sqlite_database": {
+      "db_file": "db/local_database.sqlite",
+      "timeout": 5000,
+      "pool_size": 5
+    },
+    "mongodb_database": {
+      "uri": "mongodb://localhost:27017",
+      "db_name": "my_database"
+    }
+  },
+  "logging": {
+    "directory": "logs",
+    "level": "DEBUG",
+    "files": {
+      "application_log": "app.log",
+      "error_log": "error.log"
+    }
+  },
+  "web_scraping": {
+    "start_page": "https://books.toscrape.com",
+    "base_url": "https://books.toscrape.com",
+    "product_name_selector": "article.product_pod h3 a",
+    "product_price_selector": "article.product_pod .price_color",
+    "product_description_selector": "#product_description",
+    "product_image_selector": "article.product_pod img",
+    "product_availability_selector": "article.product_pod .instock",
+    "product_rating_selector": "article.product_pod p.star-rating",
+    "pagination_next_selector": "li.next a",
+    "delay_between_requests": 1,
+    "timeout": 30,
+    "max_retries": 3
+  }
+}
+2025-11-28 01:05:35 [INFO] 
+2025-11-28 01:05:35 [INFO] Logger initialized successfully
+2025-11-28 01:05:35 [INFO] Logger level: 0
+2025-11-28 01:05:35 [INFO] 
+2025-11-28 01:05:35 [INFO] Testing logging functionality...
+2025-11-28 01:05:35 [INFO] Application started successfully
+2025-11-28 01:05:35 [INFO] Configuration files loaded
+2025-11-28 01:05:35 [ERROR] Test error message for verification
+2025-11-28 01:05:35 [INFO] Logging test completed. Check logs/app.log and logs/error.log
+2025-11-28 01:05:35 [INFO] 
+2025-11-28 01:05:35 [INFO] Initialization Complete
+2025-11-28 01:06:20 [INFO] Item initialized: name=Test Item, price=99.99, category=(empty)
+2025-11-28 01:06:37 [INFO] Test processed file message 1764284797
+2025-11-28 01:06:37 [ERROR] Test error message 1764284797
+2025-11-28 01:06:38 [INFO] Item initialized: name=Logged Item, price=50.0, category=Log Category
+2025-11-28 01:06:38 [INFO] Item initialized: name=Update Test, price=10.0, category=(empty)
+2025-11-28 01:06:38 [INFO] Item updated: name=Update Test, price=20.0, category=(empty)
+2025-11-28 01:06:38 [INFO] Item initialized: name=, price=10.0, category=(empty)
+2025-11-28 01:06:38 [INFO] Item initialized: name=, price=20.0, category=(empty)
+2025-11-28 01:06:38 [INFO] Item initialized: name=, price=30.0, category=(empty)
+2025-11-28 01:06:38 [INFO] Item initialized: name=, price=15.0, category=(empty)
+2025-11-28 01:06:38 [INFO] Item initialized: name=, price=25.0, category=(empty)
+2025-11-28 01:06:38 [INFO] Item initialized: name=, price=25.0, category=(empty)
+2025-11-28 01:06:38 [INFO] Item initialized: name=, price=10.0, category=(empty)
+2025-11-28 01:06:38 [INFO] Item initialized: name=, price=20.0, category=(empty)
+2025-11-28 01:06:38 [INFO] Item initialized: name=, price=10.0, category=(empty)
+2025-11-28 01:06:38 [INFO] Item initialized: name=, price=30.0, category=(empty)
+2025-11-28 01:06:38 [INFO] Item initialized: name=, price=15.0, category=(empty)
+2025-11-28 01:06:38 [INFO] Item initialized: name=, price=30.0, category=(empty)
+2025-11-28 01:06:38 [INFO] Item initialized: name=, price=10.0, category=(empty)
+2025-11-28 01:06:38 [INFO] Item initialized: name=, price=20.0, category=(empty)
+2025-11-28 01:06:38 [INFO] Item initialized: name=, price=10.0, category=(empty)
+2025-11-28 01:06:38 [INFO] Item initialized: name=, price=10.0, category=(empty)
+2025-11-28 01:06:38 [INFO] Item initialized: name=Item3, price=30.0, category=(empty)
+2025-11-28 01:06:38 [INFO] Item initialized: name=Item1, price=10.0, category=(empty)
+2025-11-28 01:06:38 [INFO] Item initialized: name=Item2, price=20.0, category=(empty)
+2025-11-28 01:06:38 [INFO] Item initialized: name=, price=30.0, category=(empty)
+2025-11-28 01:06:38 [INFO] Item initialized: name=, price=10.0, category=(empty)
+2025-11-28 01:06:38 [INFO] Item initialized: name=, price=20.0, category=(empty)
+2025-11-28 01:06:38 [INFO] Item initialized: name=, price=0.0, category=(empty)
+2025-11-28 01:06:38 [INFO] Item initialized: name=, price=0.0, category=(empty)
+2025-11-28 01:06:38 [INFO] Item initialized: name=, price=0.0, category=(empty)
+2025-11-28 01:06:38 [INFO] Item initialized: name=, price=-10.0, category=(empty)
+2025-11-28 01:06:38 [INFO] Item initialized: name=, price=-10.0, category=(empty)
+2025-11-28 01:06:38 [INFO] Item initialized: name=, price=10.0, category=(empty)
+2025-11-28 01:06:38 [INFO] Item initialized: name=, price=999999999.99, category=(empty)
+2025-11-28 01:06:38 [INFO] Item initialized: name=, price=0.0, category=(empty)
+2025-11-28 01:06:38 [INFO] Item initialized: name=Item & Co. <Test> "Special" 'Chars', price=0.0, category=(empty)
+2025-11-28 01:06:38 [INFO] Item initialized: name=Товар №1 - Україна, price=0.0, category=(empty)
+2025-11-28 01:06:38 [INFO] Item initialized: name=, price=0.0, category=(empty)
+2025-11-28 01:06:38 [INFO] Item initialized: name=, price=0.0, category=(empty)
+2025-11-28 01:06:38 [INFO] Item initialized: name=, price=0.0, category=(empty)
+2025-11-28 01:06:38 [INFO] Item initialized: name=Chain, price=10.0, category=(empty)
+2025-11-28 01:06:38 [INFO] Item updated: name=Chain, price=20.0, category=(empty)
+2025-11-28 01:06:38 [INFO] Item updated: name=Chain, price=30.0, category=(empty)
+2025-11-28 01:06:38 [INFO] Item initialized: name=Error Test, price=10.0, category=(empty)
+2025-11-28 01:06:38 [ERROR] Error retrieving item info: Test error

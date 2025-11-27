@@ -18,7 +18,12 @@ class AppConfigLoader
   end
 
   def pretty_print_config_data(data)
-    puts JSON.pretty_generate(data)
+    json_output = JSON.pretty_generate(data)
+    if defined?(MyApplicationVikovan::LoggerManager) && MyApplicationVikovan::LoggerManager.logger
+      MyApplicationVikovan::LoggerManager.log_processed_file("--- Configuration Data (JSON format) ---\n#{json_output}")
+    else
+      puts json_output
+    end
   end
 
   def load_libs(system_libs = [], libs_dir = 'libs')

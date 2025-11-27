@@ -7,4 +7,5 @@ source "https://rubygems.org"
 gem "nokogiri"
 gem "httparty"
 gem "faraday"
+gem "faker"
 gem 'rubocop', require: false
