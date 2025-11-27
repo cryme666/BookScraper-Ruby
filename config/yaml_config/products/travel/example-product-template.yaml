@@ -1,0 +1,12 @@
+categories:
+  - name: Category Name
+    products:
+      - name: Product Name
+        price: 0.00
+        description: |-
+          Product description here
+        media: products/category-name/product-name.jpeg
+        availability: In stock
+        rating: Five
+        url: https://books.toscrape.com/catalogue/product-slug/index.html
+
