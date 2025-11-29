@@ -679,3 +679,91 @@
 2025-11-29 17:44:27 [INFO] Item initialized: name=The Moving Toyshop, price=74.31, category=Fiction in verse
 2025-11-29 17:44:27 [INFO] Cart: Item added - name=The Moving Toyshop, price=74.31
 2025-11-29 17:44:27 [INFO] Cart: Successfully generated 3 test items
+2025-11-29 18:03:09 [INFO] Configurator initialized with default configuration
+2025-11-29 18:03:09 [INFO] Configurator: Starting configuration with 2 parameter(s)
+2025-11-29 18:03:09 [INFO] Configurator: Updated run_website_parser from 0 to 1
+2025-11-29 18:03:09 [INFO] Configurator: Updated run_save_to_csv from 0 to 1
+2025-11-29 18:03:09 [INFO] Configurator: Configuration completed - 2 parameter(s) updated
+2025-11-29 18:04:11 [INFO] Configurator initialized with default configuration
+2025-11-29 18:04:11 [INFO] Configurator: Starting configuration with 5 parameter(s)
+2025-11-29 18:04:11 [INFO] Configurator: Updated run_website_parser from 0 to 1
+2025-11-29 18:04:11 [INFO] Configurator: Updated run_save_to_csv from 0 to 1
+2025-11-29 18:04:11 [INFO] Configurator: Updated run_save_to_yaml from 0 to 1
+2025-11-29 18:04:11 [INFO] Configurator: Updated run_save_to_sqlite from 0 to 1
+2025-11-29 18:04:11 [ERROR] Configurator: Invalid configuration key 'invalid_key'. Key will be ignored.
+2025-11-29 18:04:11 [INFO] Configurator: Configuration completed - 4 parameter(s) updated, 1 invalid key(s) ignored
+2025-11-29 18:16:34 [INFO] Configurator initialized with default configuration
+2025-11-29 18:16:34 [INFO] Configurator: Starting configuration with 1 parameter(s)
+2025-11-29 18:16:34 [INFO] Configurator: Updated run_save_to_json from 0 to 1
+2025-11-29 18:16:34 [INFO] Configurator: Configuration completed - 1 parameter(s) updated
+2025-11-29 18:22:02 [INFO] Configurator initialized with default configuration
+2025-11-29 18:22:02 [INFO] Configurator initialized with default configuration
+2025-11-29 18:22:02 [INFO] Configurator initialized with default configuration
+2025-11-29 18:22:02 [INFO] Configurator initialized with default configuration
+2025-11-29 18:22:02 [INFO] Configurator initialized with default configuration
+2025-11-29 18:22:02 [INFO] Configurator: Starting configuration with 2 parameter(s)
+2025-11-29 18:22:02 [INFO] Configurator: Updated run_website_parser from 0 to 1
+2025-11-29 18:22:02 [INFO] Configurator: Updated run_save_to_csv from 0 to 1
+2025-11-29 18:22:02 [INFO] Configurator: Configuration completed - 2 parameter(s) updated
+2025-11-29 18:22:02 [INFO] Configurator initialized with default configuration
+2025-11-29 18:22:02 [INFO] Configurator: Starting configuration with 1 parameter(s)
+2025-11-29 18:22:02 [INFO] Configurator: Updated run_save_to_json from 0 to 1
+2025-11-29 18:22:02 [INFO] Configurator: Configuration completed - 1 parameter(s) updated
+2025-11-29 18:22:02 [INFO] Configurator initialized with default configuration
+2025-11-29 18:22:02 [INFO] Configurator: Starting configuration with 6 parameter(s)
+2025-11-29 18:22:02 [INFO] Configurator: Updated run_website_parser from 0 to 1
+2025-11-29 18:22:02 [INFO] Configurator: Updated run_save_to_csv from 0 to 1
+2025-11-29 18:22:02 [INFO] Configurator: Updated run_save_to_json from 0 to 1
+2025-11-29 18:22:02 [INFO] Configurator: Updated run_save_to_yaml from 0 to 1
+2025-11-29 18:22:02 [INFO] Configurator: Updated run_save_to_sqlite from 0 to 1
+2025-11-29 18:22:02 [INFO] Configurator: Updated run_save_to_mongodb from 0 to 1
+2025-11-29 18:22:02 [INFO] Configurator: Configuration completed - 6 parameter(s) updated
+2025-11-29 18:22:02 [INFO] Configurator initialized with default configuration
+2025-11-29 18:22:02 [INFO] Configurator: Starting configuration with 1 parameter(s)
+2025-11-29 18:22:02 [ERROR] Configurator: Invalid configuration key 'invalid_key'. Key will be ignored.
+2025-11-29 18:22:02 [INFO] Configurator: Configuration completed - 0 parameter(s) updated, 1 invalid key(s) ignored
+2025-11-29 18:22:02 [INFO] Configurator initialized with default configuration
+2025-11-29 18:22:02 [INFO] Configurator: Starting configuration with 2 parameter(s)
+2025-11-29 18:22:02 [INFO] Configurator: Updated run_website_parser from 0 to 1
+2025-11-29 18:22:02 [ERROR] Configurator: Invalid configuration key 'invalid_key'. Key will be ignored.
+2025-11-29 18:22:02 [INFO] Configurator: Configuration completed - 1 parameter(s) updated, 1 invalid key(s) ignored
+2025-11-29 18:22:02 [INFO] Configurator initialized with default configuration
+2025-11-29 18:22:02 [INFO] Configurator: Starting configuration with 0 parameter(s)
+2025-11-29 18:22:02 [INFO] Configurator: Configuration completed - 0 parameter(s) updated
+2025-11-29 18:22:02 [INFO] Configurator initialized with default configuration
+2025-11-29 18:22:02 [INFO] Configurator: Starting configuration with 1 parameter(s)
+2025-11-29 18:22:02 [INFO] Configurator: Updated run_save_to_csv from 0 to 1
+2025-11-29 18:22:02 [INFO] Configurator: Configuration completed - 1 parameter(s) updated
+2025-11-29 18:22:02 [INFO] Configurator: Starting configuration with 1 parameter(s)
+2025-11-29 18:22:02 [INFO] Configurator: Updated run_save_to_csv from 1 to 0
+2025-11-29 18:22:02 [INFO] Configurator: Configuration completed - 1 parameter(s) updated
+2025-11-29 18:22:02 [INFO] Configurator: Starting configuration with 1 parameter(s)
+2025-11-29 18:22:02 [INFO] Configurator: Updated run_save_to_csv from 0 to 1
+2025-11-29 18:22:02 [INFO] Configurator: Configuration completed - 1 parameter(s) updated
+2025-11-29 18:22:02 [INFO] Configurator initialized with default configuration
+2025-11-29 18:22:02 [INFO] Configurator initialized with default configuration
+2025-11-29 18:22:02 [INFO] Configurator initialized with default configuration
+2025-11-29 18:22:02 [INFO] Configurator initialized with default configuration
+2025-11-29 18:22:02 [INFO] Configurator initialized with default configuration
+2025-11-29 18:22:02 [INFO] Configurator initialized with default configuration
+2025-11-29 18:22:02 [INFO] Configurator: Starting configuration with 2 parameter(s)
+2025-11-29 18:22:02 [INFO] Configurator: Updated run_website_parser from 0 to 1
+2025-11-29 18:22:02 [INFO] Configurator: Updated run_save_to_csv from 0 to 1
+2025-11-29 18:22:02 [INFO] Configurator: Configuration completed - 2 parameter(s) updated
+2025-11-29 18:22:02 [INFO] Configurator initialized with default configuration
+2025-11-29 18:22:02 [INFO] Configurator: Starting configuration with 1 parameter(s)
+2025-11-29 18:22:02 [INFO] Configurator: Updated run_save_to_json from 0 to 1
+2025-11-29 18:22:02 [INFO] Configurator: Configuration completed - 1 parameter(s) updated
+2025-11-29 18:22:02 [INFO] Configurator initialized with default configuration
+2025-11-29 18:22:02 [INFO] Configurator: Starting configuration with 1 parameter(s)
+2025-11-29 18:22:02 [ERROR] Configurator: Invalid configuration key 'invalid_key'. Key will be ignored.
+2025-11-29 18:22:02 [INFO] Configurator: Configuration completed - 0 parameter(s) updated, 1 invalid key(s) ignored
+2025-11-29 18:22:02 [INFO] Configurator initialized with default configuration
+2025-11-29 18:22:02 [INFO] Configurator: Starting configuration with 3 parameter(s)
+2025-11-29 18:22:02 [INFO] Configurator: Updated run_website_parser from 0 to 1
+2025-11-29 18:22:02 [INFO] Configurator: Updated run_save_to_csv from 0 to 1
+2025-11-29 18:22:02 [INFO] Configurator: Updated run_save_to_yaml from 0 to 1
+2025-11-29 18:22:02 [INFO] Configurator: Configuration completed - 3 parameter(s) updated
+2025-11-29 18:29:58 [INFO] Configurator initialized with default configuration
+2025-11-29 18:29:58 [INFO] Configurator: Starting configuration with 1 parameter(s)
+2025-11-29 18:29:58 [INFO] Configurator: Configuration completed - 0 parameter(s) updated, 1 invalid key(s) ignored
