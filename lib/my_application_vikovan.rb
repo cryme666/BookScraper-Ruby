@@ -53,7 +53,6 @@ module MyApplicationVikovan
         return unless @error_logger
 
         @error_logger.error(message)
-        @logger&.error(message)
       end
 
       private
@@ -360,6 +359,48 @@ module MyApplicationVikovan
         LoggerManager.log_error("Cart: Error saving to YAML directory #{directory_path}: #{e.message}") if LoggerManager.logger
         raise
       end
+    end
+  end
+
+  class Configurator
+    attr_accessor :config
+
+    def initialize
+      @config = {
+        run_website_parser: 0,
+        run_save_to_csv: 0,
+        run_save_to_json: 0,
+        run_save_to_yaml: 0,
+        run_save_to_sqlite: 0,
+        run_save_to_mongodb: 0
+      }
+      LoggerManager.log_processed_file("Configurator initialized with default configuration") if LoggerManager.logger
+    end
+
+    def configure(overrides = {})
+      LoggerManager.log_processed_file("Configurator: Starting configuration with #{overrides.length} parameter(s)") if LoggerManager.logger
+      
+      updated_keys = []
+      invalid_keys = []
+      
+      overrides.each do |key, value|
+        if @config.key?(key)
+          old_value = @config[key]
+          @config[key] = value
+          updated_keys << key
+          LoggerManager.log_processed_file("Configurator: Updated #{key} from #{old_value} to #{value}") if LoggerManager.logger
+        else
+          invalid_keys << key
+          LoggerManager.log_error("Configurator: Invalid configuration key '#{key}'. Key will be ignored.") if LoggerManager.logger
+          warn "Configurator: Invalid configuration key '#{key}'. Key will be ignored."
+        end
+      end
+      
+      LoggerManager.log_processed_file("Configurator: Configuration completed - #{updated_keys.length} parameter(s) updated#{', ' + invalid_keys.length.to_s + ' invalid key(s) ignored' if invalid_keys.any?}") if LoggerManager.logger
+    end
+
+    def self.available_methods
+      new.config.keys
     end
   end
 end
