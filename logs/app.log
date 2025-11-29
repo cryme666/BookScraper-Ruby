@@ -156,3 +156,526 @@
 2025-11-28 01:06:38 [INFO] Item updated: name=Chain, price=30.0, category=(empty)
 2025-11-28 01:06:38 [INFO] Item initialized: name=Error Test, price=10.0, category=(empty)
 2025-11-28 01:06:38 [ERROR] Error retrieving item info: Test error
+2025-11-29 10:54:25 [INFO] Item initialized: name=Test Item 1, price=99.99, category=Category 1
+2025-11-29 10:54:25 [INFO] Item initialized: name=Test Item 2, price=149.99, category=Category 2
+2025-11-29 10:54:25 [INFO] Item info retrieved: Test Item 1
+2025-11-29 10:54:25 [INFO] Item info retrieved: Test Item 2
+2025-11-29 11:27:46 [INFO] Cart initialized
+2025-11-29 11:27:46 [INFO] Item initialized: name=Test Item, price=99.99, category=(empty)
+2025-11-29 11:27:46 [INFO] Cart: Item added - name=Test Item, price=99.99
+2025-11-29 11:27:46 [INFO] Cart: Item removed - name=Test Item, price=99.99
+2025-11-29 11:32:03 [INFO] Cart initialized
+2025-11-29 11:32:03 [INFO] Cart initialized
+2025-11-29 11:32:03 [INFO] Cart initialized
+2025-11-29 11:32:03 [INFO] Item initialized: name=Test, price=10.0, category=(empty)
+2025-11-29 11:32:03 [INFO] Cart initialized
+2025-11-29 11:32:03 [INFO] Item initialized: name=Item1, price=10.0, category=(empty)
+2025-11-29 11:32:03 [INFO] Item initialized: name=Item2, price=20.0, category=(empty)
+2025-11-29 11:32:03 [INFO] Cart initialized
+2025-11-29 11:32:03 [INFO] Cart initialized
+2025-11-29 11:32:03 [INFO] Cart initialized
+2025-11-29 11:32:03 [INFO] Cart initialized
+2025-11-29 11:32:03 [INFO] Item initialized: name=Test Item, price=99.99, category=(empty)
+2025-11-29 11:32:03 [INFO] Cart: Item added - name=Test Item, price=99.99
+2025-11-29 11:32:03 [INFO] Cart initialized
+2025-11-29 11:32:03 [INFO] Item initialized: name=Item1, price=10.0, category=(empty)
+2025-11-29 11:32:03 [INFO] Item initialized: name=Item2, price=20.0, category=(empty)
+2025-11-29 11:32:03 [INFO] Cart: Item added - name=Item1, price=10.0
+2025-11-29 11:32:03 [INFO] Cart: Item added - name=Item2, price=20.0
+2025-11-29 11:32:03 [INFO] Cart: Item removed - name=Item1, price=10.0
+2025-11-29 11:32:03 [INFO] Cart initialized
+2025-11-29 11:32:03 [INFO] Item initialized: name=Item1, price=10.0, category=(empty)
+2025-11-29 11:32:03 [INFO] Cart: Item added - name=Item1, price=10.0
+2025-11-29 11:32:03 [INFO] Item initialized: name=Item2, price=20.0, category=(empty)
+2025-11-29 11:32:03 [INFO] Cart: Item added - name=Item2, price=20.0
+2025-11-29 11:32:03 [INFO] Cart: All items deleted - 2 items removed
+2025-11-29 11:32:03 [INFO] Cart initialized
+2025-11-29 11:32:03 [INFO] Cart: Generating 5 test items
+2025-11-29 11:32:04 [INFO] Item initialized: name=Blood's a Rover, price=82.55, category=Fanfiction
+2025-11-29 11:32:04 [INFO] Cart: Item added - name=Blood's a Rover, price=82.55
+2025-11-29 11:32:04 [INFO] Item initialized: name=To Say Nothing of the Dog, price=60.87, category=Metafiction
+2025-11-29 11:32:04 [INFO] Cart: Item added - name=To Say Nothing of the Dog, price=60.87
+2025-11-29 11:32:04 [INFO] Item initialized: name=The Wives of Bath, price=17.25, category=Biography/Autobiography
+2025-11-29 11:32:04 [INFO] Cart: Item added - name=The Wives of Bath, price=17.25
+2025-11-29 11:32:04 [INFO] Item initialized: name=Sleep the Brave, price=15.37, category=Western
+2025-11-29 11:32:04 [INFO] Cart: Item added - name=Sleep the Brave, price=15.37
+2025-11-29 11:32:04 [INFO] Item initialized: name=Those Barren Leaves, Thrones, Dominations, price=24.96, category=Tall tale
+2025-11-29 11:32:04 [INFO] Cart: Item added - name=Those Barren Leaves, Thrones, Dominations, price=24.96
+2025-11-29 11:32:04 [INFO] Cart: Successfully generated 5 test items
+2025-11-29 11:32:04 [INFO] Cart initialized
+2025-11-29 11:32:04 [INFO] Cart: Generating 5 test items
+2025-11-29 11:32:04 [INFO] Item initialized: name=Shall not Perish, price=83.42, category=Textbook
+2025-11-29 11:32:04 [INFO] Cart: Item added - name=Shall not Perish, price=83.42
+2025-11-29 11:32:04 [INFO] Item initialized: name=Carrion Comfort, price=61.33, category=Mythology
+2025-11-29 11:32:04 [INFO] Cart: Item added - name=Carrion Comfort, price=61.33
+2025-11-29 11:32:04 [INFO] Item initialized: name=To a God Unknown, price=99.55, category=Science fiction
+2025-11-29 11:32:04 [INFO] Cart: Item added - name=To a God Unknown, price=99.55
+2025-11-29 11:32:04 [INFO] Item initialized: name=Those Barren Leaves, Thrones, Dominations, price=47.93, category=Mythology
+2025-11-29 11:32:04 [INFO] Cart: Item added - name=Those Barren Leaves, Thrones, Dominations, price=47.93
+2025-11-29 11:32:04 [INFO] Item initialized: name=Specimen Days, price=56.93, category=Fantasy
+2025-11-29 11:32:04 [INFO] Cart: Item added - name=Specimen Days, price=56.93
+2025-11-29 11:32:04 [INFO] Cart: Successfully generated 5 test items
+2025-11-29 11:32:04 [INFO] Cart initialized
+2025-11-29 11:32:04 [INFO] Item initialized: name=Test Item, price=99.99, category=(empty)
+2025-11-29 11:32:04 [INFO] Cart: Item added - name=Test Item, price=99.99
+2025-11-29 11:32:04 [INFO] Item info retrieved: Test Item
+2025-11-29 11:32:04 [INFO] Cart initialized
+2025-11-29 11:32:04 [INFO] Item initialized: name=Test Item, price=99.99, category=Test Cat
+2025-11-29 11:32:04 [INFO] Cart: Item added - name=Test Item, price=99.99
+2025-11-29 11:32:04 [INFO] Cart: Starting save to file test_output/save_test.txt
+2025-11-29 11:32:04 [INFO] Item info retrieved: Test Item
+2025-11-29 11:32:04 [INFO] Cart: Successfully saved 1 items to file test_output/save_test.txt
+2025-11-29 11:32:04 [INFO] Cart initialized
+2025-11-29 11:32:04 [INFO] Item initialized: name=JSON Item, price=50.0, category=(empty)
+2025-11-29 11:32:04 [INFO] Cart: Item added - name=JSON Item, price=50.0
+2025-11-29 11:32:04 [INFO] Cart: Starting save to JSON file test_output/save_test.json
+2025-11-29 11:32:04 [INFO] Cart: Successfully saved 1 items to JSON file test_output/save_test.json
+2025-11-29 11:32:04 [INFO] Cart initialized
+2025-11-29 11:32:04 [INFO] Item initialized: name=CSV Item, price=75.0, category=CSV Cat
+2025-11-29 11:32:04 [INFO] Cart: Item added - name=CSV Item, price=75.0
+2025-11-29 11:32:04 [INFO] Cart: Starting save to CSV file test_output/save_test.csv
+2025-11-29 11:32:04 [INFO] Cart: Successfully saved 1 items to CSV file test_output/save_test.csv
+2025-11-29 11:32:04 [INFO] Cart initialized
+2025-11-29 11:32:04 [INFO] Cart: Starting save to CSV file test_output/empty_test.csv
+2025-11-29 11:32:04 [INFO] Cart initialized
+2025-11-29 11:32:04 [INFO] Item initialized: name=YAML Item 1, price=30.0, category=(empty)
+2025-11-29 11:32:04 [INFO] Cart: Item added - name=YAML Item 1, price=30.0
+2025-11-29 11:32:04 [INFO] Item initialized: name=YAML Item 2, price=40.0, category=(empty)
+2025-11-29 11:32:04 [INFO] Cart: Item added - name=YAML Item 2, price=40.0
+2025-11-29 11:32:04 [INFO] Cart: Starting save to YAML directory test_output/yml_test
+2025-11-29 11:32:04 [INFO] Cart: Successfully saved 2 items to YAML directory test_output/yml_test
+2025-11-29 11:32:04 [INFO] Cart initialized
+2025-11-29 11:32:04 [INFO] Item initialized: name=Item1, price=10.0, category=(empty)
+2025-11-29 11:32:04 [INFO] Item initialized: name=Item2, price=20.0, category=(empty)
+2025-11-29 11:32:04 [INFO] Cart initialized
+2025-11-29 11:32:04 [INFO] Item initialized: name=Cheap, price=10.0, category=(empty)
+2025-11-29 11:32:04 [INFO] Item initialized: name=Expensive, price=50.0, category=(empty)
+2025-11-29 11:32:04 [INFO] Item initialized: name=Medium, price=30.0, category=(empty)
+2025-11-29 11:32:04 [INFO] Cart initialized
+2025-11-29 11:32:04 [INFO] Item initialized: name=, price=10.0, category=(empty)
+2025-11-29 11:32:04 [INFO] Item initialized: name=, price=50.0, category=(empty)
+2025-11-29 11:32:04 [INFO] Item initialized: name=, price=30.0, category=(empty)
+2025-11-29 11:32:04 [INFO] Cart initialized
+2025-11-29 11:32:04 [INFO] Item initialized: name=Target, price=25.0, category=(empty)
+2025-11-29 11:32:04 [INFO] Item initialized: name=Item1, price=10.0, category=(empty)
+2025-11-29 11:32:04 [INFO] Item initialized: name=Item3, price=30.0, category=(empty)
+2025-11-29 11:32:04 [INFO] Cart initialized
+2025-11-29 11:32:04 [INFO] Item initialized: name=, price=10.0, category=(empty)
+2025-11-29 11:32:04 [INFO] Item initialized: name=, price=20.0, category=(empty)
+2025-11-29 11:32:04 [INFO] Item initialized: name=, price=30.0, category=(empty)
+2025-11-29 11:32:04 [INFO] Cart initialized
+2025-11-29 11:32:04 [INFO] Item initialized: name=, price=10.0, category=(empty)
+2025-11-29 11:32:04 [INFO] Item initialized: name=, price=20.0, category=(empty)
+2025-11-29 11:32:04 [INFO] Item initialized: name=, price=30.0, category=(empty)
+2025-11-29 11:32:04 [INFO] Cart initialized
+2025-11-29 11:32:04 [INFO] Item initialized: name=, price=10.0, category=(empty)
+2025-11-29 11:32:04 [INFO] Item initialized: name=, price=50.0, category=(empty)
+2025-11-29 11:32:04 [INFO] Item initialized: name=, price=30.0, category=(empty)
+2025-11-29 11:32:04 [INFO] Cart initialized
+2025-11-29 11:32:04 [INFO] Item initialized: name=, price=10.0, category=(empty)
+2025-11-29 11:32:04 [INFO] Item initialized: name=, price=20.0, category=(empty)
+2025-11-29 11:32:04 [INFO] Cart initialized
+2025-11-29 11:32:04 [INFO] Item initialized: name=, price=10.0, category=(empty)
+2025-11-29 11:32:04 [INFO] Item initialized: name=, price=50.0, category=(empty)
+2025-11-29 11:32:04 [INFO] Item initialized: name=, price=30.0, category=(empty)
+2025-11-29 11:32:04 [INFO] Cart initialized
+2025-11-29 11:32:04 [INFO] Item initialized: name=Item3, price=30.0, category=(empty)
+2025-11-29 11:32:04 [INFO] Item initialized: name=Item1, price=10.0, category=(empty)
+2025-11-29 11:32:04 [INFO] Item initialized: name=Item2, price=20.0, category=(empty)
+2025-11-29 11:32:04 [INFO] Cart initialized
+2025-11-29 11:32:04 [INFO] Item initialized: name=Item1, price=10.0, category=(empty)
+2025-11-29 11:32:04 [INFO] Item initialized: name=Item2, price=20.0, category=(empty)
+2025-11-29 11:32:04 [INFO] Cart initialized
+2025-11-29 11:32:04 [INFO] Cart initialized
+2025-11-29 11:32:04 [INFO] Item initialized: name=Test, price=10.0, category=(empty)
+2025-11-29 11:32:04 [INFO] Cart: Item added - name=Test, price=10.0
+2025-11-29 11:32:04 [INFO] Cart: Starting save to file test_output/log_test.txt
+2025-11-29 11:32:04 [INFO] Item info retrieved: Test
+2025-11-29 11:32:04 [INFO] Cart: Successfully saved 1 items to file test_output/log_test.txt
+2025-11-29 11:32:04 [INFO] Cart initialized
+2025-11-29 11:32:04 [INFO] Item initialized: name=JSON Test, price=15.0, category=(empty)
+2025-11-29 11:32:04 [INFO] Cart: Item added - name=JSON Test, price=15.0
+2025-11-29 11:32:04 [INFO] Cart: Starting save to JSON file test_output/log_test.json
+2025-11-29 11:32:04 [INFO] Cart: Successfully saved 1 items to JSON file test_output/log_test.json
+2025-11-29 11:32:04 [INFO] Cart initialized
+2025-11-29 11:32:04 [INFO] Item initialized: name=CSV Test, price=20.0, category=(empty)
+2025-11-29 11:32:04 [INFO] Cart: Item added - name=CSV Test, price=20.0
+2025-11-29 11:32:04 [INFO] Cart: Starting save to CSV file test_output/log_test.csv
+2025-11-29 11:32:04 [INFO] Cart: Successfully saved 1 items to CSV file test_output/log_test.csv
+2025-11-29 11:32:04 [INFO] Cart initialized
+2025-11-29 11:32:04 [INFO] Item initialized: name=YAML Test, price=25.0, category=(empty)
+2025-11-29 11:32:04 [INFO] Cart: Item added - name=YAML Test, price=25.0
+2025-11-29 11:32:04 [INFO] Cart: Starting save to YAML directory test_output/yml_log_test
+2025-11-29 11:32:04 [INFO] Cart: Successfully saved 1 items to YAML directory test_output/yml_log_test
+2025-11-29 11:32:04 [INFO] Cart initialized
+2025-11-29 11:32:04 [INFO] Item initialized: name=Log Test Item, price=99.99, category=(empty)
+2025-11-29 11:32:04 [INFO] Cart: Item added - name=Log Test Item, price=99.99
+2025-11-29 11:32:04 [INFO] Cart initialized
+2025-11-29 11:32:04 [INFO] Item initialized: name=Remove Test, price=50.0, category=(empty)
+2025-11-29 11:32:04 [INFO] Cart: Item added - name=Remove Test, price=50.0
+2025-11-29 11:32:04 [INFO] Cart: Item removed - name=Remove Test, price=50.0
+2025-11-29 11:32:04 [INFO] Cart initialized
+2025-11-29 11:32:04 [INFO] Item initialized: name=Non-existent, price=30.0, category=(empty)
+2025-11-29 11:32:04 [INFO] Cart: Attempted to remove item not found - name=Non-existent
+2025-11-29 11:32:04 [INFO] Cart initialized
+2025-11-29 11:32:04 [INFO] Item initialized: name=Item1, price=10.0, category=(empty)
+2025-11-29 11:32:04 [INFO] Cart: Item added - name=Item1, price=10.0
+2025-11-29 11:32:04 [INFO] Item initialized: name=Item2, price=20.0, category=(empty)
+2025-11-29 11:32:04 [INFO] Cart: Item added - name=Item2, price=20.0
+2025-11-29 11:32:04 [INFO] Cart: All items deleted - 2 items removed
+2025-11-29 11:32:04 [INFO] Cart initialized
+2025-11-29 11:32:04 [INFO] Cart: Generating 3 test items
+2025-11-29 11:32:04 [INFO] Item initialized: name=Death Be Not Proud, price=31.41, category=Metafiction
+2025-11-29 11:32:04 [INFO] Cart: Item added - name=Death Be Not Proud, price=31.41
+2025-11-29 11:32:04 [INFO] Item initialized: name=By Grand Central Station I Sat Down and Wept, price=86.65, category=Metafiction
+2025-11-29 11:32:04 [INFO] Cart: Item added - name=By Grand Central Station I Sat Down and Wept, price=86.65
+2025-11-29 11:32:04 [INFO] Item initialized: name=Consider the Lilies, price=90.83, category=Horror
+2025-11-29 11:32:04 [INFO] Cart: Item added - name=Consider the Lilies, price=90.83
+2025-11-29 11:32:04 [INFO] Cart: Successfully generated 3 test items
+2025-11-29 11:32:28 [INFO] Cart initialized
+2025-11-29 11:32:28 [INFO] Cart initialized
+2025-11-29 11:32:28 [INFO] Cart initialized
+2025-11-29 11:32:28 [INFO] Item initialized: name=Test, price=10.0, category=(empty)
+2025-11-29 11:32:28 [INFO] Cart initialized
+2025-11-29 11:32:28 [INFO] Item initialized: name=Item1, price=10.0, category=(empty)
+2025-11-29 11:32:28 [INFO] Item initialized: name=Item2, price=20.0, category=(empty)
+2025-11-29 11:32:28 [INFO] Cart initialized
+2025-11-29 11:32:28 [INFO] Cart initialized
+2025-11-29 11:32:28 [INFO] Cart initialized
+2025-11-29 11:32:28 [INFO] Cart initialized
+2025-11-29 11:32:28 [INFO] Item initialized: name=Test Item, price=99.99, category=(empty)
+2025-11-29 11:32:28 [INFO] Cart: Item added - name=Test Item, price=99.99
+2025-11-29 11:32:28 [INFO] Cart initialized
+2025-11-29 11:32:28 [INFO] Item initialized: name=Item1, price=10.0, category=(empty)
+2025-11-29 11:32:28 [INFO] Item initialized: name=Item2, price=20.0, category=(empty)
+2025-11-29 11:32:28 [INFO] Cart: Item added - name=Item1, price=10.0
+2025-11-29 11:32:28 [INFO] Cart: Item added - name=Item2, price=20.0
+2025-11-29 11:32:28 [INFO] Cart: Item removed - name=Item1, price=10.0
+2025-11-29 11:32:28 [INFO] Cart initialized
+2025-11-29 11:32:28 [INFO] Item initialized: name=Item1, price=10.0, category=(empty)
+2025-11-29 11:32:28 [INFO] Cart: Item added - name=Item1, price=10.0
+2025-11-29 11:32:28 [INFO] Item initialized: name=Item2, price=20.0, category=(empty)
+2025-11-29 11:32:28 [INFO] Cart: Item added - name=Item2, price=20.0
+2025-11-29 11:32:28 [INFO] Cart: All items deleted - 2 items removed
+2025-11-29 11:32:28 [INFO] Cart initialized
+2025-11-29 11:32:28 [INFO] Cart: Generating 5 test items
+2025-11-29 11:32:29 [INFO] Item initialized: name=After Many a Summer Dies the Swan, price=56.42, category=Realistic fiction
+2025-11-29 11:32:29 [INFO] Cart: Item added - name=After Many a Summer Dies the Swan, price=56.42
+2025-11-29 11:32:29 [INFO] Item initialized: name=I Know Why the Caged Bird Sings, price=91.79, category=Fanfiction
+2025-11-29 11:32:29 [INFO] Cart: Item added - name=I Know Why the Caged Bird Sings, price=91.79
+2025-11-29 11:32:29 [INFO] Item initialized: name=Look Homeward, Angel, price=78.87, category=Fiction in verse
+2025-11-29 11:32:29 [INFO] Cart: Item added - name=Look Homeward, Angel, price=78.87
+2025-11-29 11:32:29 [INFO] Item initialized: name=Some Buried Caesar, price=49.16, category=Mystery
+2025-11-29 11:32:29 [INFO] Cart: Item added - name=Some Buried Caesar, price=49.16
+2025-11-29 11:32:29 [INFO] Item initialized: name=A Many-Splendoured Thing, price=53.38, category=Folklore
+2025-11-29 11:32:29 [INFO] Cart: Item added - name=A Many-Splendoured Thing, price=53.38
+2025-11-29 11:32:29 [INFO] Cart: Successfully generated 5 test items
+2025-11-29 11:32:29 [INFO] Cart initialized
+2025-11-29 11:32:29 [INFO] Cart: Generating 5 test items
+2025-11-29 11:32:29 [INFO] Item initialized: name=Consider Phlebas, price=22.89, category=Folklore
+2025-11-29 11:32:29 [INFO] Cart: Item added - name=Consider Phlebas, price=22.89
+2025-11-29 11:32:29 [INFO] Item initialized: name=Of Mice and Men, price=21.31, category=Suspense/Thriller
+2025-11-29 11:32:29 [INFO] Cart: Item added - name=Of Mice and Men, price=21.31
+2025-11-29 11:32:29 [INFO] Item initialized: name=A Darkling Plain, price=59.63, category=Legend
+2025-11-29 11:32:29 [INFO] Cart: Item added - name=A Darkling Plain, price=59.63
+2025-11-29 11:32:29 [INFO] Item initialized: name=The Violent Bear It Away, price=90.55, category=Folklore
+2025-11-29 11:32:29 [INFO] Cart: Item added - name=The Violent Bear It Away, price=90.55
+2025-11-29 11:32:29 [INFO] Item initialized: name=The Waste Land, price=78.33, category=Crime/Detective
+2025-11-29 11:32:29 [INFO] Cart: Item added - name=The Waste Land, price=78.33
+2025-11-29 11:32:29 [INFO] Cart: Successfully generated 5 test items
+2025-11-29 11:32:29 [INFO] Cart initialized
+2025-11-29 11:32:29 [INFO] Item initialized: name=Test Item, price=99.99, category=(empty)
+2025-11-29 11:32:29 [INFO] Cart: Item added - name=Test Item, price=99.99
+2025-11-29 11:32:29 [INFO] Item info retrieved: Test Item
+2025-11-29 11:32:29 [INFO] Cart initialized
+2025-11-29 11:32:29 [INFO] Item initialized: name=Test Item, price=99.99, category=Test Cat
+2025-11-29 11:32:29 [INFO] Cart: Item added - name=Test Item, price=99.99
+2025-11-29 11:32:29 [INFO] Cart: Starting save to file test_output/save_test.txt
+2025-11-29 11:32:29 [INFO] Item info retrieved: Test Item
+2025-11-29 11:32:29 [INFO] Cart: Successfully saved 1 items to file test_output/save_test.txt
+2025-11-29 11:32:29 [INFO] Cart initialized
+2025-11-29 11:32:29 [INFO] Item initialized: name=JSON Item, price=50.0, category=(empty)
+2025-11-29 11:32:29 [INFO] Cart: Item added - name=JSON Item, price=50.0
+2025-11-29 11:32:29 [INFO] Cart: Starting save to JSON file test_output/save_test.json
+2025-11-29 11:32:29 [INFO] Cart: Successfully saved 1 items to JSON file test_output/save_test.json
+2025-11-29 11:32:29 [INFO] Cart initialized
+2025-11-29 11:32:29 [INFO] Item initialized: name=CSV Item, price=75.0, category=CSV Cat
+2025-11-29 11:32:29 [INFO] Cart: Item added - name=CSV Item, price=75.0
+2025-11-29 11:32:29 [INFO] Cart: Starting save to CSV file test_output/save_test.csv
+2025-11-29 11:32:29 [INFO] Cart: Successfully saved 1 items to CSV file test_output/save_test.csv
+2025-11-29 11:32:29 [INFO] Cart initialized
+2025-11-29 11:32:29 [INFO] Cart: Starting save to CSV file test_output/empty_test.csv
+2025-11-29 11:32:29 [INFO] Cart initialized
+2025-11-29 11:32:29 [INFO] Item initialized: name=YAML Item 1, price=30.0, category=(empty)
+2025-11-29 11:32:29 [INFO] Cart: Item added - name=YAML Item 1, price=30.0
+2025-11-29 11:32:29 [INFO] Item initialized: name=YAML Item 2, price=40.0, category=(empty)
+2025-11-29 11:32:29 [INFO] Cart: Item added - name=YAML Item 2, price=40.0
+2025-11-29 11:32:29 [INFO] Cart: Starting save to YAML directory test_output/yml_test
+2025-11-29 11:32:29 [INFO] Cart: Successfully saved 2 items to YAML directory test_output/yml_test
+2025-11-29 11:32:29 [INFO] Cart initialized
+2025-11-29 11:32:29 [INFO] Item initialized: name=Item1, price=10.0, category=(empty)
+2025-11-29 11:32:29 [INFO] Item initialized: name=Item2, price=20.0, category=(empty)
+2025-11-29 11:32:29 [INFO] Cart initialized
+2025-11-29 11:32:29 [INFO] Item initialized: name=Cheap, price=10.0, category=(empty)
+2025-11-29 11:32:29 [INFO] Item initialized: name=Expensive, price=50.0, category=(empty)
+2025-11-29 11:32:29 [INFO] Item initialized: name=Medium, price=30.0, category=(empty)
+2025-11-29 11:32:29 [INFO] Cart initialized
+2025-11-29 11:32:29 [INFO] Item initialized: name=, price=10.0, category=(empty)
+2025-11-29 11:32:29 [INFO] Item initialized: name=, price=50.0, category=(empty)
+2025-11-29 11:32:29 [INFO] Item initialized: name=, price=30.0, category=(empty)
+2025-11-29 11:32:29 [INFO] Cart initialized
+2025-11-29 11:32:29 [INFO] Item initialized: name=Target, price=25.0, category=(empty)
+2025-11-29 11:32:29 [INFO] Item initialized: name=Item1, price=10.0, category=(empty)
+2025-11-29 11:32:29 [INFO] Item initialized: name=Item3, price=30.0, category=(empty)
+2025-11-29 11:32:29 [INFO] Cart initialized
+2025-11-29 11:32:29 [INFO] Item initialized: name=, price=10.0, category=(empty)
+2025-11-29 11:32:29 [INFO] Item initialized: name=, price=20.0, category=(empty)
+2025-11-29 11:32:29 [INFO] Item initialized: name=, price=30.0, category=(empty)
+2025-11-29 11:32:29 [INFO] Cart initialized
+2025-11-29 11:32:29 [INFO] Item initialized: name=, price=10.0, category=(empty)
+2025-11-29 11:32:29 [INFO] Item initialized: name=, price=20.0, category=(empty)
+2025-11-29 11:32:29 [INFO] Item initialized: name=, price=30.0, category=(empty)
+2025-11-29 11:32:29 [INFO] Cart initialized
+2025-11-29 11:32:29 [INFO] Item initialized: name=, price=10.0, category=(empty)
+2025-11-29 11:32:29 [INFO] Item initialized: name=, price=50.0, category=(empty)
+2025-11-29 11:32:29 [INFO] Item initialized: name=, price=30.0, category=(empty)
+2025-11-29 11:32:29 [INFO] Cart initialized
+2025-11-29 11:32:29 [INFO] Item initialized: name=, price=10.0, category=(empty)
+2025-11-29 11:32:29 [INFO] Item initialized: name=, price=20.0, category=(empty)
+2025-11-29 11:32:29 [INFO] Cart initialized
+2025-11-29 11:32:29 [INFO] Item initialized: name=, price=10.0, category=(empty)
+2025-11-29 11:32:29 [INFO] Item initialized: name=, price=50.0, category=(empty)
+2025-11-29 11:32:29 [INFO] Item initialized: name=, price=30.0, category=(empty)
+2025-11-29 11:32:29 [INFO] Cart initialized
+2025-11-29 11:32:29 [INFO] Item initialized: name=Item3, price=30.0, category=(empty)
+2025-11-29 11:32:29 [INFO] Item initialized: name=Item1, price=10.0, category=(empty)
+2025-11-29 11:32:29 [INFO] Item initialized: name=Item2, price=20.0, category=(empty)
+2025-11-29 11:32:29 [INFO] Cart initialized
+2025-11-29 11:32:29 [INFO] Item initialized: name=Item1, price=10.0, category=(empty)
+2025-11-29 11:32:29 [INFO] Item initialized: name=Item2, price=20.0, category=(empty)
+2025-11-29 11:32:29 [INFO] Item initialized: name=Item3, price=30.0, category=(empty)
+2025-11-29 11:32:29 [INFO] Cart initialized
+2025-11-29 11:32:29 [INFO] Cart initialized
+2025-11-29 11:32:29 [INFO] Item initialized: name=Test, price=10.0, category=(empty)
+2025-11-29 11:32:29 [INFO] Cart: Item added - name=Test, price=10.0
+2025-11-29 11:32:29 [INFO] Cart: Starting save to file test_output/log_test.txt
+2025-11-29 11:32:29 [INFO] Item info retrieved: Test
+2025-11-29 11:32:29 [INFO] Cart: Successfully saved 1 items to file test_output/log_test.txt
+2025-11-29 11:32:29 [INFO] Cart initialized
+2025-11-29 11:32:29 [INFO] Item initialized: name=JSON Test, price=15.0, category=(empty)
+2025-11-29 11:32:29 [INFO] Cart: Item added - name=JSON Test, price=15.0
+2025-11-29 11:32:29 [INFO] Cart: Starting save to JSON file test_output/log_test.json
+2025-11-29 11:32:29 [INFO] Cart: Successfully saved 1 items to JSON file test_output/log_test.json
+2025-11-29 11:32:29 [INFO] Cart initialized
+2025-11-29 11:32:29 [INFO] Item initialized: name=CSV Test, price=20.0, category=(empty)
+2025-11-29 11:32:29 [INFO] Cart: Item added - name=CSV Test, price=20.0
+2025-11-29 11:32:29 [INFO] Cart: Starting save to CSV file test_output/log_test.csv
+2025-11-29 11:32:29 [INFO] Cart: Successfully saved 1 items to CSV file test_output/log_test.csv
+2025-11-29 11:32:29 [INFO] Cart initialized
+2025-11-29 11:32:29 [INFO] Item initialized: name=YAML Test, price=25.0, category=(empty)
+2025-11-29 11:32:29 [INFO] Cart: Item added - name=YAML Test, price=25.0
+2025-11-29 11:32:29 [INFO] Cart: Starting save to YAML directory test_output/yml_log_test
+2025-11-29 11:32:29 [INFO] Cart: Successfully saved 1 items to YAML directory test_output/yml_log_test
+2025-11-29 11:32:29 [INFO] Cart initialized
+2025-11-29 11:32:29 [INFO] Item initialized: name=Log Test Item, price=99.99, category=(empty)
+2025-11-29 11:32:29 [INFO] Cart: Item added - name=Log Test Item, price=99.99
+2025-11-29 11:32:29 [INFO] Cart initialized
+2025-11-29 11:32:29 [INFO] Item initialized: name=Remove Test, price=50.0, category=(empty)
+2025-11-29 11:32:29 [INFO] Cart: Item added - name=Remove Test, price=50.0
+2025-11-29 11:32:29 [INFO] Cart: Item removed - name=Remove Test, price=50.0
+2025-11-29 11:32:29 [INFO] Cart initialized
+2025-11-29 11:32:29 [INFO] Item initialized: name=Non-existent, price=30.0, category=(empty)
+2025-11-29 11:32:29 [INFO] Cart: Attempted to remove item not found - name=Non-existent
+2025-11-29 11:32:29 [INFO] Cart initialized
+2025-11-29 11:32:29 [INFO] Item initialized: name=Item1, price=10.0, category=(empty)
+2025-11-29 11:32:29 [INFO] Cart: Item added - name=Item1, price=10.0
+2025-11-29 11:32:29 [INFO] Item initialized: name=Item2, price=20.0, category=(empty)
+2025-11-29 11:32:29 [INFO] Cart: Item added - name=Item2, price=20.0
+2025-11-29 11:32:29 [INFO] Cart: All items deleted - 2 items removed
+2025-11-29 11:32:29 [INFO] Cart initialized
+2025-11-29 11:32:29 [INFO] Cart: Generating 3 test items
+2025-11-29 11:32:29 [INFO] Item initialized: name=Waiting for the Barbarians, price=42.05, category=Metafiction
+2025-11-29 11:32:29 [INFO] Cart: Item added - name=Waiting for the Barbarians, price=42.05
+2025-11-29 11:32:29 [INFO] Item initialized: name=Beyond the Mexique Bay, price=89.27, category=Essay
+2025-11-29 11:32:29 [INFO] Cart: Item added - name=Beyond the Mexique Bay, price=89.27
+2025-11-29 11:32:29 [INFO] Item initialized: name=Down to a Sunless Sea, price=74.97, category=Speech
+2025-11-29 11:32:29 [INFO] Cart: Item added - name=Down to a Sunless Sea, price=74.97
+2025-11-29 11:32:29 [INFO] Cart: Successfully generated 3 test items
+2025-11-29 11:32:43 [INFO] Cart initialized
+2025-11-29 11:32:43 [INFO] Cart: Generating 3 test items
+2025-11-29 11:32:44 [INFO] Item initialized: name=That Hideous Strength, price=23.69, category=Mystery
+2025-11-29 11:32:44 [INFO] Cart: Item added - name=That Hideous Strength, price=23.69
+2025-11-29 11:32:44 [INFO] Item initialized: name=Fame Is the Spur, price=74.57, category=Fantasy
+2025-11-29 11:32:44 [INFO] Cart: Item added - name=Fame Is the Spur, price=74.57
+2025-11-29 11:32:44 [INFO] Item initialized: name=Things Fall Apart, price=84.67, category=Fairy tale
+2025-11-29 11:32:44 [INFO] Cart: Item added - name=Things Fall Apart, price=84.67
+2025-11-29 11:32:44 [INFO] Cart: Successfully generated 3 test items
+2025-11-29 17:44:23 [INFO] Cart initialized
+2025-11-29 17:44:23 [INFO] Cart initialized
+2025-11-29 17:44:23 [INFO] Cart initialized
+2025-11-29 17:44:23 [INFO] Item initialized: name=Test, price=10.0, category=(empty)
+2025-11-29 17:44:23 [INFO] Cart initialized
+2025-11-29 17:44:23 [INFO] Item initialized: name=Item1, price=10.0, category=(empty)
+2025-11-29 17:44:23 [INFO] Item initialized: name=Item2, price=20.0, category=(empty)
+2025-11-29 17:44:23 [INFO] Cart initialized
+2025-11-29 17:44:23 [INFO] Cart initialized
+2025-11-29 17:44:23 [INFO] Cart initialized
+2025-11-29 17:44:23 [INFO] Cart initialized
+2025-11-29 17:44:23 [INFO] Item initialized: name=Test Item, price=99.99, category=(empty)
+2025-11-29 17:44:23 [INFO] Cart: Item added - name=Test Item, price=99.99
+2025-11-29 17:44:23 [INFO] Cart initialized
+2025-11-29 17:44:23 [INFO] Item initialized: name=Item1, price=10.0, category=(empty)
+2025-11-29 17:44:23 [INFO] Item initialized: name=Item2, price=20.0, category=(empty)
+2025-11-29 17:44:23 [INFO] Cart: Item added - name=Item1, price=10.0
+2025-11-29 17:44:23 [INFO] Cart: Item added - name=Item2, price=20.0
+2025-11-29 17:44:23 [INFO] Cart: Item removed - name=Item1, price=10.0
+2025-11-29 17:44:23 [INFO] Cart initialized
+2025-11-29 17:44:23 [INFO] Item initialized: name=Item1, price=10.0, category=(empty)
+2025-11-29 17:44:23 [INFO] Cart: Item added - name=Item1, price=10.0
+2025-11-29 17:44:23 [INFO] Item initialized: name=Item2, price=20.0, category=(empty)
+2025-11-29 17:44:23 [INFO] Cart: Item added - name=Item2, price=20.0
+2025-11-29 17:44:23 [INFO] Cart: All items deleted - 2 items removed
+2025-11-29 17:44:23 [INFO] Cart initialized
+2025-11-29 17:44:23 [INFO] Cart: Generating 5 test items
+2025-11-29 17:44:27 [INFO] Item initialized: name=When the Green Woods Laugh, price=16.1, category=Horror
+2025-11-29 17:44:27 [INFO] Cart: Item added - name=When the Green Woods Laugh, price=16.1
+2025-11-29 17:44:27 [INFO] Item initialized: name=The Road Less Traveled, price=49.41, category=Comic/Graphic Novel
+2025-11-29 17:44:27 [INFO] Cart: Item added - name=The Road Less Traveled, price=49.41
+2025-11-29 17:44:27 [INFO] Item initialized: name=Down to a Sunless Sea, price=29.0, category=Short story
+2025-11-29 17:44:27 [INFO] Cart: Item added - name=Down to a Sunless Sea, price=29.0
+2025-11-29 17:44:27 [INFO] Item initialized: name=Mother Night, price=20.09, category=Fantasy
+2025-11-29 17:44:27 [INFO] Cart: Item added - name=Mother Night, price=20.09
+2025-11-29 17:44:27 [INFO] Item initialized: name=East of Eden, price=86.58, category=Fairy tale
+2025-11-29 17:44:27 [INFO] Cart: Item added - name=East of Eden, price=86.58
+2025-11-29 17:44:27 [INFO] Cart: Successfully generated 5 test items
+2025-11-29 17:44:27 [INFO] Cart initialized
+2025-11-29 17:44:27 [INFO] Cart: Generating 5 test items
+2025-11-29 17:44:27 [INFO] Item initialized: name=Nectar in a Sieve, price=18.77, category=Mythology
+2025-11-29 17:44:27 [INFO] Cart: Item added - name=Nectar in a Sieve, price=18.77
+2025-11-29 17:44:27 [INFO] Item initialized: name=Brandy of the Damned, price=48.49, category=Reference book
+2025-11-29 17:44:27 [INFO] Cart: Item added - name=Brandy of the Damned, price=48.49
+2025-11-29 17:44:27 [INFO] Item initialized: name=Jacob Have I Loved, price=10.37, category=Suspense/Thriller
+2025-11-29 17:44:27 [INFO] Cart: Item added - name=Jacob Have I Loved, price=10.37
+2025-11-29 17:44:27 [INFO] Item initialized: name=Time of our Darkness, price=86.09, category=Fantasy
+2025-11-29 17:44:27 [INFO] Cart: Item added - name=Time of our Darkness, price=86.09
+2025-11-29 17:44:27 [INFO] Item initialized: name=Postern of Fate, price=16.11, category=Metafiction
+2025-11-29 17:44:27 [INFO] Cart: Item added - name=Postern of Fate, price=16.11
+2025-11-29 17:44:27 [INFO] Cart: Successfully generated 5 test items
+2025-11-29 17:44:27 [INFO] Cart initialized
+2025-11-29 17:44:27 [INFO] Item initialized: name=Test Item, price=99.99, category=(empty)
+2025-11-29 17:44:27 [INFO] Cart: Item added - name=Test Item, price=99.99
+2025-11-29 17:44:27 [INFO] Item info retrieved: Test Item
+2025-11-29 17:44:27 [INFO] Cart initialized
+2025-11-29 17:44:27 [INFO] Item initialized: name=Test Item, price=99.99, category=Test Cat
+2025-11-29 17:44:27 [INFO] Cart: Item added - name=Test Item, price=99.99
+2025-11-29 17:44:27 [INFO] Cart: Starting save to file test_output/save_test.txt
+2025-11-29 17:44:27 [INFO] Item info retrieved: Test Item
+2025-11-29 17:44:27 [INFO] Cart: Successfully saved 1 items to file test_output/save_test.txt
+2025-11-29 17:44:27 [INFO] Cart initialized
+2025-11-29 17:44:27 [INFO] Item initialized: name=JSON Item, price=50.0, category=(empty)
+2025-11-29 17:44:27 [INFO] Cart: Item added - name=JSON Item, price=50.0
+2025-11-29 17:44:27 [INFO] Cart: Starting save to JSON file test_output/save_test.json
+2025-11-29 17:44:27 [INFO] Cart: Successfully saved 1 items to JSON file test_output/save_test.json
+2025-11-29 17:44:27 [INFO] Cart initialized
+2025-11-29 17:44:27 [INFO] Item initialized: name=CSV Item, price=75.0, category=CSV Cat
+2025-11-29 17:44:27 [INFO] Cart: Item added - name=CSV Item, price=75.0
+2025-11-29 17:44:27 [INFO] Cart: Starting save to CSV file test_output/save_test.csv
+2025-11-29 17:44:27 [INFO] Cart: Successfully saved 1 items to CSV file test_output/save_test.csv
+2025-11-29 17:44:27 [INFO] Cart initialized
+2025-11-29 17:44:27 [INFO] Cart: Starting save to CSV file test_output/empty_test.csv
+2025-11-29 17:44:27 [INFO] Cart initialized
+2025-11-29 17:44:27 [INFO] Item initialized: name=YAML Item 1, price=30.0, category=(empty)
+2025-11-29 17:44:27 [INFO] Cart: Item added - name=YAML Item 1, price=30.0
+2025-11-29 17:44:27 [INFO] Item initialized: name=YAML Item 2, price=40.0, category=(empty)
+2025-11-29 17:44:27 [INFO] Cart: Item added - name=YAML Item 2, price=40.0
+2025-11-29 17:44:27 [INFO] Cart: Starting save to YAML directory test_output/yml_test
+2025-11-29 17:44:27 [INFO] Cart: Successfully saved 2 items to YAML directory test_output/yml_test
+2025-11-29 17:44:27 [INFO] Cart initialized
+2025-11-29 17:44:27 [INFO] Item initialized: name=Item1, price=10.0, category=(empty)
+2025-11-29 17:44:27 [INFO] Item initialized: name=Item2, price=20.0, category=(empty)
+2025-11-29 17:44:27 [INFO] Cart initialized
+2025-11-29 17:44:27 [INFO] Item initialized: name=Cheap, price=10.0, category=(empty)
+2025-11-29 17:44:27 [INFO] Item initialized: name=Expensive, price=50.0, category=(empty)
+2025-11-29 17:44:27 [INFO] Item initialized: name=Medium, price=30.0, category=(empty)
+2025-11-29 17:44:27 [INFO] Cart initialized
+2025-11-29 17:44:27 [INFO] Item initialized: name=, price=10.0, category=(empty)
+2025-11-29 17:44:27 [INFO] Item initialized: name=, price=50.0, category=(empty)
+2025-11-29 17:44:27 [INFO] Item initialized: name=, price=30.0, category=(empty)
+2025-11-29 17:44:27 [INFO] Cart initialized
+2025-11-29 17:44:27 [INFO] Item initialized: name=Target, price=25.0, category=(empty)
+2025-11-29 17:44:27 [INFO] Item initialized: name=Item1, price=10.0, category=(empty)
+2025-11-29 17:44:27 [INFO] Item initialized: name=Item3, price=30.0, category=(empty)
+2025-11-29 17:44:27 [INFO] Cart initialized
+2025-11-29 17:44:27 [INFO] Item initialized: name=, price=10.0, category=(empty)
+2025-11-29 17:44:27 [INFO] Item initialized: name=, price=20.0, category=(empty)
+2025-11-29 17:44:27 [INFO] Item initialized: name=, price=30.0, category=(empty)
+2025-11-29 17:44:27 [INFO] Cart initialized
+2025-11-29 17:44:27 [INFO] Item initialized: name=, price=10.0, category=(empty)
+2025-11-29 17:44:27 [INFO] Item initialized: name=, price=20.0, category=(empty)
+2025-11-29 17:44:27 [INFO] Item initialized: name=, price=30.0, category=(empty)
+2025-11-29 17:44:27 [INFO] Cart initialized
+2025-11-29 17:44:27 [INFO] Item initialized: name=, price=10.0, category=(empty)
+2025-11-29 17:44:27 [INFO] Item initialized: name=, price=50.0, category=(empty)
+2025-11-29 17:44:27 [INFO] Item initialized: name=, price=30.0, category=(empty)
+2025-11-29 17:44:27 [INFO] Cart initialized
+2025-11-29 17:44:27 [INFO] Item initialized: name=, price=10.0, category=(empty)
+2025-11-29 17:44:27 [INFO] Item initialized: name=, price=20.0, category=(empty)
+2025-11-29 17:44:27 [INFO] Cart initialized
+2025-11-29 17:44:27 [INFO] Item initialized: name=, price=10.0, category=(empty)
+2025-11-29 17:44:27 [INFO] Item initialized: name=, price=50.0, category=(empty)
+2025-11-29 17:44:27 [INFO] Item initialized: name=, price=30.0, category=(empty)
+2025-11-29 17:44:27 [INFO] Cart initialized
+2025-11-29 17:44:27 [INFO] Item initialized: name=Item3, price=30.0, category=(empty)
+2025-11-29 17:44:27 [INFO] Item initialized: name=Item1, price=10.0, category=(empty)
+2025-11-29 17:44:27 [INFO] Item initialized: name=Item2, price=20.0, category=(empty)
+2025-11-29 17:44:27 [INFO] Cart initialized
+2025-11-29 17:44:27 [INFO] Item initialized: name=Item1, price=10.0, category=(empty)
+2025-11-29 17:44:27 [INFO] Item initialized: name=Item2, price=20.0, category=(empty)
+2025-11-29 17:44:27 [INFO] Item initialized: name=Item3, price=30.0, category=(empty)
+2025-11-29 17:44:27 [INFO] Cart initialized
+2025-11-29 17:44:27 [INFO] Cart initialized
+2025-11-29 17:44:27 [INFO] Item initialized: name=Test, price=10.0, category=(empty)
+2025-11-29 17:44:27 [INFO] Cart: Item added - name=Test, price=10.0
+2025-11-29 17:44:27 [INFO] Cart: Starting save to file test_output/log_test.txt
+2025-11-29 17:44:27 [INFO] Item info retrieved: Test
+2025-11-29 17:44:27 [INFO] Cart: Successfully saved 1 items to file test_output/log_test.txt
+2025-11-29 17:44:27 [INFO] Cart initialized
+2025-11-29 17:44:27 [INFO] Item initialized: name=JSON Test, price=15.0, category=(empty)
+2025-11-29 17:44:27 [INFO] Cart: Item added - name=JSON Test, price=15.0
+2025-11-29 17:44:27 [INFO] Cart: Starting save to JSON file test_output/log_test.json
+2025-11-29 17:44:27 [INFO] Cart: Successfully saved 1 items to JSON file test_output/log_test.json
+2025-11-29 17:44:27 [INFO] Cart initialized
+2025-11-29 17:44:27 [INFO] Item initialized: name=CSV Test, price=20.0, category=(empty)
+2025-11-29 17:44:27 [INFO] Cart: Item added - name=CSV Test, price=20.0
+2025-11-29 17:44:27 [INFO] Cart: Starting save to CSV file test_output/log_test.csv
+2025-11-29 17:44:27 [INFO] Cart: Successfully saved 1 items to CSV file test_output/log_test.csv
+2025-11-29 17:44:27 [INFO] Cart initialized
+2025-11-29 17:44:27 [INFO] Item initialized: name=YAML Test, price=25.0, category=(empty)
+2025-11-29 17:44:27 [INFO] Cart: Item added - name=YAML Test, price=25.0
+2025-11-29 17:44:27 [INFO] Cart: Starting save to YAML directory test_output/yml_log_test
+2025-11-29 17:44:27 [INFO] Cart: Successfully saved 1 items to YAML directory test_output/yml_log_test
+2025-11-29 17:44:27 [INFO] Cart initialized
+2025-11-29 17:44:27 [INFO] Item initialized: name=Log Test Item, price=99.99, category=(empty)
+2025-11-29 17:44:27 [INFO] Cart: Item added - name=Log Test Item, price=99.99
+2025-11-29 17:44:27 [INFO] Cart initialized
+2025-11-29 17:44:27 [INFO] Item initialized: name=Remove Test, price=50.0, category=(empty)
+2025-11-29 17:44:27 [INFO] Cart: Item added - name=Remove Test, price=50.0
+2025-11-29 17:44:27 [INFO] Cart: Item removed - name=Remove Test, price=50.0
+2025-11-29 17:44:27 [INFO] Cart initialized
+2025-11-29 17:44:27 [INFO] Item initialized: name=Non-existent, price=30.0, category=(empty)
+2025-11-29 17:44:27 [INFO] Cart: Attempted to remove item not found - name=Non-existent
+2025-11-29 17:44:27 [INFO] Cart initialized
+2025-11-29 17:44:27 [INFO] Item initialized: name=Item1, price=10.0, category=(empty)
+2025-11-29 17:44:27 [INFO] Cart: Item added - name=Item1, price=10.0
+2025-11-29 17:44:27 [INFO] Item initialized: name=Item2, price=20.0, category=(empty)
+2025-11-29 17:44:27 [INFO] Cart: Item added - name=Item2, price=20.0
+2025-11-29 17:44:27 [INFO] Cart: All items deleted - 2 items removed
+2025-11-29 17:44:27 [INFO] Cart initialized
+2025-11-29 17:44:27 [INFO] Cart: Generating 3 test items
+2025-11-29 17:44:27 [INFO] Item initialized: name=A Passage to India, price=80.22, category=Essay
+2025-11-29 17:44:27 [INFO] Cart: Item added - name=A Passage to India, price=80.22
+2025-11-29 17:44:27 [INFO] Item initialized: name=Jacob Have I Loved, price=73.15, category=Folklore
+2025-11-29 17:44:27 [INFO] Cart: Item added - name=Jacob Have I Loved, price=73.15
+2025-11-29 17:44:27 [INFO] Item initialized: name=The Moving Toyshop, price=74.31, category=Fiction in verse
+2025-11-29 17:44:27 [INFO] Cart: Item added - name=The Moving Toyshop, price=74.31
+2025-11-29 17:44:27 [INFO] Cart: Successfully generated 3 test items

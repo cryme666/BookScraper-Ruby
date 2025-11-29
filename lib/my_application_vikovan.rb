@@ -3,6 +3,9 @@
 require 'logger'
 require 'fileutils'
 require 'faker'
+require 'json'
+require 'csv'
+require 'yaml'
 
 module MyApplicationVikovan
   VERSION = '1.0.0'.freeze
@@ -205,6 +208,158 @@ module MyApplicationVikovan
       category_display = @category.to_s.empty? ? '(empty)' : @category
       message = "Item updated: name=#{@name}, price=#{@price}, category=#{category_display}"
       LoggerManager.log_processed_file(message)
+    end
+  end
+
+  class Cart
+    include Enumerable
+
+    attr_accessor :items
+
+    def initialize
+      @items = []
+      LoggerManager.log_processed_file("Cart initialized") if LoggerManager.logger
+    end
+
+    def each(&block)
+      @items.each(&block)
+    end
+
+    def map_items(&block)
+      map(&block)
+    end
+
+    def select_items(&block)
+      select(&block)
+    end
+
+    def reject_items(&block)
+      reject(&block)
+    end
+
+    def find_item(&block)
+      find(&block)
+    end
+
+    def reduce_items(initial = nil, &block)
+      if initial
+        reduce(initial, &block)
+      else
+        reduce(&block)
+      end
+    end
+
+    def all_items?(&block)
+      if block_given?
+        all?(&block)
+      else
+        all?
+      end
+    end
+
+    def any_item?(&block)
+      if block_given?
+        any?(&block)
+      else
+        any?
+      end
+    end
+
+    def none_items?(&block)
+      if block_given?
+        none?(&block)
+      else
+        none?
+      end
+    end
+
+    def count_items(&block)
+      if block_given?
+        count(&block)
+      else
+        count
+      end
+    end
+
+    def sort_items(&block)
+      if block_given?
+        sort(&block)
+      else
+        sort
+      end
+    end
+
+    def unique_items
+      uniq
+    end
+
+    def save_to_file(file_path)
+      LoggerManager.log_processed_file("Cart: Starting save to file #{file_path}") if LoggerManager.logger
+      begin
+        FileUtils.mkdir_p(File.dirname(file_path)) unless File.dirname(file_path) == '.'
+        File.open(file_path, 'w') do |file|
+          @items.each_with_index do |item, index|
+            file.puts "Item #{index + 1}:"
+            file.puts item.info
+            file.puts
+          end
+        end
+        LoggerManager.log_processed_file("Cart: Successfully saved #{@items.length} items to file #{file_path}") if LoggerManager.logger
+      rescue StandardError => e
+        LoggerManager.log_error("Cart: Error saving to file #{file_path}: #{e.message}") if LoggerManager.logger
+        raise
+      end
+    end
+
+    def save_to_json(file_path)
+      LoggerManager.log_processed_file("Cart: Starting save to JSON file #{file_path}") if LoggerManager.logger
+      begin
+        FileUtils.mkdir_p(File.dirname(file_path)) unless File.dirname(file_path) == '.'
+        items_data = @items.map(&:to_h)
+        File.open(file_path, 'w') do |file|
+          file.write(JSON.pretty_generate(items_data))
+        end
+        LoggerManager.log_processed_file("Cart: Successfully saved #{@items.length} items to JSON file #{file_path}") if LoggerManager.logger
+      rescue StandardError => e
+        LoggerManager.log_error("Cart: Error saving to JSON file #{file_path}: #{e.message}") if LoggerManager.logger
+        raise
+      end
+    end
+
+    def save_to_csv(file_path)
+      LoggerManager.log_processed_file("Cart: Starting save to CSV file #{file_path}") if LoggerManager.logger
+      begin
+        FileUtils.mkdir_p(File.dirname(file_path)) unless File.dirname(file_path) == '.'
+        return if @items.empty?
+
+        CSV.open(file_path, 'w') do |csv|
+          csv << [:name, :price, :description, :category, :image_path]
+          @items.each do |item|
+            csv << [item.name, item.price, item.description, item.category, item.image_path]
+          end
+        end
+        LoggerManager.log_processed_file("Cart: Successfully saved #{@items.length} items to CSV file #{file_path}") if LoggerManager.logger
+      rescue StandardError => e
+        LoggerManager.log_error("Cart: Error saving to CSV file #{file_path}: #{e.message}") if LoggerManager.logger
+        raise
+      end
+    end
+
+    def save_to_yml(directory_path)
+      LoggerManager.log_processed_file("Cart: Starting save to YAML directory #{directory_path}") if LoggerManager.logger
+      begin
+        FileUtils.mkdir_p(directory_path)
+        @items.each_with_index do |item, index|
+          file_path = File.join(directory_path, "item_#{index + 1}.yml")
+          File.open(file_path, 'w') do |file|
+            file.write(YAML.dump(item.to_h))
+          end
+        end
+        LoggerManager.log_processed_file("Cart: Successfully saved #{@items.length} items to YAML directory #{directory_path}") if LoggerManager.logger
+      rescue StandardError => e
+        LoggerManager.log_error("Cart: Error saving to YAML directory #{directory_path}: #{e.message}") if LoggerManager.logger
+        raise
+      end
     end
   end
 end
