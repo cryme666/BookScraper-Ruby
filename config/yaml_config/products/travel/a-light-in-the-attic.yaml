@@ -1,0 +1,12 @@
+categories:
+  - name: Travel
+    products:
+      - name: A Light in the Attic
+        price: 51.77
+        description: |-
+          It's hard to imagine a world without A Light in the Attic. This timeless poetry collection by Shel Silverstein is a perfect example of his genius. These poems are funny, sad, and always thought-provoking.
+        media: products/travel/a-light-in-the-attic.jpeg
+        availability: In stock
+        rating: Three
+        url: https://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html
+

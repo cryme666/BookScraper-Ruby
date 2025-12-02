@@ -1,1 +1,21 @@
-
+name,price,description,category,image_path
+A Light in the Attic,51.77,Product Description,Poetry,Poetry/A_Light_in_the_Attic_1.jpg
+Tipping the Velvet,53.74,Product Description,Historical Fiction,Historical_Fiction/Tipping_the_Velvet_1.jpg
+Soumission,50.1,Product Description,Fiction,Fiction/Soumission_1.jpg
+Sharp Objects,47.82,Product Description,Mystery,Mystery/Sharp_Objects_1.jpg
+Sapiens: A Brief History of Humankind,54.23,Product Description,History,History/Sapiens_A_Brief_History_of_Humankind_1.jpg
+The Requiem Red,22.65,Product Description,Young Adult,Young_Adult/The_Requiem_Red_1.jpg
+The Dirty Little Secrets of Getting Your Dream Job,33.34,Product Description,Business,Business/The_Dirty_Little_Secrets_of_Getting_Your_Dream_Job_1.jpg
+"The Coming Woman: A Novel Based on the Life of the Infamous Feminist, Victoria Woodhull",17.93,Product Description,Default,Default/The_Coming_Woman_A_Novel_Based_on_the_Life_of_the_Infamous_Feminist_Victoria_Woodhull_1.jpg
+The Black Maria,52.15,Product Description,Poetry,Poetry/The_Black_Maria_1.jpg
+The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics,22.6,Product Description,Default,Default/The_Boys_in_the_Boat_Nine_Americans_and_Their_Epic_Quest_for_Gold_at_the_1936_Berlin_Olympics_1.jpg
+"Starving Hearts (Triangular Trade Trilogy, #1)",13.99,Product Description,Default,Default/Starving_Hearts_Triangular_Trade_Trilogy_1_1.jpg
+Shakespeare's Sonnets,20.66,Product Description,Poetry,Poetry/Shakespeares_Sonnets_1.jpg
+Set Me Free,17.46,Product Description,Young Adult,Young_Adult/Set_Me_Free_1.jpg
+Scott Pilgrim's Precious Little Life (Scott Pilgrim #1),52.29,Product Description,Sequential Art,Sequential_Art/Scott_Pilgrims_Precious_Little_Life_Scott_Pilgrim_1_1.jpg
+Rip it Up and Start Again,35.02,Product Description,Music,Music/Rip_it_Up_and_Start_Again_1.jpg
+"Our Band Could Be Your Life: Scenes from the American Indie Underground, 1981-1991",57.25,Product Description,Music,Music/Our_Band_Could_Be_Your_Life_Scenes_from_the_American_Indie_Underground_1981-1991_1.jpg
+Olio,23.88,Product Description,Poetry,Poetry/Olio_1.jpg
+Mesaerion: The Best Science Fiction Stories 1800-1849,37.59,Product Description,Science Fiction,Science_Fiction/Mesaerion_The_Best_Science_Fiction_Stories_1800-1849_1.jpg
+Libertarianism for Beginners,51.33,Product Description,Politics,Politics/Libertarianism_for_Beginners_1.jpg
+It's Only the Himalayas,45.17,Product Description,Travel,Travel/Its_Only_the_Himalayas_1.jpg

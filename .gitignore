@@ -1,0 +1,7 @@
+*.jpg
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+*.zip
+*.yml
+.env

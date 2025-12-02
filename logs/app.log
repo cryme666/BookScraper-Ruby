@@ -1,0 +1,1044 @@
+2025-12-03 00:31:07 [INFO] Application: interactive main started
+2025-12-03 00:31:19 [INFO] Configurator initialized with default configuration
+2025-12-03 00:31:19 [INFO] Configurator: Starting configuration with 6 parameter(s)
+2025-12-03 00:31:19 [INFO] Configurator: Updated run_website_parser from 0 to 1
+2025-12-03 00:31:19 [INFO] Configurator: Updated run_save_to_csv from 0 to 1
+2025-12-03 00:31:19 [INFO] Configurator: Updated run_save_to_json from 0 to 1
+2025-12-03 00:31:19 [INFO] Configurator: Updated run_save_to_yaml from 0 to 1
+2025-12-03 00:31:19 [INFO] Configurator: Updated run_save_to_sqlite from 0 to 0
+2025-12-03 00:31:19 [INFO] Configurator: Updated run_save_to_mongodb from 0 to 1
+2025-12-03 00:31:19 [INFO] Configurator: Configuration completed - 6 parameter(s) updated
+2025-12-03 00:31:19 [INFO] Configurator initialized with default configuration
+2025-12-03 00:31:19 [INFO] Engine: Configuration loaded from config/default_config.yaml and config/yaml_config
+2025-12-03 00:31:19 [INFO] Engine: Logging initialized
+2025-12-03 00:31:19 [INFO] Engine: Database type overridden to 'mongodb' based on user selection
+2025-12-03 00:31:19 [INFO] Configurator: Starting configuration with 6 parameter(s)
+2025-12-03 00:31:19 [INFO] Configurator: Updated run_website_parser from 0 to 1
+2025-12-03 00:31:19 [INFO] Configurator: Updated run_save_to_csv from 0 to 1
+2025-12-03 00:31:19 [INFO] Configurator: Updated run_save_to_json from 0 to 1
+2025-12-03 00:31:19 [INFO] Configurator: Updated run_save_to_yaml from 0 to 1
+2025-12-03 00:31:19 [INFO] Configurator: Updated run_save_to_sqlite from 0 to 0
+2025-12-03 00:31:19 [INFO] Configurator: Updated run_save_to_mongodb from 0 to 1
+2025-12-03 00:31:19 [INFO] Configurator: Configuration completed - 6 parameter(s) updated
+2025-12-03 00:31:19 [INFO] DatabaseConnector: Initializing
+2025-12-03 00:31:19 [INFO] DatabaseConnector: Initialized
+2025-12-03 00:31:19 [INFO] DatabaseConnector: Starting connection to database
+2025-12-03 00:31:29 [INFO] DatabaseConnector: Connecting to MongoDB
+2025-12-03 00:31:29 [INFO] DatabaseConnector: MongoDB connected successfully (uri=mongodb://localhost:27017, db=my_database)
+2025-12-03 00:31:29 [INFO] DatabaseConnector: Successfully connected to mongodb
+2025-12-03 00:31:29 [INFO] Engine: Database connected
+2025-12-03 00:31:29 [INFO] Engine: run_methods with params: {run_website_parser: 1, run_save_to_csv: 1, run_save_to_json: 1, run_save_to_yaml: 1, run_save_to_sqlite: 0, run_save_to_mongodb: 1}
+2025-12-03 00:31:29 [INFO] Engine: Running method run_website_parser
+2025-12-03 00:31:29 [INFO] Engine: Starting website parser
+2025-12-03 00:31:29 [INFO] Parser: Initializing SimpleWebsiteParser
+2025-12-03 00:31:29 [INFO] Cart initialized
+2025-12-03 00:31:29 [INFO] Parser: Initializing media directory
+2025-12-03 00:31:29 [INFO] Parser: Media directory path: D:/uchoba/5 course/Distributed database development technologies/1 lab/media
+2025-12-03 00:31:29 [INFO] Parser: Media directory already exists
+2025-12-03 00:31:29 [INFO] Parser: Media directory initialized: D:/uchoba/5 course/Distributed database development technologies/1 lab/media
+2025-12-03 00:31:29 [INFO] Parser: Initializing agent (type: none, complexity: none)
+2025-12-03 00:31:29 [INFO] Parser: MechanizeAgent configured with timeout 30
+2025-12-03 00:31:29 [INFO] Parser: MechanizeAgent initialized
+2025-12-03 00:31:29 [INFO] Parser: MechanizeAgent created
+2025-12-03 00:31:29 [INFO] Parser: Using default agent (Mechanize)
+2025-12-03 00:31:29 [INFO] Parser: SimpleWebsiteParser initialized successfully
+2025-12-03 00:31:29 [INFO] Parser: start_parse called for page https://books.toscrape.com
+2025-12-03 00:31:29 [INFO] Parser: Checking URL accessibility: https://books.toscrape.com (max retries: 3)
+2025-12-03 00:31:29 [INFO] Parser: MechanizeAgent: Checking URL https://books.toscrape.com
+2025-12-03 00:31:29 [INFO] Parser: URL https://books.toscrape.com is accessible, status: 200
+2025-12-03 00:31:29 [INFO] Parser: Starting parse from https://books.toscrape.com
+2025-12-03 00:31:29 [INFO] Parser: Fetching start page
+2025-12-03 00:31:29 [INFO] Parser: MechanizeAgent: Fetching page https://books.toscrape.com
+2025-12-03 00:31:30 [INFO] Parser: MechanizeAgent: Page fetched, status 200
+2025-12-03 00:31:30 [INFO] Parser: PageWrapper created, body size 51294 bytes, code 200
+2025-12-03 00:31:30 [INFO] Parser: Start page fetched successfully
+2025-12-03 00:31:30 [INFO] Parser: Extracting product links from page
+2025-12-03 00:31:30 [INFO] Parser: Using selector 'article.product_pod h3 a' for product links
+2025-12-03 00:31:30 [INFO] Parser: Built full URL: https://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html
+2025-12-03 00:31:30 [INFO] Parser: Found product link: https://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html
+2025-12-03 00:31:30 [INFO] Parser: Built full URL: https://books.toscrape.com/catalogue/tipping-the-velvet_999/index.html
+2025-12-03 00:31:30 [INFO] Parser: Found product link: https://books.toscrape.com/catalogue/tipping-the-velvet_999/index.html
+2025-12-03 00:31:30 [INFO] Parser: Built full URL: https://books.toscrape.com/catalogue/soumission_998/index.html
+2025-12-03 00:31:30 [INFO] Parser: Found product link: https://books.toscrape.com/catalogue/soumission_998/index.html
+2025-12-03 00:31:30 [INFO] Parser: Built full URL: https://books.toscrape.com/catalogue/sharp-objects_997/index.html
+2025-12-03 00:31:30 [INFO] Parser: Found product link: https://books.toscrape.com/catalogue/sharp-objects_997/index.html
+2025-12-03 00:31:30 [INFO] Parser: Built full URL: https://books.toscrape.com/catalogue/sapiens-a-brief-history-of-humankind_996/index.html
+2025-12-03 00:31:30 [INFO] Parser: Found product link: https://books.toscrape.com/catalogue/sapiens-a-brief-history-of-humankind_996/index.html
+2025-12-03 00:31:30 [INFO] Parser: Built full URL: https://books.toscrape.com/catalogue/the-requiem-red_995/index.html
+2025-12-03 00:31:30 [INFO] Parser: Found product link: https://books.toscrape.com/catalogue/the-requiem-red_995/index.html
+2025-12-03 00:31:30 [INFO] Parser: Built full URL: https://books.toscrape.com/catalogue/the-dirty-little-secrets-of-getting-your-dream-job_994/index.html
+2025-12-03 00:31:30 [INFO] Parser: Found product link: https://books.toscrape.com/catalogue/the-dirty-little-secrets-of-getting-your-dream-job_994/index.html
+2025-12-03 00:31:30 [INFO] Parser: Built full URL: https://books.toscrape.com/catalogue/the-coming-woman-a-novel-based-on-the-life-of-the-infamous-feminist-victoria-woodhull_993/index.html
+2025-12-03 00:31:30 [INFO] Parser: Found product link: https://books.toscrape.com/catalogue/the-coming-woman-a-novel-based-on-the-life-of-the-infamous-feminist-victoria-woodhull_993/index.html
+2025-12-03 00:31:30 [INFO] Parser: Built full URL: https://books.toscrape.com/catalogue/the-boys-in-the-boat-nine-americans-and-their-epic-quest-for-gold-at-the-1936-berlin-olympics_992/index.html
+2025-12-03 00:31:30 [INFO] Parser: Found product link: https://books.toscrape.com/catalogue/the-boys-in-the-boat-nine-americans-and-their-epic-quest-for-gold-at-the-1936-berlin-olympics_992/index.html
+2025-12-03 00:31:30 [INFO] Parser: Built full URL: https://books.toscrape.com/catalogue/the-black-maria_991/index.html
+2025-12-03 00:31:30 [INFO] Parser: Found product link: https://books.toscrape.com/catalogue/the-black-maria_991/index.html
+2025-12-03 00:31:30 [INFO] Parser: Built full URL: https://books.toscrape.com/catalogue/starving-hearts-triangular-trade-trilogy-1_990/index.html
+2025-12-03 00:31:30 [INFO] Parser: Found product link: https://books.toscrape.com/catalogue/starving-hearts-triangular-trade-trilogy-1_990/index.html
+2025-12-03 00:31:30 [INFO] Parser: Built full URL: https://books.toscrape.com/catalogue/shakespeares-sonnets_989/index.html
+2025-12-03 00:31:30 [INFO] Parser: Found product link: https://books.toscrape.com/catalogue/shakespeares-sonnets_989/index.html
+2025-12-03 00:31:30 [INFO] Parser: Built full URL: https://books.toscrape.com/catalogue/set-me-free_988/index.html
+2025-12-03 00:31:30 [INFO] Parser: Found product link: https://books.toscrape.com/catalogue/set-me-free_988/index.html
+2025-12-03 00:31:30 [INFO] Parser: Built full URL: https://books.toscrape.com/catalogue/scott-pilgrims-precious-little-life-scott-pilgrim-1_987/index.html
+2025-12-03 00:31:30 [INFO] Parser: Found product link: https://books.toscrape.com/catalogue/scott-pilgrims-precious-little-life-scott-pilgrim-1_987/index.html
+2025-12-03 00:31:30 [INFO] Parser: Built full URL: https://books.toscrape.com/catalogue/rip-it-up-and-start-again_986/index.html
+2025-12-03 00:31:30 [INFO] Parser: Found product link: https://books.toscrape.com/catalogue/rip-it-up-and-start-again_986/index.html
+2025-12-03 00:31:30 [INFO] Parser: Built full URL: https://books.toscrape.com/catalogue/our-band-could-be-your-life-scenes-from-the-american-indie-underground-1981-1991_985/index.html
+2025-12-03 00:31:30 [INFO] Parser: Found product link: https://books.toscrape.com/catalogue/our-band-could-be-your-life-scenes-from-the-american-indie-underground-1981-1991_985/index.html
+2025-12-03 00:31:30 [INFO] Parser: Built full URL: https://books.toscrape.com/catalogue/olio_984/index.html
+2025-12-03 00:31:30 [INFO] Parser: Found product link: https://books.toscrape.com/catalogue/olio_984/index.html
+2025-12-03 00:31:30 [INFO] Parser: Built full URL: https://books.toscrape.com/catalogue/mesaerion-the-best-science-fiction-stories-1800-1849_983/index.html
+2025-12-03 00:31:30 [INFO] Parser: Found product link: https://books.toscrape.com/catalogue/mesaerion-the-best-science-fiction-stories-1800-1849_983/index.html
+2025-12-03 00:31:30 [INFO] Parser: Built full URL: https://books.toscrape.com/catalogue/libertarianism-for-beginners_982/index.html
+2025-12-03 00:31:30 [INFO] Parser: Found product link: https://books.toscrape.com/catalogue/libertarianism-for-beginners_982/index.html
+2025-12-03 00:31:30 [INFO] Parser: Built full URL: https://books.toscrape.com/catalogue/its-only-the-himalayas_981/index.html
+2025-12-03 00:31:30 [INFO] Parser: Found product link: https://books.toscrape.com/catalogue/its-only-the-himalayas_981/index.html
+2025-12-03 00:31:30 [INFO] Parser: Extracted 20 product links
+2025-12-03 00:31:30 [INFO] Parser: Found 20 product links
+2025-12-03 00:31:30 [INFO] Parser: Starting parallel parsing with concurrency=2
+2025-12-03 00:31:30 [INFO] Parser: Worker 2 started
+2025-12-03 00:31:30 [INFO] Parser: Worker 2 processing https://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html
+2025-12-03 00:31:30 [INFO] Parser: Starting to parse product page: https://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html
+2025-12-03 00:31:30 [INFO] Parser: Checking URL accessibility: https://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html (max retries: 3)
+2025-12-03 00:31:30 [INFO] Parser: MechanizeAgent: Checking URL https://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html
+2025-12-03 00:31:30 [INFO] Parser: Worker 1 started
+2025-12-03 00:31:30 [INFO] Parser: Worker 1 processing https://books.toscrape.com/catalogue/tipping-the-velvet_999/index.html
+2025-12-03 00:31:30 [INFO] Parser: Starting to parse product page: https://books.toscrape.com/catalogue/tipping-the-velvet_999/index.html
+2025-12-03 00:31:30 [INFO] Parser: Checking URL accessibility: https://books.toscrape.com/catalogue/tipping-the-velvet_999/index.html (max retries: 3)
+2025-12-03 00:31:30 [INFO] Parser: MechanizeAgent: Checking URL https://books.toscrape.com/catalogue/tipping-the-velvet_999/index.html
+2025-12-03 00:31:30 [INFO] Parser: URL https://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html is accessible, status: 200
+2025-12-03 00:31:30 [INFO] Parser: Fetching product page
+2025-12-03 00:31:30 [INFO] Parser: MechanizeAgent: Fetching page https://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html
+2025-12-03 00:31:30 [INFO] Parser: MechanizeAgent: Page fetched, status 200
+2025-12-03 00:31:30 [INFO] Parser: PageWrapper created, body size 9279 bytes, code 200
+2025-12-03 00:31:30 [INFO] Parser: Product page fetched successfully
+2025-12-03 00:31:30 [INFO] Parser: Extracting product data
+2025-12-03 00:31:30 [INFO] Parser: Product name found: A Light in the Attic
+2025-12-03 00:31:30 [INFO] Parser: Product name extracted: A Light in the Attic
+2025-12-03 00:31:30 [INFO] Parser: Product price found: £51.77 -> 51.77
+2025-12-03 00:31:30 [INFO] Parser: Product price extracted: 51.77
+2025-12-03 00:31:30 [INFO] Parser: Product description found, length: 19
+2025-12-03 00:31:30 [INFO] Parser: Product description extracted, length: 19
+2025-12-03 00:31:30 [INFO] Parser: Built full URL from relative path: https://books.toscrape.com/media/cache/fe/72/fe72f0532301ec28892ae79a629a293c.jpg
+2025-12-03 00:31:30 [INFO] Parser: Product image URL found: https://books.toscrape.com/media/cache/fe/72/fe72f0532301ec28892ae79a629a293c.jpg
+2025-12-03 00:31:30 [INFO] Parser: Product image URL extracted: https://books.toscrape.com/media/cache/fe/72/fe72f0532301ec28892ae79a629a293c.jpg
+2025-12-03 00:31:30 [INFO] Parser: Product category found: Poetry
+2025-12-03 00:31:30 [INFO] Parser: Product category extracted: Poetry
+2025-12-03 00:31:30 [INFO] Parser: Starting image download and save
+2025-12-03 00:31:30 [INFO] Parser: Starting image download: https://books.toscrape.com/media/cache/fe/72/fe72f0532301ec28892ae79a629a293c.jpg
+2025-12-03 00:31:30 [INFO] Parser: Filename sanitized: 'Poetry' -> 'Poetry'
+2025-12-03 00:31:30 [INFO] Parser: Category directory name: Poetry
+2025-12-03 00:31:30 [INFO] Parser: Category directory already exists: D:/uchoba/5 course/Distributed database development technologies/1 lab/media/Poetry
+2025-12-03 00:31:30 [INFO] Parser: File extension extracted: .jpg from https://books.toscrape.com/media/cache/fe/72/fe72f0532301ec28892ae79a629a293c.jpg
+2025-12-03 00:31:30 [INFO] Parser: File extension determined: .jpg
+2025-12-03 00:31:30 [INFO] Parser: Filename sanitized: 'A Light in the Attic' -> 'A_Light_in_the_Attic'
+2025-12-03 00:31:30 [INFO] Parser: Target file path: D:/uchoba/5 course/Distributed database development technologies/1 lab/media/Poetry/A_Light_in_the_Attic.jpg
+2025-12-03 00:31:30 [INFO] Parser: File already exists, generating unique name
+2025-12-03 00:31:30 [INFO] Parser: Filename sanitized: 'A Light in the Attic' -> 'A_Light_in_the_Attic'
+2025-12-03 00:31:30 [INFO] Parser: Unique filename generated: A_Light_in_the_Attic_1.jpg
+2025-12-03 00:31:30 [INFO] Parser: Downloading image file
+2025-12-03 00:31:30 [INFO] Parser: MechanizeAgent: Downloading file https://books.toscrape.com/media/cache/fe/72/fe72f0532301ec28892ae79a629a293c.jpg
+2025-12-03 00:31:30 [INFO] Parser: URL https://books.toscrape.com/catalogue/tipping-the-velvet_999/index.html is accessible, status: 200
+2025-12-03 00:31:30 [INFO] Parser: Fetching product page
+2025-12-03 00:31:30 [INFO] Parser: MechanizeAgent: Fetching page https://books.toscrape.com/catalogue/tipping-the-velvet_999/index.html
+2025-12-03 00:31:30 [INFO] Parser: MechanizeAgent: File downloaded successfully, size 31047 bytes
+2025-12-03 00:31:30 [INFO] Parser: Image downloaded, size: 31047 bytes
+2025-12-03 00:31:30 [INFO] Parser: Image saved - Poetry/A_Light_in_the_Attic_1.jpg
+2025-12-03 00:31:30 [INFO] Parser: Creating Item object
+2025-12-03 00:31:30 [INFO] Item initialized: name=A Light in the Attic, price=51.77, category=Poetry
+2025-12-03 00:31:30 [INFO] Cart: Item added - name=A Light in the Attic, price=51.77
+2025-12-03 00:31:30 [INFO] Parser: Parsed product - A Light in the Attic, price: 51.77, category: Poetry
+2025-12-03 00:31:30 [INFO] Parser: Worker 2 sleeping for 1.0 seconds
+2025-12-03 00:31:30 [INFO] Parser: MechanizeAgent: Page fetched, status 200
+2025-12-03 00:31:30 [INFO] Parser: PageWrapper created, body size 10918 bytes, code 200
+2025-12-03 00:31:30 [INFO] Parser: Product page fetched successfully
+2025-12-03 00:31:30 [INFO] Parser: Extracting product data
+2025-12-03 00:31:30 [INFO] Parser: Product name found: Tipping the Velvet
+2025-12-03 00:31:30 [INFO] Parser: Product name extracted: Tipping the Velvet
+2025-12-03 00:31:30 [INFO] Parser: Product price found: £53.74 -> 53.74
+2025-12-03 00:31:30 [INFO] Parser: Product price extracted: 53.74
+2025-12-03 00:31:30 [INFO] Parser: Product description found, length: 19
+2025-12-03 00:31:30 [INFO] Parser: Product description extracted, length: 19
+2025-12-03 00:31:30 [INFO] Parser: Built full URL from relative path: https://books.toscrape.com/media/cache/08/e9/08e94f3731d7d6b760dfbfbc02ca5c62.jpg
+2025-12-03 00:31:30 [INFO] Parser: Product image URL found: https://books.toscrape.com/media/cache/08/e9/08e94f3731d7d6b760dfbfbc02ca5c62.jpg
+2025-12-03 00:31:30 [INFO] Parser: Product image URL extracted: https://books.toscrape.com/media/cache/08/e9/08e94f3731d7d6b760dfbfbc02ca5c62.jpg
+2025-12-03 00:31:30 [INFO] Parser: Product category found: Historical Fiction
+2025-12-03 00:31:30 [INFO] Parser: Product category extracted: Historical Fiction
+2025-12-03 00:31:30 [INFO] Parser: Starting image download and save
+2025-12-03 00:31:30 [INFO] Parser: Starting image download: https://books.toscrape.com/media/cache/08/e9/08e94f3731d7d6b760dfbfbc02ca5c62.jpg
+2025-12-03 00:31:30 [INFO] Parser: Filename sanitized: 'Historical Fiction' -> 'Historical_Fiction'
+2025-12-03 00:31:30 [INFO] Parser: Category directory name: Historical_Fiction
+2025-12-03 00:31:30 [INFO] Parser: Category directory already exists: D:/uchoba/5 course/Distributed database development technologies/1 lab/media/Historical_Fiction
+2025-12-03 00:31:30 [INFO] Parser: File extension extracted: .jpg from https://books.toscrape.com/media/cache/08/e9/08e94f3731d7d6b760dfbfbc02ca5c62.jpg
+2025-12-03 00:31:30 [INFO] Parser: File extension determined: .jpg
+2025-12-03 00:31:30 [INFO] Parser: Filename sanitized: 'Tipping the Velvet' -> 'Tipping_the_Velvet'
+2025-12-03 00:31:30 [INFO] Parser: Target file path: D:/uchoba/5 course/Distributed database development technologies/1 lab/media/Historical_Fiction/Tipping_the_Velvet.jpg
+2025-12-03 00:31:30 [INFO] Parser: File already exists, generating unique name
+2025-12-03 00:31:30 [INFO] Parser: Filename sanitized: 'Tipping the Velvet' -> 'Tipping_the_Velvet'
+2025-12-03 00:31:30 [INFO] Parser: Unique filename generated: Tipping_the_Velvet_1.jpg
+2025-12-03 00:31:30 [INFO] Parser: Downloading image file
+2025-12-03 00:31:30 [INFO] Parser: MechanizeAgent: Downloading file https://books.toscrape.com/media/cache/08/e9/08e94f3731d7d6b760dfbfbc02ca5c62.jpg
+2025-12-03 00:31:30 [INFO] Parser: MechanizeAgent: File downloaded successfully, size 18504 bytes
+2025-12-03 00:31:30 [INFO] Parser: Image downloaded, size: 18504 bytes
+2025-12-03 00:31:30 [INFO] Parser: Image saved - Historical_Fiction/Tipping_the_Velvet_1.jpg
+2025-12-03 00:31:30 [INFO] Parser: Creating Item object
+2025-12-03 00:31:30 [INFO] Item initialized: name=Tipping the Velvet, price=53.74, category=Historical Fiction
+2025-12-03 00:31:30 [INFO] Cart: Item added - name=Tipping the Velvet, price=53.74
+2025-12-03 00:31:30 [INFO] Parser: Parsed product - Tipping the Velvet, price: 53.74, category: Historical Fiction
+2025-12-03 00:31:30 [INFO] Parser: Worker 1 sleeping for 1.0 seconds
+2025-12-03 00:31:31 [INFO] Parser: Worker 2 processing https://books.toscrape.com/catalogue/soumission_998/index.html
+2025-12-03 00:31:31 [INFO] Parser: Starting to parse product page: https://books.toscrape.com/catalogue/soumission_998/index.html
+2025-12-03 00:31:31 [INFO] Parser: Checking URL accessibility: https://books.toscrape.com/catalogue/soumission_998/index.html (max retries: 3)
+2025-12-03 00:31:31 [INFO] Parser: MechanizeAgent: Checking URL https://books.toscrape.com/catalogue/soumission_998/index.html
+2025-12-03 00:31:31 [INFO] Parser: URL https://books.toscrape.com/catalogue/soumission_998/index.html is accessible, status: 200
+2025-12-03 00:31:31 [INFO] Parser: Fetching product page
+2025-12-03 00:31:31 [INFO] Parser: MechanizeAgent: Fetching page https://books.toscrape.com/catalogue/soumission_998/index.html
+2025-12-03 00:31:31 [INFO] Parser: Worker 1 processing https://books.toscrape.com/catalogue/sharp-objects_997/index.html
+2025-12-03 00:31:31 [INFO] Parser: Starting to parse product page: https://books.toscrape.com/catalogue/sharp-objects_997/index.html
+2025-12-03 00:31:31 [INFO] Parser: Checking URL accessibility: https://books.toscrape.com/catalogue/sharp-objects_997/index.html (max retries: 3)
+2025-12-03 00:31:31 [INFO] Parser: MechanizeAgent: Checking URL https://books.toscrape.com/catalogue/sharp-objects_997/index.html
+2025-12-03 00:31:32 [INFO] Parser: URL https://books.toscrape.com/catalogue/sharp-objects_997/index.html is accessible, status: 200
+2025-12-03 00:31:32 [INFO] Parser: Fetching product page
+2025-12-03 00:31:32 [INFO] Parser: MechanizeAgent: Fetching page https://books.toscrape.com/catalogue/sharp-objects_997/index.html
+2025-12-03 00:31:32 [INFO] Parser: MechanizeAgent: Page fetched, status 200
+2025-12-03 00:31:32 [INFO] Parser: PageWrapper created, body size 12431 bytes, code 200
+2025-12-03 00:31:32 [INFO] Parser: Product page fetched successfully
+2025-12-03 00:31:32 [INFO] Parser: Extracting product data
+2025-12-03 00:31:32 [INFO] Parser: Product name found: Soumission
+2025-12-03 00:31:32 [INFO] Parser: Product name extracted: Soumission
+2025-12-03 00:31:32 [INFO] Parser: Product price found: £50.10 -> 50.1
+2025-12-03 00:31:32 [INFO] Parser: Product price extracted: 50.1
+2025-12-03 00:31:32 [INFO] Parser: Product description found, length: 19
+2025-12-03 00:31:32 [INFO] Parser: Product description extracted, length: 19
+2025-12-03 00:31:32 [INFO] Parser: Built full URL from relative path: https://books.toscrape.com/media/cache/ee/cf/eecfe998905e455df12064dba399c075.jpg
+2025-12-03 00:31:32 [INFO] Parser: Product image URL found: https://books.toscrape.com/media/cache/ee/cf/eecfe998905e455df12064dba399c075.jpg
+2025-12-03 00:31:32 [INFO] Parser: Product image URL extracted: https://books.toscrape.com/media/cache/ee/cf/eecfe998905e455df12064dba399c075.jpg
+2025-12-03 00:31:32 [INFO] Parser: Product category found: Fiction
+2025-12-03 00:31:32 [INFO] Parser: Product category extracted: Fiction
+2025-12-03 00:31:32 [INFO] Parser: Starting image download and save
+2025-12-03 00:31:32 [INFO] Parser: Starting image download: https://books.toscrape.com/media/cache/ee/cf/eecfe998905e455df12064dba399c075.jpg
+2025-12-03 00:31:32 [INFO] Parser: Filename sanitized: 'Fiction' -> 'Fiction'
+2025-12-03 00:31:32 [INFO] Parser: Category directory name: Fiction
+2025-12-03 00:31:32 [INFO] Parser: Category directory already exists: D:/uchoba/5 course/Distributed database development technologies/1 lab/media/Fiction
+2025-12-03 00:31:32 [INFO] Parser: File extension extracted: .jpg from https://books.toscrape.com/media/cache/ee/cf/eecfe998905e455df12064dba399c075.jpg
+2025-12-03 00:31:32 [INFO] Parser: File extension determined: .jpg
+2025-12-03 00:31:32 [INFO] Parser: Filename sanitized: 'Soumission' -> 'Soumission'
+2025-12-03 00:31:32 [INFO] Parser: Target file path: D:/uchoba/5 course/Distributed database development technologies/1 lab/media/Fiction/Soumission.jpg
+2025-12-03 00:31:32 [INFO] Parser: File already exists, generating unique name
+2025-12-03 00:31:32 [INFO] Parser: Filename sanitized: 'Soumission' -> 'Soumission'
+2025-12-03 00:31:32 [INFO] Parser: Unique filename generated: Soumission_1.jpg
+2025-12-03 00:31:32 [INFO] Parser: Downloading image file
+2025-12-03 00:31:32 [INFO] Parser: MechanizeAgent: Downloading file https://books.toscrape.com/media/cache/ee/cf/eecfe998905e455df12064dba399c075.jpg
+2025-12-03 00:31:32 [INFO] Parser: MechanizeAgent: Page fetched, status 200
+2025-12-03 00:31:32 [INFO] Parser: PageWrapper created, body size 14847 bytes, code 200
+2025-12-03 00:31:32 [INFO] Parser: Product page fetched successfully
+2025-12-03 00:31:32 [INFO] Parser: Extracting product data
+2025-12-03 00:31:32 [INFO] Parser: Product name found: Sharp Objects
+2025-12-03 00:31:32 [INFO] Parser: Product name extracted: Sharp Objects
+2025-12-03 00:31:32 [INFO] Parser: Product price found: £47.82 -> 47.82
+2025-12-03 00:31:32 [INFO] Parser: Product price extracted: 47.82
+2025-12-03 00:31:32 [INFO] Parser: Product description found, length: 19
+2025-12-03 00:31:32 [INFO] Parser: Product description extracted, length: 19
+2025-12-03 00:31:32 [INFO] Parser: Built full URL from relative path: https://books.toscrape.com/media/cache/c0/59/c05972805aa7201171b8fc71a5b00292.jpg
+2025-12-03 00:31:32 [INFO] Parser: Product image URL found: https://books.toscrape.com/media/cache/c0/59/c05972805aa7201171b8fc71a5b00292.jpg
+2025-12-03 00:31:32 [INFO] Parser: Product image URL extracted: https://books.toscrape.com/media/cache/c0/59/c05972805aa7201171b8fc71a5b00292.jpg
+2025-12-03 00:31:32 [INFO] Parser: Product category found: Mystery
+2025-12-03 00:31:32 [INFO] Parser: Product category extracted: Mystery
+2025-12-03 00:31:32 [INFO] Parser: Starting image download and save
+2025-12-03 00:31:32 [INFO] Parser: Starting image download: https://books.toscrape.com/media/cache/c0/59/c05972805aa7201171b8fc71a5b00292.jpg
+2025-12-03 00:31:32 [INFO] Parser: Filename sanitized: 'Mystery' -> 'Mystery'
+2025-12-03 00:31:32 [INFO] Parser: Category directory name: Mystery
+2025-12-03 00:31:32 [INFO] Parser: Category directory already exists: D:/uchoba/5 course/Distributed database development technologies/1 lab/media/Mystery
+2025-12-03 00:31:32 [INFO] Parser: File extension extracted: .jpg from https://books.toscrape.com/media/cache/c0/59/c05972805aa7201171b8fc71a5b00292.jpg
+2025-12-03 00:31:32 [INFO] Parser: File extension determined: .jpg
+2025-12-03 00:31:32 [INFO] Parser: Filename sanitized: 'Sharp Objects' -> 'Sharp_Objects'
+2025-12-03 00:31:32 [INFO] Parser: Target file path: D:/uchoba/5 course/Distributed database development technologies/1 lab/media/Mystery/Sharp_Objects.jpg
+2025-12-03 00:31:32 [INFO] Parser: File already exists, generating unique name
+2025-12-03 00:31:32 [INFO] Parser: Filename sanitized: 'Sharp Objects' -> 'Sharp_Objects'
+2025-12-03 00:31:32 [INFO] Parser: Unique filename generated: Sharp_Objects_1.jpg
+2025-12-03 00:31:32 [INFO] Parser: Downloading image file
+2025-12-03 00:31:32 [INFO] Parser: MechanizeAgent: Downloading file https://books.toscrape.com/media/cache/c0/59/c05972805aa7201171b8fc71a5b00292.jpg
+2025-12-03 00:31:32 [INFO] Parser: MechanizeAgent: File downloaded successfully, size 9403 bytes
+2025-12-03 00:31:32 [INFO] Parser: Image downloaded, size: 9403 bytes
+2025-12-03 00:31:32 [INFO] Parser: Image saved - Fiction/Soumission_1.jpg
+2025-12-03 00:31:32 [INFO] Parser: Creating Item object
+2025-12-03 00:31:32 [INFO] Item initialized: name=Soumission, price=50.1, category=Fiction
+2025-12-03 00:31:32 [INFO] Cart: Item added - name=Soumission, price=50.1
+2025-12-03 00:31:32 [INFO] Parser: Parsed product - Soumission, price: 50.1, category: Fiction
+2025-12-03 00:31:32 [INFO] Parser: Worker 2 sleeping for 1.0 seconds
+2025-12-03 00:31:32 [INFO] Parser: MechanizeAgent: File downloaded successfully, size 30784 bytes
+2025-12-03 00:31:32 [INFO] Parser: Image downloaded, size: 30784 bytes
+2025-12-03 00:31:32 [INFO] Parser: Image saved - Mystery/Sharp_Objects_1.jpg
+2025-12-03 00:31:32 [INFO] Parser: Creating Item object
+2025-12-03 00:31:32 [INFO] Item initialized: name=Sharp Objects, price=47.82, category=Mystery
+2025-12-03 00:31:32 [INFO] Cart: Item added - name=Sharp Objects, price=47.82
+2025-12-03 00:31:32 [INFO] Parser: Parsed product - Sharp Objects, price: 47.82, category: Mystery
+2025-12-03 00:31:32 [INFO] Parser: Worker 1 sleeping for 1.0 seconds
+2025-12-03 00:31:33 [INFO] Parser: Worker 2 processing https://books.toscrape.com/catalogue/sapiens-a-brief-history-of-humankind_996/index.html
+2025-12-03 00:31:33 [INFO] Parser: Starting to parse product page: https://books.toscrape.com/catalogue/sapiens-a-brief-history-of-humankind_996/index.html
+2025-12-03 00:31:33 [INFO] Parser: Checking URL accessibility: https://books.toscrape.com/catalogue/sapiens-a-brief-history-of-humankind_996/index.html (max retries: 3)
+2025-12-03 00:31:33 [INFO] Parser: MechanizeAgent: Checking URL https://books.toscrape.com/catalogue/sapiens-a-brief-history-of-humankind_996/index.html
+2025-12-03 00:31:33 [INFO] Parser: Worker 1 processing https://books.toscrape.com/catalogue/the-requiem-red_995/index.html
+2025-12-03 00:31:33 [INFO] Parser: Starting to parse product page: https://books.toscrape.com/catalogue/the-requiem-red_995/index.html
+2025-12-03 00:31:33 [INFO] Parser: Checking URL accessibility: https://books.toscrape.com/catalogue/the-requiem-red_995/index.html (max retries: 3)
+2025-12-03 00:31:33 [INFO] Parser: MechanizeAgent: Checking URL https://books.toscrape.com/catalogue/the-requiem-red_995/index.html
+2025-12-03 00:31:33 [INFO] Parser: URL https://books.toscrape.com/catalogue/sapiens-a-brief-history-of-humankind_996/index.html is accessible, status: 200
+2025-12-03 00:31:33 [INFO] Parser: Fetching product page
+2025-12-03 00:31:33 [INFO] Parser: MechanizeAgent: Fetching page https://books.toscrape.com/catalogue/sapiens-a-brief-history-of-humankind_996/index.html
+2025-12-03 00:31:33 [INFO] Parser: URL https://books.toscrape.com/catalogue/the-requiem-red_995/index.html is accessible, status: 200
+2025-12-03 00:31:33 [INFO] Parser: Fetching product page
+2025-12-03 00:31:33 [INFO] Parser: MechanizeAgent: Fetching page https://books.toscrape.com/catalogue/the-requiem-red_995/index.html
+2025-12-03 00:31:33 [INFO] Parser: MechanizeAgent: Page fetched, status 200
+2025-12-03 00:31:33 [INFO] Parser: PageWrapper created, body size 17026 bytes, code 200
+2025-12-03 00:31:33 [INFO] Parser: Product page fetched successfully
+2025-12-03 00:31:33 [INFO] Parser: Extracting product data
+2025-12-03 00:31:33 [INFO] Parser: Product name found: Sapiens: A Brief History of Humankind
+2025-12-03 00:31:33 [INFO] Parser: Product name extracted: Sapiens: A Brief History of Humankind
+2025-12-03 00:31:33 [INFO] Parser: Product price found: £54.23 -> 54.23
+2025-12-03 00:31:33 [INFO] Parser: Product price extracted: 54.23
+2025-12-03 00:31:33 [INFO] Parser: Product description found, length: 19
+2025-12-03 00:31:33 [INFO] Parser: Product description extracted, length: 19
+2025-12-03 00:31:33 [INFO] Parser: Built full URL from relative path: https://books.toscrape.com/media/cache/ce/5f/ce5f052c65cc963cf4422be096e915c9.jpg
+2025-12-03 00:31:33 [INFO] Parser: Product image URL found: https://books.toscrape.com/media/cache/ce/5f/ce5f052c65cc963cf4422be096e915c9.jpg
+2025-12-03 00:31:33 [INFO] Parser: Product image URL extracted: https://books.toscrape.com/media/cache/ce/5f/ce5f052c65cc963cf4422be096e915c9.jpg
+2025-12-03 00:31:33 [INFO] Parser: Product category found: History
+2025-12-03 00:31:33 [INFO] Parser: Product category extracted: History
+2025-12-03 00:31:33 [INFO] Parser: Starting image download and save
+2025-12-03 00:31:33 [INFO] Parser: Starting image download: https://books.toscrape.com/media/cache/ce/5f/ce5f052c65cc963cf4422be096e915c9.jpg
+2025-12-03 00:31:33 [INFO] Parser: Filename sanitized: 'History' -> 'History'
+2025-12-03 00:31:33 [INFO] Parser: Category directory name: History
+2025-12-03 00:31:33 [INFO] Parser: Category directory already exists: D:/uchoba/5 course/Distributed database development technologies/1 lab/media/History
+2025-12-03 00:31:33 [INFO] Parser: File extension extracted: .jpg from https://books.toscrape.com/media/cache/ce/5f/ce5f052c65cc963cf4422be096e915c9.jpg
+2025-12-03 00:31:33 [INFO] Parser: File extension determined: .jpg
+2025-12-03 00:31:33 [INFO] Parser: Filename sanitized: 'Sapiens: A Brief History of Humankind' -> 'Sapiens_A_Brief_History_of_Humankind'
+2025-12-03 00:31:33 [INFO] Parser: Target file path: D:/uchoba/5 course/Distributed database development technologies/1 lab/media/History/Sapiens_A_Brief_History_of_Humankind.jpg
+2025-12-03 00:31:33 [INFO] Parser: File already exists, generating unique name
+2025-12-03 00:31:33 [INFO] Parser: Filename sanitized: 'Sapiens: A Brief History of Humankind' -> 'Sapiens_A_Brief_History_of_Humankind'
+2025-12-03 00:31:33 [INFO] Parser: Unique filename generated: Sapiens_A_Brief_History_of_Humankind_1.jpg
+2025-12-03 00:31:33 [INFO] Parser: Downloading image file
+2025-12-03 00:31:33 [INFO] Parser: MechanizeAgent: Downloading file https://books.toscrape.com/media/cache/ce/5f/ce5f052c65cc963cf4422be096e915c9.jpg
+2025-12-03 00:31:33 [INFO] Parser: MechanizeAgent: Page fetched, status 200
+2025-12-03 00:31:33 [INFO] Parser: PageWrapper created, body size 16468 bytes, code 200
+2025-12-03 00:31:33 [INFO] Parser: Product page fetched successfully
+2025-12-03 00:31:33 [INFO] Parser: Extracting product data
+2025-12-03 00:31:33 [INFO] Parser: Product name found: The Requiem Red
+2025-12-03 00:31:33 [INFO] Parser: Product name extracted: The Requiem Red
+2025-12-03 00:31:33 [INFO] Parser: Product price found: £22.65 -> 22.65
+2025-12-03 00:31:33 [INFO] Parser: Product price extracted: 22.65
+2025-12-03 00:31:33 [INFO] Parser: Product description found, length: 19
+2025-12-03 00:31:33 [INFO] Parser: Product description extracted, length: 19
+2025-12-03 00:31:33 [INFO] Parser: Built full URL from relative path: https://books.toscrape.com/media/cache/6b/07/6b07b77236b7c80f42bd90bf325e69f6.jpg
+2025-12-03 00:31:33 [INFO] Parser: Product image URL found: https://books.toscrape.com/media/cache/6b/07/6b07b77236b7c80f42bd90bf325e69f6.jpg
+2025-12-03 00:31:33 [INFO] Parser: Product image URL extracted: https://books.toscrape.com/media/cache/6b/07/6b07b77236b7c80f42bd90bf325e69f6.jpg
+2025-12-03 00:31:33 [INFO] Parser: Product category found: Young Adult
+2025-12-03 00:31:33 [INFO] Parser: Product category extracted: Young Adult
+2025-12-03 00:31:33 [INFO] Parser: Starting image download and save
+2025-12-03 00:31:33 [INFO] Parser: Starting image download: https://books.toscrape.com/media/cache/6b/07/6b07b77236b7c80f42bd90bf325e69f6.jpg
+2025-12-03 00:31:33 [INFO] Parser: Filename sanitized: 'Young Adult' -> 'Young_Adult'
+2025-12-03 00:31:33 [INFO] Parser: Category directory name: Young_Adult
+2025-12-03 00:31:33 [INFO] Parser: Category directory already exists: D:/uchoba/5 course/Distributed database development technologies/1 lab/media/Young_Adult
+2025-12-03 00:31:33 [INFO] Parser: File extension extracted: .jpg from https://books.toscrape.com/media/cache/6b/07/6b07b77236b7c80f42bd90bf325e69f6.jpg
+2025-12-03 00:31:33 [INFO] Parser: File extension determined: .jpg
+2025-12-03 00:31:33 [INFO] Parser: Filename sanitized: 'The Requiem Red' -> 'The_Requiem_Red'
+2025-12-03 00:31:33 [INFO] Parser: Target file path: D:/uchoba/5 course/Distributed database development technologies/1 lab/media/Young_Adult/The_Requiem_Red.jpg
+2025-12-03 00:31:33 [INFO] Parser: File already exists, generating unique name
+2025-12-03 00:31:33 [INFO] Parser: Filename sanitized: 'The Requiem Red' -> 'The_Requiem_Red'
+2025-12-03 00:31:33 [INFO] Parser: Unique filename generated: The_Requiem_Red_1.jpg
+2025-12-03 00:31:33 [INFO] Parser: Downloading image file
+2025-12-03 00:31:33 [INFO] Parser: MechanizeAgent: Downloading file https://books.toscrape.com/media/cache/6b/07/6b07b77236b7c80f42bd90bf325e69f6.jpg
+2025-12-03 00:31:33 [INFO] Parser: MechanizeAgent: File downloaded successfully, size 14449 bytes
+2025-12-03 00:31:33 [INFO] Parser: Image downloaded, size: 14449 bytes
+2025-12-03 00:31:33 [INFO] Parser: Image saved - History/Sapiens_A_Brief_History_of_Humankind_1.jpg
+2025-12-03 00:31:33 [INFO] Parser: Creating Item object
+2025-12-03 00:31:33 [INFO] Item initialized: name=Sapiens: A Brief History of Humankind, price=54.23, category=History
+2025-12-03 00:31:33 [INFO] Cart: Item added - name=Sapiens: A Brief History of Humankind, price=54.23
+2025-12-03 00:31:33 [INFO] Parser: Parsed product - Sapiens: A Brief History of Humankind, price: 54.23, category: History
+2025-12-03 00:31:33 [INFO] Parser: Worker 2 sleeping for 1.0 seconds
+2025-12-03 00:31:34 [INFO] Parser: MechanizeAgent: File downloaded successfully, size 47528 bytes
+2025-12-03 00:31:34 [INFO] Parser: Image downloaded, size: 47528 bytes
+2025-12-03 00:31:34 [INFO] Parser: Image saved - Young_Adult/The_Requiem_Red_1.jpg
+2025-12-03 00:31:34 [INFO] Parser: Creating Item object
+2025-12-03 00:31:34 [INFO] Item initialized: name=The Requiem Red, price=22.65, category=Young Adult
+2025-12-03 00:31:34 [INFO] Cart: Item added - name=The Requiem Red, price=22.65
+2025-12-03 00:31:34 [INFO] Parser: Parsed product - The Requiem Red, price: 22.65, category: Young Adult
+2025-12-03 00:31:34 [INFO] Parser: Worker 1 sleeping for 1.0 seconds
+2025-12-03 00:31:34 [INFO] Parser: Worker 2 processing https://books.toscrape.com/catalogue/the-dirty-little-secrets-of-getting-your-dream-job_994/index.html
+2025-12-03 00:31:34 [INFO] Parser: Starting to parse product page: https://books.toscrape.com/catalogue/the-dirty-little-secrets-of-getting-your-dream-job_994/index.html
+2025-12-03 00:31:34 [INFO] Parser: Checking URL accessibility: https://books.toscrape.com/catalogue/the-dirty-little-secrets-of-getting-your-dream-job_994/index.html (max retries: 3)
+2025-12-03 00:31:34 [INFO] Parser: MechanizeAgent: Checking URL https://books.toscrape.com/catalogue/the-dirty-little-secrets-of-getting-your-dream-job_994/index.html
+2025-12-03 00:31:35 [INFO] Parser: URL https://books.toscrape.com/catalogue/the-dirty-little-secrets-of-getting-your-dream-job_994/index.html is accessible, status: 200
+2025-12-03 00:31:35 [INFO] Parser: Fetching product page
+2025-12-03 00:31:35 [INFO] Parser: MechanizeAgent: Fetching page https://books.toscrape.com/catalogue/the-dirty-little-secrets-of-getting-your-dream-job_994/index.html
+2025-12-03 00:31:35 [INFO] Parser: Worker 1 processing https://books.toscrape.com/catalogue/the-coming-woman-a-novel-based-on-the-life-of-the-infamous-feminist-victoria-woodhull_993/index.html
+2025-12-03 00:31:35 [INFO] Parser: Starting to parse product page: https://books.toscrape.com/catalogue/the-coming-woman-a-novel-based-on-the-life-of-the-infamous-feminist-victoria-woodhull_993/index.html
+2025-12-03 00:31:35 [INFO] Parser: Checking URL accessibility: https://books.toscrape.com/catalogue/the-coming-woman-a-novel-based-on-the-life-of-the-infamous-feminist-victoria-woodhull_993/index.html (max retries: 3)
+2025-12-03 00:31:35 [INFO] Parser: MechanizeAgent: Checking URL https://books.toscrape.com/catalogue/the-coming-woman-a-novel-based-on-the-life-of-the-infamous-feminist-victoria-woodhull_993/index.html
+2025-12-03 00:31:35 [INFO] Parser: URL https://books.toscrape.com/catalogue/the-coming-woman-a-novel-based-on-the-life-of-the-infamous-feminist-victoria-woodhull_993/index.html is accessible, status: 200
+2025-12-03 00:31:35 [INFO] Parser: Fetching product page
+2025-12-03 00:31:35 [INFO] Parser: MechanizeAgent: Fetching page https://books.toscrape.com/catalogue/the-coming-woman-a-novel-based-on-the-life-of-the-infamous-feminist-victoria-woodhull_993/index.html
+2025-12-03 00:31:35 [INFO] Parser: MechanizeAgent: Page fetched, status 200
+2025-12-03 00:31:35 [INFO] Parser: PageWrapper created, body size 19806 bytes, code 200
+2025-12-03 00:31:35 [INFO] Parser: Product page fetched successfully
+2025-12-03 00:31:35 [INFO] Parser: Extracting product data
+2025-12-03 00:31:35 [INFO] Parser: Product name found: The Dirty Little Secrets of Getting Your Dream Job
+2025-12-03 00:31:35 [INFO] Parser: Product name extracted: The Dirty Little Secrets of Getting Your Dream Job
+2025-12-03 00:31:35 [INFO] Parser: Product price found: £33.34 -> 33.34
+2025-12-03 00:31:35 [INFO] Parser: Product price extracted: 33.34
+2025-12-03 00:31:35 [INFO] Parser: Product description found, length: 19
+2025-12-03 00:31:35 [INFO] Parser: Product description extracted, length: 19
+2025-12-03 00:31:35 [INFO] Parser: Built full URL from relative path: https://books.toscrape.com/media/cache/e1/1b/e11bea016d0ae1d7e2dd46fb3cb870b7.jpg
+2025-12-03 00:31:35 [INFO] Parser: Product image URL found: https://books.toscrape.com/media/cache/e1/1b/e11bea016d0ae1d7e2dd46fb3cb870b7.jpg
+2025-12-03 00:31:35 [INFO] Parser: Product image URL extracted: https://books.toscrape.com/media/cache/e1/1b/e11bea016d0ae1d7e2dd46fb3cb870b7.jpg
+2025-12-03 00:31:35 [INFO] Parser: Product category found: Business
+2025-12-03 00:31:35 [INFO] Parser: Product category extracted: Business
+2025-12-03 00:31:35 [INFO] Parser: Starting image download and save
+2025-12-03 00:31:35 [INFO] Parser: Starting image download: https://books.toscrape.com/media/cache/e1/1b/e11bea016d0ae1d7e2dd46fb3cb870b7.jpg
+2025-12-03 00:31:35 [INFO] Parser: Filename sanitized: 'Business' -> 'Business'
+2025-12-03 00:31:35 [INFO] Parser: Category directory name: Business
+2025-12-03 00:31:35 [INFO] Parser: Category directory already exists: D:/uchoba/5 course/Distributed database development technologies/1 lab/media/Business
+2025-12-03 00:31:35 [INFO] Parser: File extension extracted: .jpg from https://books.toscrape.com/media/cache/e1/1b/e11bea016d0ae1d7e2dd46fb3cb870b7.jpg
+2025-12-03 00:31:35 [INFO] Parser: File extension determined: .jpg
+2025-12-03 00:31:35 [INFO] Parser: Filename sanitized: 'The Dirty Little Secrets of Getting Your Dream Job' -> 'The_Dirty_Little_Secrets_of_Getting_Your_Dream_Job'
+2025-12-03 00:31:35 [INFO] Parser: Target file path: D:/uchoba/5 course/Distributed database development technologies/1 lab/media/Business/The_Dirty_Little_Secrets_of_Getting_Your_Dream_Job.jpg
+2025-12-03 00:31:35 [INFO] Parser: File already exists, generating unique name
+2025-12-03 00:31:35 [INFO] Parser: Filename sanitized: 'The Dirty Little Secrets of Getting Your Dream Job' -> 'The_Dirty_Little_Secrets_of_Getting_Your_Dream_Job'
+2025-12-03 00:31:35 [INFO] Parser: Unique filename generated: The_Dirty_Little_Secrets_of_Getting_Your_Dream_Job_1.jpg
+2025-12-03 00:31:35 [INFO] Parser: Downloading image file
+2025-12-03 00:31:35 [INFO] Parser: MechanizeAgent: Downloading file https://books.toscrape.com/media/cache/e1/1b/e11bea016d0ae1d7e2dd46fb3cb870b7.jpg
+2025-12-03 00:31:35 [INFO] Parser: MechanizeAgent: Page fetched, status 200
+2025-12-03 00:31:35 [INFO] Parser: PageWrapper created, body size 23375 bytes, code 200
+2025-12-03 00:31:35 [INFO] Parser: Product page fetched successfully
+2025-12-03 00:31:35 [INFO] Parser: Extracting product data
+2025-12-03 00:31:35 [INFO] Parser: Product name found: The Coming Woman: A Novel Based on the Life of the Infamous Feminist, Victoria Woodhull
+2025-12-03 00:31:35 [INFO] Parser: Product name extracted: The Coming Woman: A Novel Based on the Life of the Infamous Feminist, Victoria Woodhull
+2025-12-03 00:31:35 [INFO] Parser: Product price found: £17.93 -> 17.93
+2025-12-03 00:31:35 [INFO] Parser: Product price extracted: 17.93
+2025-12-03 00:31:35 [INFO] Parser: Product description found, length: 19
+2025-12-03 00:31:35 [INFO] Parser: Product description extracted, length: 19
+2025-12-03 00:31:35 [INFO] Parser: Built full URL from relative path: https://books.toscrape.com/media/cache/97/36/9736132a43b8e6e3989932218ef309ed.jpg
+2025-12-03 00:31:35 [INFO] Parser: Product image URL found: https://books.toscrape.com/media/cache/97/36/9736132a43b8e6e3989932218ef309ed.jpg
+2025-12-03 00:31:35 [INFO] Parser: Product image URL extracted: https://books.toscrape.com/media/cache/97/36/9736132a43b8e6e3989932218ef309ed.jpg
+2025-12-03 00:31:35 [INFO] Parser: Product category found: Default
+2025-12-03 00:31:35 [INFO] Parser: Product category extracted: Default
+2025-12-03 00:31:35 [INFO] Parser: Starting image download and save
+2025-12-03 00:31:35 [INFO] Parser: Starting image download: https://books.toscrape.com/media/cache/97/36/9736132a43b8e6e3989932218ef309ed.jpg
+2025-12-03 00:31:35 [INFO] Parser: Filename sanitized: 'Default' -> 'Default'
+2025-12-03 00:31:35 [INFO] Parser: Category directory name: Default
+2025-12-03 00:31:35 [INFO] Parser: Category directory already exists: D:/uchoba/5 course/Distributed database development technologies/1 lab/media/Default
+2025-12-03 00:31:35 [INFO] Parser: File extension extracted: .jpg from https://books.toscrape.com/media/cache/97/36/9736132a43b8e6e3989932218ef309ed.jpg
+2025-12-03 00:31:35 [INFO] Parser: File extension determined: .jpg
+2025-12-03 00:31:35 [INFO] Parser: Filename sanitized: 'The Coming Woman: A Novel Based on the Life of the Infamous Feminist, Victoria Woodhull' -> 'The_Coming_Woman_A_Novel_Based_on_the_Life_of_the_Infamous_Feminist_Victoria_Woodhull'
+2025-12-03 00:31:35 [INFO] Parser: Target file path: D:/uchoba/5 course/Distributed database development technologies/1 lab/media/Default/The_Coming_Woman_A_Novel_Based_on_the_Life_of_the_Infamous_Feminist_Victoria_Woodhull.jpg
+2025-12-03 00:31:35 [INFO] Parser: File already exists, generating unique name
+2025-12-03 00:31:35 [INFO] Parser: Filename sanitized: 'The Coming Woman: A Novel Based on the Life of the Infamous Feminist, Victoria Woodhull' -> 'The_Coming_Woman_A_Novel_Based_on_the_Life_of_the_Infamous_Feminist_Victoria_Woodhull'
+2025-12-03 00:31:35 [INFO] Parser: Unique filename generated: The_Coming_Woman_A_Novel_Based_on_the_Life_of_the_Infamous_Feminist_Victoria_Woodhull_1.jpg
+2025-12-03 00:31:35 [INFO] Parser: Downloading image file
+2025-12-03 00:31:35 [INFO] Parser: MechanizeAgent: Downloading file https://books.toscrape.com/media/cache/97/36/9736132a43b8e6e3989932218ef309ed.jpg
+2025-12-03 00:31:35 [INFO] Parser: MechanizeAgent: File downloaded successfully, size 47830 bytes
+2025-12-03 00:31:35 [INFO] Parser: Image downloaded, size: 47830 bytes
+2025-12-03 00:31:35 [INFO] Parser: Image saved - Business/The_Dirty_Little_Secrets_of_Getting_Your_Dream_Job_1.jpg
+2025-12-03 00:31:35 [INFO] Parser: Creating Item object
+2025-12-03 00:31:35 [INFO] Item initialized: name=The Dirty Little Secrets of Getting Your Dream Job, price=33.34, category=Business
+2025-12-03 00:31:35 [INFO] Cart: Item added - name=The Dirty Little Secrets of Getting Your Dream Job, price=33.34
+2025-12-03 00:31:35 [INFO] Parser: Parsed product - The Dirty Little Secrets of Getting Your Dream Job, price: 33.34, category: Business
+2025-12-03 00:31:35 [INFO] Parser: Worker 2 sleeping for 1.0 seconds
+2025-12-03 00:31:35 [INFO] Parser: MechanizeAgent: File downloaded successfully, size 30984 bytes
+2025-12-03 00:31:35 [INFO] Parser: Image downloaded, size: 30984 bytes
+2025-12-03 00:31:35 [INFO] Parser: Image saved - Default/The_Coming_Woman_A_Novel_Based_on_the_Life_of_the_Infamous_Feminist_Victoria_Woodhull_1.jpg
+2025-12-03 00:31:35 [INFO] Parser: Creating Item object
+2025-12-03 00:31:35 [INFO] Item initialized: name=The Coming Woman: A Novel Based on the Life of the Infamous Feminist, Victoria Woodhull, price=17.93, category=Default
+2025-12-03 00:31:35 [INFO] Cart: Item added - name=The Coming Woman: A Novel Based on the Life of the Infamous Feminist, Victoria Woodhull, price=17.93
+2025-12-03 00:31:35 [INFO] Parser: Parsed product - The Coming Woman: A Novel Based on the Life of the Infamous Feminist, Victoria Woodhull, price: 17.93, category: Default
+2025-12-03 00:31:35 [INFO] Parser: Worker 1 sleeping for 1.0 seconds
+2025-12-03 00:31:36 [INFO] Parser: Worker 2 processing https://books.toscrape.com/catalogue/the-boys-in-the-boat-nine-americans-and-their-epic-quest-for-gold-at-the-1936-berlin-olympics_992/index.html
+2025-12-03 00:31:36 [INFO] Parser: Starting to parse product page: https://books.toscrape.com/catalogue/the-boys-in-the-boat-nine-americans-and-their-epic-quest-for-gold-at-the-1936-berlin-olympics_992/index.html
+2025-12-03 00:31:36 [INFO] Parser: Checking URL accessibility: https://books.toscrape.com/catalogue/the-boys-in-the-boat-nine-americans-and-their-epic-quest-for-gold-at-the-1936-berlin-olympics_992/index.html (max retries: 3)
+2025-12-03 00:31:36 [INFO] Parser: MechanizeAgent: Checking URL https://books.toscrape.com/catalogue/the-boys-in-the-boat-nine-americans-and-their-epic-quest-for-gold-at-the-1936-berlin-olympics_992/index.html
+2025-12-03 00:31:36 [INFO] Parser: Worker 1 processing https://books.toscrape.com/catalogue/the-black-maria_991/index.html
+2025-12-03 00:31:36 [INFO] Parser: Starting to parse product page: https://books.toscrape.com/catalogue/the-black-maria_991/index.html
+2025-12-03 00:31:36 [INFO] Parser: Checking URL accessibility: https://books.toscrape.com/catalogue/the-black-maria_991/index.html (max retries: 3)
+2025-12-03 00:31:36 [INFO] Parser: MechanizeAgent: Checking URL https://books.toscrape.com/catalogue/the-black-maria_991/index.html
+2025-12-03 00:31:36 [INFO] Parser: URL https://books.toscrape.com/catalogue/the-boys-in-the-boat-nine-americans-and-their-epic-quest-for-gold-at-the-1936-berlin-olympics_992/index.html is accessible, status: 200
+2025-12-03 00:31:36 [INFO] Parser: Fetching product page
+2025-12-03 00:31:36 [INFO] Parser: MechanizeAgent: Fetching page https://books.toscrape.com/catalogue/the-boys-in-the-boat-nine-americans-and-their-epic-quest-for-gold-at-the-1936-berlin-olympics_992/index.html
+2025-12-03 00:31:36 [INFO] Parser: URL https://books.toscrape.com/catalogue/the-black-maria_991/index.html is accessible, status: 200
+2025-12-03 00:31:36 [INFO] Parser: Fetching product page
+2025-12-03 00:31:36 [INFO] Parser: MechanizeAgent: Fetching page https://books.toscrape.com/catalogue/the-black-maria_991/index.html
+2025-12-03 00:31:37 [INFO] Parser: MechanizeAgent: Page fetched, status 200
+2025-12-03 00:31:37 [INFO] Parser: PageWrapper created, body size 20872 bytes, code 200
+2025-12-03 00:31:37 [INFO] Parser: Product page fetched successfully
+2025-12-03 00:31:37 [INFO] Parser: Extracting product data
+2025-12-03 00:31:37 [INFO] Parser: Product name found: The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics
+2025-12-03 00:31:37 [INFO] Parser: Product name extracted: The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics
+2025-12-03 00:31:37 [INFO] Parser: Product price found: £22.60 -> 22.6
+2025-12-03 00:31:37 [INFO] Parser: Product price extracted: 22.6
+2025-12-03 00:31:37 [INFO] Parser: Product description found, length: 19
+2025-12-03 00:31:37 [INFO] Parser: Product description extracted, length: 19
+2025-12-03 00:31:37 [INFO] Parser: Built full URL from relative path: https://books.toscrape.com/media/cache/d1/2d/d12d26739b5369a6b5b3024e4d08f907.jpg
+2025-12-03 00:31:37 [INFO] Parser: Product image URL found: https://books.toscrape.com/media/cache/d1/2d/d12d26739b5369a6b5b3024e4d08f907.jpg
+2025-12-03 00:31:37 [INFO] Parser: Product image URL extracted: https://books.toscrape.com/media/cache/d1/2d/d12d26739b5369a6b5b3024e4d08f907.jpg
+2025-12-03 00:31:37 [INFO] Parser: Product category found: Default
+2025-12-03 00:31:37 [INFO] Parser: Product category extracted: Default
+2025-12-03 00:31:37 [INFO] Parser: Starting image download and save
+2025-12-03 00:31:37 [INFO] Parser: Starting image download: https://books.toscrape.com/media/cache/d1/2d/d12d26739b5369a6b5b3024e4d08f907.jpg
+2025-12-03 00:31:37 [INFO] Parser: Filename sanitized: 'Default' -> 'Default'
+2025-12-03 00:31:37 [INFO] Parser: Category directory name: Default
+2025-12-03 00:31:37 [INFO] Parser: Category directory already exists: D:/uchoba/5 course/Distributed database development technologies/1 lab/media/Default
+2025-12-03 00:31:37 [INFO] Parser: File extension extracted: .jpg from https://books.toscrape.com/media/cache/d1/2d/d12d26739b5369a6b5b3024e4d08f907.jpg
+2025-12-03 00:31:37 [INFO] Parser: File extension determined: .jpg
+2025-12-03 00:31:37 [INFO] Parser: Filename sanitized: 'The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics' -> 'The_Boys_in_the_Boat_Nine_Americans_and_Their_Epic_Quest_for_Gold_at_the_1936_Berlin_Olympics'
+2025-12-03 00:31:37 [INFO] Parser: Target file path: D:/uchoba/5 course/Distributed database development technologies/1 lab/media/Default/The_Boys_in_the_Boat_Nine_Americans_and_Their_Epic_Quest_for_Gold_at_the_1936_Berlin_Olympics.jpg
+2025-12-03 00:31:37 [INFO] Parser: File already exists, generating unique name
+2025-12-03 00:31:37 [INFO] Parser: Filename sanitized: 'The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics' -> 'The_Boys_in_the_Boat_Nine_Americans_and_Their_Epic_Quest_for_Gold_at_the_1936_Berlin_Olympics'
+2025-12-03 00:31:37 [INFO] Parser: Unique filename generated: The_Boys_in_the_Boat_Nine_Americans_and_Their_Epic_Quest_for_Gold_at_the_1936_Berlin_Olympics_1.jpg
+2025-12-03 00:31:37 [INFO] Parser: Downloading image file
+2025-12-03 00:31:37 [INFO] Parser: MechanizeAgent: Downloading file https://books.toscrape.com/media/cache/d1/2d/d12d26739b5369a6b5b3024e4d08f907.jpg
+2025-12-03 00:31:37 [INFO] Parser: MechanizeAgent: Page fetched, status 200
+2025-12-03 00:31:37 [INFO] Parser: PageWrapper created, body size 22698 bytes, code 200
+2025-12-03 00:31:37 [INFO] Parser: Product page fetched successfully
+2025-12-03 00:31:37 [INFO] Parser: Extracting product data
+2025-12-03 00:31:37 [INFO] Parser: Product name found: The Black Maria
+2025-12-03 00:31:37 [INFO] Parser: Product name extracted: The Black Maria
+2025-12-03 00:31:37 [INFO] Parser: Product price found: £52.15 -> 52.15
+2025-12-03 00:31:37 [INFO] Parser: Product price extracted: 52.15
+2025-12-03 00:31:37 [INFO] Parser: Product description found, length: 19
+2025-12-03 00:31:37 [INFO] Parser: Product description extracted, length: 19
+2025-12-03 00:31:37 [INFO] Parser: Built full URL from relative path: https://books.toscrape.com/media/cache/d1/7a/d17a3e313e52e1be5651719e4fba1d16.jpg
+2025-12-03 00:31:37 [INFO] Parser: Product image URL found: https://books.toscrape.com/media/cache/d1/7a/d17a3e313e52e1be5651719e4fba1d16.jpg
+2025-12-03 00:31:37 [INFO] Parser: Product image URL extracted: https://books.toscrape.com/media/cache/d1/7a/d17a3e313e52e1be5651719e4fba1d16.jpg
+2025-12-03 00:31:37 [INFO] Parser: Product category found: Poetry
+2025-12-03 00:31:37 [INFO] Parser: Product category extracted: Poetry
+2025-12-03 00:31:37 [INFO] Parser: Starting image download and save
+2025-12-03 00:31:37 [INFO] Parser: Starting image download: https://books.toscrape.com/media/cache/d1/7a/d17a3e313e52e1be5651719e4fba1d16.jpg
+2025-12-03 00:31:37 [INFO] Parser: Filename sanitized: 'Poetry' -> 'Poetry'
+2025-12-03 00:31:37 [INFO] Parser: Category directory name: Poetry
+2025-12-03 00:31:37 [INFO] Parser: Category directory already exists: D:/uchoba/5 course/Distributed database development technologies/1 lab/media/Poetry
+2025-12-03 00:31:37 [INFO] Parser: File extension extracted: .jpg from https://books.toscrape.com/media/cache/d1/7a/d17a3e313e52e1be5651719e4fba1d16.jpg
+2025-12-03 00:31:37 [INFO] Parser: File extension determined: .jpg
+2025-12-03 00:31:37 [INFO] Parser: Filename sanitized: 'The Black Maria' -> 'The_Black_Maria'
+2025-12-03 00:31:37 [INFO] Parser: Target file path: D:/uchoba/5 course/Distributed database development technologies/1 lab/media/Poetry/The_Black_Maria.jpg
+2025-12-03 00:31:37 [INFO] Parser: File already exists, generating unique name
+2025-12-03 00:31:37 [INFO] Parser: Filename sanitized: 'The Black Maria' -> 'The_Black_Maria'
+2025-12-03 00:31:37 [INFO] Parser: Unique filename generated: The_Black_Maria_1.jpg
+2025-12-03 00:31:37 [INFO] Parser: Downloading image file
+2025-12-03 00:31:37 [INFO] Parser: MechanizeAgent: Downloading file https://books.toscrape.com/media/cache/d1/7a/d17a3e313e52e1be5651719e4fba1d16.jpg
+2025-12-03 00:31:37 [INFO] Parser: MechanizeAgent: File downloaded successfully, size 19032 bytes
+2025-12-03 00:31:37 [INFO] Parser: Image downloaded, size: 19032 bytes
+2025-12-03 00:31:37 [INFO] Parser: Image saved - Poetry/The_Black_Maria_1.jpg
+2025-12-03 00:31:37 [INFO] Parser: Creating Item object
+2025-12-03 00:31:37 [INFO] Item initialized: name=The Black Maria, price=52.15, category=Poetry
+2025-12-03 00:31:37 [INFO] Cart: Item added - name=The Black Maria, price=52.15
+2025-12-03 00:31:37 [INFO] Parser: Parsed product - The Black Maria, price: 52.15, category: Poetry
+2025-12-03 00:31:37 [INFO] Parser: Worker 1 sleeping for 1.0 seconds
+2025-12-03 00:31:37 [INFO] Parser: MechanizeAgent: File downloaded successfully, size 41864 bytes
+2025-12-03 00:31:37 [INFO] Parser: Image downloaded, size: 41864 bytes
+2025-12-03 00:31:37 [INFO] Parser: Image saved - Default/The_Boys_in_the_Boat_Nine_Americans_and_Their_Epic_Quest_for_Gold_at_the_1936_Berlin_Olympics_1.jpg
+2025-12-03 00:31:37 [INFO] Parser: Creating Item object
+2025-12-03 00:31:37 [INFO] Item initialized: name=The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics, price=22.6, category=Default
+2025-12-03 00:31:37 [INFO] Cart: Item added - name=The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics, price=22.6
+2025-12-03 00:31:37 [INFO] Parser: Parsed product - The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics, price: 22.6, category: Default
+2025-12-03 00:31:37 [INFO] Parser: Worker 2 sleeping for 1.0 seconds
+2025-12-03 00:31:38 [INFO] Parser: Worker 1 processing https://books.toscrape.com/catalogue/starving-hearts-triangular-trade-trilogy-1_990/index.html
+2025-12-03 00:31:38 [INFO] Parser: Starting to parse product page: https://books.toscrape.com/catalogue/starving-hearts-triangular-trade-trilogy-1_990/index.html
+2025-12-03 00:31:38 [INFO] Parser: Checking URL accessibility: https://books.toscrape.com/catalogue/starving-hearts-triangular-trade-trilogy-1_990/index.html (max retries: 3)
+2025-12-03 00:31:38 [INFO] Parser: MechanizeAgent: Checking URL https://books.toscrape.com/catalogue/starving-hearts-triangular-trade-trilogy-1_990/index.html
+2025-12-03 00:31:38 [INFO] Parser: Worker 2 processing https://books.toscrape.com/catalogue/shakespeares-sonnets_989/index.html
+2025-12-03 00:31:38 [INFO] Parser: Starting to parse product page: https://books.toscrape.com/catalogue/shakespeares-sonnets_989/index.html
+2025-12-03 00:31:38 [INFO] Parser: Checking URL accessibility: https://books.toscrape.com/catalogue/shakespeares-sonnets_989/index.html (max retries: 3)
+2025-12-03 00:31:38 [INFO] Parser: MechanizeAgent: Checking URL https://books.toscrape.com/catalogue/shakespeares-sonnets_989/index.html
+2025-12-03 00:31:38 [INFO] Parser: URL https://books.toscrape.com/catalogue/starving-hearts-triangular-trade-trilogy-1_990/index.html is accessible, status: 200
+2025-12-03 00:31:38 [INFO] Parser: Fetching product page
+2025-12-03 00:31:38 [INFO] Parser: MechanizeAgent: Fetching page https://books.toscrape.com/catalogue/starving-hearts-triangular-trade-trilogy-1_990/index.html
+2025-12-03 00:31:38 [INFO] Parser: URL https://books.toscrape.com/catalogue/shakespeares-sonnets_989/index.html is accessible, status: 200
+2025-12-03 00:31:38 [INFO] Parser: Fetching product page
+2025-12-03 00:31:38 [INFO] Parser: MechanizeAgent: Fetching page https://books.toscrape.com/catalogue/shakespeares-sonnets_989/index.html
+2025-12-03 00:31:38 [INFO] Parser: MechanizeAgent: Page fetched, status 200
+2025-12-03 00:31:38 [INFO] Parser: PageWrapper created, body size 19216 bytes, code 200
+2025-12-03 00:31:38 [INFO] Parser: Product page fetched successfully
+2025-12-03 00:31:38 [INFO] Parser: Extracting product data
+2025-12-03 00:31:38 [INFO] Parser: Product name found: Starving Hearts (Triangular Trade Trilogy, #1)
+2025-12-03 00:31:38 [INFO] Parser: Product name extracted: Starving Hearts (Triangular Trade Trilogy, #1)
+2025-12-03 00:31:38 [INFO] Parser: Product price found: £13.99 -> 13.99
+2025-12-03 00:31:38 [INFO] Parser: Product price extracted: 13.99
+2025-12-03 00:31:38 [INFO] Parser: Product description found, length: 19
+2025-12-03 00:31:38 [INFO] Parser: Product description extracted, length: 19
+2025-12-03 00:31:38 [INFO] Parser: Built full URL from relative path: https://books.toscrape.com/media/cache/a0/7e/a07ed8f1c23f7b4baf7102722680bd30.jpg
+2025-12-03 00:31:38 [INFO] Parser: Product image URL found: https://books.toscrape.com/media/cache/a0/7e/a07ed8f1c23f7b4baf7102722680bd30.jpg
+2025-12-03 00:31:38 [INFO] Parser: Product image URL extracted: https://books.toscrape.com/media/cache/a0/7e/a07ed8f1c23f7b4baf7102722680bd30.jpg
+2025-12-03 00:31:38 [INFO] Parser: Product category found: Default
+2025-12-03 00:31:38 [INFO] Parser: Product category extracted: Default
+2025-12-03 00:31:38 [INFO] Parser: Starting image download and save
+2025-12-03 00:31:38 [INFO] Parser: Starting image download: https://books.toscrape.com/media/cache/a0/7e/a07ed8f1c23f7b4baf7102722680bd30.jpg
+2025-12-03 00:31:38 [INFO] Parser: Filename sanitized: 'Default' -> 'Default'
+2025-12-03 00:31:38 [INFO] Parser: Category directory name: Default
+2025-12-03 00:31:38 [INFO] Parser: Category directory already exists: D:/uchoba/5 course/Distributed database development technologies/1 lab/media/Default
+2025-12-03 00:31:38 [INFO] Parser: File extension extracted: .jpg from https://books.toscrape.com/media/cache/a0/7e/a07ed8f1c23f7b4baf7102722680bd30.jpg
+2025-12-03 00:31:38 [INFO] Parser: File extension determined: .jpg
+2025-12-03 00:31:38 [INFO] Parser: Filename sanitized: 'Starving Hearts (Triangular Trade Trilogy, #1)' -> 'Starving_Hearts_Triangular_Trade_Trilogy_1'
+2025-12-03 00:31:38 [INFO] Parser: Target file path: D:/uchoba/5 course/Distributed database development technologies/1 lab/media/Default/Starving_Hearts_Triangular_Trade_Trilogy_1.jpg
+2025-12-03 00:31:38 [INFO] Parser: File already exists, generating unique name
+2025-12-03 00:31:38 [INFO] Parser: Filename sanitized: 'Starving Hearts (Triangular Trade Trilogy, #1)' -> 'Starving_Hearts_Triangular_Trade_Trilogy_1'
+2025-12-03 00:31:38 [INFO] Parser: Unique filename generated: Starving_Hearts_Triangular_Trade_Trilogy_1_1.jpg
+2025-12-03 00:31:38 [INFO] Parser: Downloading image file
+2025-12-03 00:31:38 [INFO] Parser: MechanizeAgent: Downloading file https://books.toscrape.com/media/cache/a0/7e/a07ed8f1c23f7b4baf7102722680bd30.jpg
+2025-12-03 00:31:38 [INFO] Parser: MechanizeAgent: Page fetched, status 200
+2025-12-03 00:31:38 [INFO] Parser: PageWrapper created, body size 18441 bytes, code 200
+2025-12-03 00:31:38 [INFO] Parser: Product page fetched successfully
+2025-12-03 00:31:38 [INFO] Parser: Extracting product data
+2025-12-03 00:31:38 [INFO] Parser: Product name found: Shakespeare's Sonnets
+2025-12-03 00:31:38 [INFO] Parser: Product name extracted: Shakespeare's Sonnets
+2025-12-03 00:31:38 [INFO] Parser: Product price found: £20.66 -> 20.66
+2025-12-03 00:31:38 [INFO] Parser: Product price extracted: 20.66
+2025-12-03 00:31:38 [INFO] Parser: Product description found, length: 19
+2025-12-03 00:31:38 [INFO] Parser: Product description extracted, length: 19
+2025-12-03 00:31:38 [INFO] Parser: Built full URL from relative path: https://books.toscrape.com/media/cache/4d/7a/4d7a79a8be80a529b277ed5c4d8ba482.jpg
+2025-12-03 00:31:38 [INFO] Parser: Product image URL found: https://books.toscrape.com/media/cache/4d/7a/4d7a79a8be80a529b277ed5c4d8ba482.jpg
+2025-12-03 00:31:38 [INFO] Parser: Product image URL extracted: https://books.toscrape.com/media/cache/4d/7a/4d7a79a8be80a529b277ed5c4d8ba482.jpg
+2025-12-03 00:31:38 [INFO] Parser: Product category found: Poetry
+2025-12-03 00:31:38 [INFO] Parser: Product category extracted: Poetry
+2025-12-03 00:31:38 [INFO] Parser: Starting image download and save
+2025-12-03 00:31:38 [INFO] Parser: Starting image download: https://books.toscrape.com/media/cache/4d/7a/4d7a79a8be80a529b277ed5c4d8ba482.jpg
+2025-12-03 00:31:38 [INFO] Parser: Filename sanitized: 'Poetry' -> 'Poetry'
+2025-12-03 00:31:38 [INFO] Parser: Category directory name: Poetry
+2025-12-03 00:31:38 [INFO] Parser: Category directory already exists: D:/uchoba/5 course/Distributed database development technologies/1 lab/media/Poetry
+2025-12-03 00:31:38 [INFO] Parser: File extension extracted: .jpg from https://books.toscrape.com/media/cache/4d/7a/4d7a79a8be80a529b277ed5c4d8ba482.jpg
+2025-12-03 00:31:38 [INFO] Parser: File extension determined: .jpg
+2025-12-03 00:31:38 [INFO] Parser: Filename sanitized: 'Shakespeare's Sonnets' -> 'Shakespeares_Sonnets'
+2025-12-03 00:31:38 [INFO] Parser: Target file path: D:/uchoba/5 course/Distributed database development technologies/1 lab/media/Poetry/Shakespeares_Sonnets.jpg
+2025-12-03 00:31:38 [INFO] Parser: File already exists, generating unique name
+2025-12-03 00:31:38 [INFO] Parser: Filename sanitized: 'Shakespeare's Sonnets' -> 'Shakespeares_Sonnets'
+2025-12-03 00:31:38 [INFO] Parser: Unique filename generated: Shakespeares_Sonnets_1.jpg
+2025-12-03 00:31:38 [INFO] Parser: Downloading image file
+2025-12-03 00:31:38 [INFO] Parser: MechanizeAgent: Downloading file https://books.toscrape.com/media/cache/4d/7a/4d7a79a8be80a529b277ed5c4d8ba482.jpg
+2025-12-03 00:31:39 [INFO] Parser: MechanizeAgent: File downloaded successfully, size 64036 bytes
+2025-12-03 00:31:39 [INFO] Parser: Image downloaded, size: 64036 bytes
+2025-12-03 00:31:39 [INFO] Parser: Image saved - Default/Starving_Hearts_Triangular_Trade_Trilogy_1_1.jpg
+2025-12-03 00:31:39 [INFO] Parser: Creating Item object
+2025-12-03 00:31:39 [INFO] Item initialized: name=Starving Hearts (Triangular Trade Trilogy, #1), price=13.99, category=Default
+2025-12-03 00:31:39 [INFO] Cart: Item added - name=Starving Hearts (Triangular Trade Trilogy, #1), price=13.99
+2025-12-03 00:31:39 [INFO] Parser: Parsed product - Starving Hearts (Triangular Trade Trilogy, #1), price: 13.99, category: Default
+2025-12-03 00:31:39 [INFO] Parser: Worker 1 sleeping for 1.0 seconds
+2025-12-03 00:31:39 [INFO] Parser: MechanizeAgent: File downloaded successfully, size 33573 bytes
+2025-12-03 00:31:39 [INFO] Parser: Image downloaded, size: 33573 bytes
+2025-12-03 00:31:39 [INFO] Parser: Image saved - Poetry/Shakespeares_Sonnets_1.jpg
+2025-12-03 00:31:39 [INFO] Parser: Creating Item object
+2025-12-03 00:31:39 [INFO] Item initialized: name=Shakespeare's Sonnets, price=20.66, category=Poetry
+2025-12-03 00:31:39 [INFO] Cart: Item added - name=Shakespeare's Sonnets, price=20.66
+2025-12-03 00:31:39 [INFO] Parser: Parsed product - Shakespeare's Sonnets, price: 20.66, category: Poetry
+2025-12-03 00:31:39 [INFO] Parser: Worker 2 sleeping for 1.0 seconds
+2025-12-03 00:31:40 [INFO] Parser: Worker 1 processing https://books.toscrape.com/catalogue/set-me-free_988/index.html
+2025-12-03 00:31:40 [INFO] Parser: Starting to parse product page: https://books.toscrape.com/catalogue/set-me-free_988/index.html
+2025-12-03 00:31:40 [INFO] Parser: Checking URL accessibility: https://books.toscrape.com/catalogue/set-me-free_988/index.html (max retries: 3)
+2025-12-03 00:31:40 [INFO] Parser: MechanizeAgent: Checking URL https://books.toscrape.com/catalogue/set-me-free_988/index.html
+2025-12-03 00:31:40 [INFO] Parser: Worker 2 processing https://books.toscrape.com/catalogue/scott-pilgrims-precious-little-life-scott-pilgrim-1_987/index.html
+2025-12-03 00:31:40 [INFO] Parser: Starting to parse product page: https://books.toscrape.com/catalogue/scott-pilgrims-precious-little-life-scott-pilgrim-1_987/index.html
+2025-12-03 00:31:40 [INFO] Parser: Checking URL accessibility: https://books.toscrape.com/catalogue/scott-pilgrims-precious-little-life-scott-pilgrim-1_987/index.html (max retries: 3)
+2025-12-03 00:31:40 [INFO] Parser: MechanizeAgent: Checking URL https://books.toscrape.com/catalogue/scott-pilgrims-precious-little-life-scott-pilgrim-1_987/index.html
+2025-12-03 00:31:40 [INFO] Parser: URL https://books.toscrape.com/catalogue/set-me-free_988/index.html is accessible, status: 200
+2025-12-03 00:31:40 [INFO] Parser: Fetching product page
+2025-12-03 00:31:40 [INFO] Parser: MechanizeAgent: Fetching page https://books.toscrape.com/catalogue/set-me-free_988/index.html
+2025-12-03 00:31:40 [INFO] Parser: URL https://books.toscrape.com/catalogue/scott-pilgrims-precious-little-life-scott-pilgrim-1_987/index.html is accessible, status: 200
+2025-12-03 00:31:40 [INFO] Parser: Fetching product page
+2025-12-03 00:31:40 [INFO] Parser: MechanizeAgent: Fetching page https://books.toscrape.com/catalogue/scott-pilgrims-precious-little-life-scott-pilgrim-1_987/index.html
+2025-12-03 00:31:40 [INFO] Parser: MechanizeAgent: Page fetched, status 200
+2025-12-03 00:31:40 [INFO] Parser: PageWrapper created, body size 18286 bytes, code 200
+2025-12-03 00:31:40 [INFO] Parser: Product page fetched successfully
+2025-12-03 00:31:40 [INFO] Parser: Extracting product data
+2025-12-03 00:31:40 [INFO] Parser: Product name found: Set Me Free
+2025-12-03 00:31:40 [INFO] Parser: Product name extracted: Set Me Free
+2025-12-03 00:31:40 [INFO] Parser: Product price found: £17.46 -> 17.46
+2025-12-03 00:31:40 [INFO] Parser: Product price extracted: 17.46
+2025-12-03 00:31:40 [INFO] Parser: Product description found, length: 19
+2025-12-03 00:31:40 [INFO] Parser: Product description extracted, length: 19
+2025-12-03 00:31:40 [INFO] Parser: Built full URL from relative path: https://books.toscrape.com/media/cache/b8/e9/b8e91bd2fc74c3954118999238abb4b8.jpg
+2025-12-03 00:31:40 [INFO] Parser: Product image URL found: https://books.toscrape.com/media/cache/b8/e9/b8e91bd2fc74c3954118999238abb4b8.jpg
+2025-12-03 00:31:40 [INFO] Parser: Product image URL extracted: https://books.toscrape.com/media/cache/b8/e9/b8e91bd2fc74c3954118999238abb4b8.jpg
+2025-12-03 00:31:40 [INFO] Parser: Product category found: Young Adult
+2025-12-03 00:31:40 [INFO] Parser: Product category extracted: Young Adult
+2025-12-03 00:31:40 [INFO] Parser: Starting image download and save
+2025-12-03 00:31:40 [INFO] Parser: Starting image download: https://books.toscrape.com/media/cache/b8/e9/b8e91bd2fc74c3954118999238abb4b8.jpg
+2025-12-03 00:31:40 [INFO] Parser: Filename sanitized: 'Young Adult' -> 'Young_Adult'
+2025-12-03 00:31:40 [INFO] Parser: Category directory name: Young_Adult
+2025-12-03 00:31:40 [INFO] Parser: Category directory already exists: D:/uchoba/5 course/Distributed database development technologies/1 lab/media/Young_Adult
+2025-12-03 00:31:40 [INFO] Parser: File extension extracted: .jpg from https://books.toscrape.com/media/cache/b8/e9/b8e91bd2fc74c3954118999238abb4b8.jpg
+2025-12-03 00:31:40 [INFO] Parser: File extension determined: .jpg
+2025-12-03 00:31:40 [INFO] Parser: Filename sanitized: 'Set Me Free' -> 'Set_Me_Free'
+2025-12-03 00:31:40 [INFO] Parser: Target file path: D:/uchoba/5 course/Distributed database development technologies/1 lab/media/Young_Adult/Set_Me_Free.jpg
+2025-12-03 00:31:40 [INFO] Parser: File already exists, generating unique name
+2025-12-03 00:31:40 [INFO] Parser: Filename sanitized: 'Set Me Free' -> 'Set_Me_Free'
+2025-12-03 00:31:40 [INFO] Parser: Unique filename generated: Set_Me_Free_1.jpg
+2025-12-03 00:31:40 [INFO] Parser: Downloading image file
+2025-12-03 00:31:40 [INFO] Parser: MechanizeAgent: Downloading file https://books.toscrape.com/media/cache/b8/e9/b8e91bd2fc74c3954118999238abb4b8.jpg
+2025-12-03 00:31:40 [INFO] Parser: MechanizeAgent: Page fetched, status 200
+2025-12-03 00:31:40 [INFO] Parser: PageWrapper created, body size 18760 bytes, code 200
+2025-12-03 00:31:40 [INFO] Parser: Product page fetched successfully
+2025-12-03 00:31:40 [INFO] Parser: Extracting product data
+2025-12-03 00:31:40 [INFO] Parser: Product name found: Scott Pilgrim's Precious Little Life (Scott Pilgrim #1)
+2025-12-03 00:31:40 [INFO] Parser: Product name extracted: Scott Pilgrim's Precious Little Life (Scott Pilgrim #1)
+2025-12-03 00:31:40 [INFO] Parser: Product price found: £52.29 -> 52.29
+2025-12-03 00:31:40 [INFO] Parser: Product price extracted: 52.29
+2025-12-03 00:31:40 [INFO] Parser: Product description found, length: 19
+2025-12-03 00:31:40 [INFO] Parser: Product description extracted, length: 19
+2025-12-03 00:31:40 [INFO] Parser: Built full URL from relative path: https://books.toscrape.com/media/cache/97/27/97275841c81e66d53bf9313cba06f23e.jpg
+2025-12-03 00:31:40 [INFO] Parser: Product image URL found: https://books.toscrape.com/media/cache/97/27/97275841c81e66d53bf9313cba06f23e.jpg
+2025-12-03 00:31:40 [INFO] Parser: Product image URL extracted: https://books.toscrape.com/media/cache/97/27/97275841c81e66d53bf9313cba06f23e.jpg
+2025-12-03 00:31:40 [INFO] Parser: Product category found: Sequential Art
+2025-12-03 00:31:40 [INFO] Parser: Product category extracted: Sequential Art
+2025-12-03 00:31:40 [INFO] Parser: Starting image download and save
+2025-12-03 00:31:40 [INFO] Parser: Starting image download: https://books.toscrape.com/media/cache/97/27/97275841c81e66d53bf9313cba06f23e.jpg
+2025-12-03 00:31:40 [INFO] Parser: Filename sanitized: 'Sequential Art' -> 'Sequential_Art'
+2025-12-03 00:31:40 [INFO] Parser: Category directory name: Sequential_Art
+2025-12-03 00:31:40 [INFO] Parser: Category directory already exists: D:/uchoba/5 course/Distributed database development technologies/1 lab/media/Sequential_Art
+2025-12-03 00:31:40 [INFO] Parser: File extension extracted: .jpg from https://books.toscrape.com/media/cache/97/27/97275841c81e66d53bf9313cba06f23e.jpg
+2025-12-03 00:31:40 [INFO] Parser: File extension determined: .jpg
+2025-12-03 00:31:40 [INFO] Parser: Filename sanitized: 'Scott Pilgrim's Precious Little Life (Scott Pilgrim #1)' -> 'Scott_Pilgrims_Precious_Little_Life_Scott_Pilgrim_1'
+2025-12-03 00:31:40 [INFO] Parser: Target file path: D:/uchoba/5 course/Distributed database development technologies/1 lab/media/Sequential_Art/Scott_Pilgrims_Precious_Little_Life_Scott_Pilgrim_1.jpg
+2025-12-03 00:31:40 [INFO] Parser: File already exists, generating unique name
+2025-12-03 00:31:40 [INFO] Parser: Filename sanitized: 'Scott Pilgrim's Precious Little Life (Scott Pilgrim #1)' -> 'Scott_Pilgrims_Precious_Little_Life_Scott_Pilgrim_1'
+2025-12-03 00:31:40 [INFO] Parser: Unique filename generated: Scott_Pilgrims_Precious_Little_Life_Scott_Pilgrim_1_1.jpg
+2025-12-03 00:31:40 [INFO] Parser: Downloading image file
+2025-12-03 00:31:40 [INFO] Parser: MechanizeAgent: Downloading file https://books.toscrape.com/media/cache/97/27/97275841c81e66d53bf9313cba06f23e.jpg
+2025-12-03 00:31:40 [INFO] Parser: MechanizeAgent: File downloaded successfully, size 36057 bytes
+2025-12-03 00:31:40 [INFO] Parser: Image downloaded, size: 36057 bytes
+2025-12-03 00:31:40 [INFO] Parser: Image saved - Young_Adult/Set_Me_Free_1.jpg
+2025-12-03 00:31:40 [INFO] Parser: Creating Item object
+2025-12-03 00:31:40 [INFO] Item initialized: name=Set Me Free, price=17.46, category=Young Adult
+2025-12-03 00:31:40 [INFO] Cart: Item added - name=Set Me Free, price=17.46
+2025-12-03 00:31:40 [INFO] Parser: Parsed product - Set Me Free, price: 17.46, category: Young Adult
+2025-12-03 00:31:40 [INFO] Parser: Worker 1 sleeping for 1.0 seconds
+2025-12-03 00:31:40 [INFO] Parser: MechanizeAgent: File downloaded successfully, size 39929 bytes
+2025-12-03 00:31:40 [INFO] Parser: Image downloaded, size: 39929 bytes
+2025-12-03 00:31:40 [INFO] Parser: Image saved - Sequential_Art/Scott_Pilgrims_Precious_Little_Life_Scott_Pilgrim_1_1.jpg
+2025-12-03 00:31:40 [INFO] Parser: Creating Item object
+2025-12-03 00:31:40 [INFO] Item initialized: name=Scott Pilgrim's Precious Little Life (Scott Pilgrim #1), price=52.29, category=Sequential Art
+2025-12-03 00:31:40 [INFO] Cart: Item added - name=Scott Pilgrim's Precious Little Life (Scott Pilgrim #1), price=52.29
+2025-12-03 00:31:40 [INFO] Parser: Parsed product - Scott Pilgrim's Precious Little Life (Scott Pilgrim #1), price: 52.29, category: Sequential Art
+2025-12-03 00:31:40 [INFO] Parser: Worker 2 sleeping for 1.0 seconds
+2025-12-03 00:31:41 [INFO] Parser: Worker 1 processing https://books.toscrape.com/catalogue/rip-it-up-and-start-again_986/index.html
+2025-12-03 00:31:41 [INFO] Parser: Starting to parse product page: https://books.toscrape.com/catalogue/rip-it-up-and-start-again_986/index.html
+2025-12-03 00:31:41 [INFO] Parser: Checking URL accessibility: https://books.toscrape.com/catalogue/rip-it-up-and-start-again_986/index.html (max retries: 3)
+2025-12-03 00:31:41 [INFO] Parser: MechanizeAgent: Checking URL https://books.toscrape.com/catalogue/rip-it-up-and-start-again_986/index.html
+2025-12-03 00:31:41 [INFO] Parser: Worker 2 processing https://books.toscrape.com/catalogue/our-band-could-be-your-life-scenes-from-the-american-indie-underground-1981-1991_985/index.html
+2025-12-03 00:31:41 [INFO] Parser: Starting to parse product page: https://books.toscrape.com/catalogue/our-band-could-be-your-life-scenes-from-the-american-indie-underground-1981-1991_985/index.html
+2025-12-03 00:31:41 [INFO] Parser: Checking URL accessibility: https://books.toscrape.com/catalogue/our-band-could-be-your-life-scenes-from-the-american-indie-underground-1981-1991_985/index.html (max retries: 3)
+2025-12-03 00:31:41 [INFO] Parser: MechanizeAgent: Checking URL https://books.toscrape.com/catalogue/our-band-could-be-your-life-scenes-from-the-american-indie-underground-1981-1991_985/index.html
+2025-12-03 00:31:41 [INFO] Parser: URL https://books.toscrape.com/catalogue/rip-it-up-and-start-again_986/index.html is accessible, status: 200
+2025-12-03 00:31:41 [INFO] Parser: Fetching product page
+2025-12-03 00:31:41 [INFO] Parser: MechanizeAgent: Fetching page https://books.toscrape.com/catalogue/rip-it-up-and-start-again_986/index.html
+2025-12-03 00:31:42 [INFO] Parser: URL https://books.toscrape.com/catalogue/our-band-could-be-your-life-scenes-from-the-american-indie-underground-1981-1991_985/index.html is accessible, status: 200
+2025-12-03 00:31:42 [INFO] Parser: Fetching product page
+2025-12-03 00:31:42 [INFO] Parser: MechanizeAgent: Fetching page https://books.toscrape.com/catalogue/our-band-could-be-your-life-scenes-from-the-american-indie-underground-1981-1991_985/index.html
+2025-12-03 00:31:42 [INFO] Parser: MechanizeAgent: Page fetched, status 200
+2025-12-03 00:31:42 [INFO] Parser: PageWrapper created, body size 18360 bytes, code 200
+2025-12-03 00:31:42 [INFO] Parser: Product page fetched successfully
+2025-12-03 00:31:42 [INFO] Parser: Extracting product data
+2025-12-03 00:31:42 [INFO] Parser: Product name found: Rip it Up and Start Again
+2025-12-03 00:31:42 [INFO] Parser: Product name extracted: Rip it Up and Start Again
+2025-12-03 00:31:42 [INFO] Parser: Product price found: £35.02 -> 35.02
+2025-12-03 00:31:42 [INFO] Parser: Product price extracted: 35.02
+2025-12-03 00:31:42 [INFO] Parser: Product description found, length: 19
+2025-12-03 00:31:42 [INFO] Parser: Product description extracted, length: 19
+2025-12-03 00:31:42 [INFO] Parser: Built full URL from relative path: https://books.toscrape.com/media/cache/81/7f/817f5089c0e6e62738dce2931e7323d3.jpg
+2025-12-03 00:31:42 [INFO] Parser: Product image URL found: https://books.toscrape.com/media/cache/81/7f/817f5089c0e6e62738dce2931e7323d3.jpg
+2025-12-03 00:31:42 [INFO] Parser: Product image URL extracted: https://books.toscrape.com/media/cache/81/7f/817f5089c0e6e62738dce2931e7323d3.jpg
+2025-12-03 00:31:42 [INFO] Parser: Product category found: Music
+2025-12-03 00:31:42 [INFO] Parser: Product category extracted: Music
+2025-12-03 00:31:42 [INFO] Parser: Starting image download and save
+2025-12-03 00:31:42 [INFO] Parser: Starting image download: https://books.toscrape.com/media/cache/81/7f/817f5089c0e6e62738dce2931e7323d3.jpg
+2025-12-03 00:31:42 [INFO] Parser: Filename sanitized: 'Music' -> 'Music'
+2025-12-03 00:31:42 [INFO] Parser: Category directory name: Music
+2025-12-03 00:31:42 [INFO] Parser: Category directory already exists: D:/uchoba/5 course/Distributed database development technologies/1 lab/media/Music
+2025-12-03 00:31:42 [INFO] Parser: File extension extracted: .jpg from https://books.toscrape.com/media/cache/81/7f/817f5089c0e6e62738dce2931e7323d3.jpg
+2025-12-03 00:31:42 [INFO] Parser: File extension determined: .jpg
+2025-12-03 00:31:42 [INFO] Parser: Filename sanitized: 'Rip it Up and Start Again' -> 'Rip_it_Up_and_Start_Again'
+2025-12-03 00:31:42 [INFO] Parser: Target file path: D:/uchoba/5 course/Distributed database development technologies/1 lab/media/Music/Rip_it_Up_and_Start_Again.jpg
+2025-12-03 00:31:42 [INFO] Parser: File already exists, generating unique name
+2025-12-03 00:31:42 [INFO] Parser: Filename sanitized: 'Rip it Up and Start Again' -> 'Rip_it_Up_and_Start_Again'
+2025-12-03 00:31:42 [INFO] Parser: Unique filename generated: Rip_it_Up_and_Start_Again_1.jpg
+2025-12-03 00:31:42 [INFO] Parser: Downloading image file
+2025-12-03 00:31:42 [INFO] Parser: MechanizeAgent: Downloading file https://books.toscrape.com/media/cache/81/7f/817f5089c0e6e62738dce2931e7323d3.jpg
+2025-12-03 00:31:42 [INFO] Parser: MechanizeAgent: Page fetched, status 200
+2025-12-03 00:31:42 [INFO] Parser: PageWrapper created, body size 18795 bytes, code 200
+2025-12-03 00:31:42 [INFO] Parser: Product page fetched successfully
+2025-12-03 00:31:42 [INFO] Parser: Extracting product data
+2025-12-03 00:31:42 [INFO] Parser: Product name found: Our Band Could Be Your Life: Scenes from the American Indie Underground, 1981-1991
+2025-12-03 00:31:42 [INFO] Parser: Product name extracted: Our Band Could Be Your Life: Scenes from the American Indie Underground, 1981-1991
+2025-12-03 00:31:42 [INFO] Parser: Product price found: £57.25 -> 57.25
+2025-12-03 00:31:42 [INFO] Parser: Product price extracted: 57.25
+2025-12-03 00:31:42 [INFO] Parser: Product description found, length: 19
+2025-12-03 00:31:42 [INFO] Parser: Product description extracted, length: 19
+2025-12-03 00:31:42 [INFO] Parser: Built full URL from relative path: https://books.toscrape.com/media/cache/ad/96/ad96e9c9f1664cbcb0e9627b007fb6f9.jpg
+2025-12-03 00:31:42 [INFO] Parser: Product image URL found: https://books.toscrape.com/media/cache/ad/96/ad96e9c9f1664cbcb0e9627b007fb6f9.jpg
+2025-12-03 00:31:42 [INFO] Parser: Product image URL extracted: https://books.toscrape.com/media/cache/ad/96/ad96e9c9f1664cbcb0e9627b007fb6f9.jpg
+2025-12-03 00:31:42 [INFO] Parser: Product category found: Music
+2025-12-03 00:31:42 [INFO] Parser: Product category extracted: Music
+2025-12-03 00:31:42 [INFO] Parser: Starting image download and save
+2025-12-03 00:31:42 [INFO] Parser: Starting image download: https://books.toscrape.com/media/cache/ad/96/ad96e9c9f1664cbcb0e9627b007fb6f9.jpg
+2025-12-03 00:31:42 [INFO] Parser: Filename sanitized: 'Music' -> 'Music'
+2025-12-03 00:31:42 [INFO] Parser: Category directory name: Music
+2025-12-03 00:31:42 [INFO] Parser: Category directory already exists: D:/uchoba/5 course/Distributed database development technologies/1 lab/media/Music
+2025-12-03 00:31:42 [INFO] Parser: File extension extracted: .jpg from https://books.toscrape.com/media/cache/ad/96/ad96e9c9f1664cbcb0e9627b007fb6f9.jpg
+2025-12-03 00:31:42 [INFO] Parser: File extension determined: .jpg
+2025-12-03 00:31:42 [INFO] Parser: Filename sanitized: 'Our Band Could Be Your Life: Scenes from the American Indie Underground, 1981-1991' -> 'Our_Band_Could_Be_Your_Life_Scenes_from_the_American_Indie_Underground_1981-1991'
+2025-12-03 00:31:42 [INFO] Parser: Target file path: D:/uchoba/5 course/Distributed database development technologies/1 lab/media/Music/Our_Band_Could_Be_Your_Life_Scenes_from_the_American_Indie_Underground_1981-1991.jpg
+2025-12-03 00:31:42 [INFO] Parser: File already exists, generating unique name
+2025-12-03 00:31:42 [INFO] Parser: Filename sanitized: 'Our Band Could Be Your Life: Scenes from the American Indie Underground, 1981-1991' -> 'Our_Band_Could_Be_Your_Life_Scenes_from_the_American_Indie_Underground_1981-1991'
+2025-12-03 00:31:42 [INFO] Parser: Unique filename generated: Our_Band_Could_Be_Your_Life_Scenes_from_the_American_Indie_Underground_1981-1991_1.jpg
+2025-12-03 00:31:42 [INFO] Parser: Downloading image file
+2025-12-03 00:31:42 [INFO] Parser: MechanizeAgent: Downloading file https://books.toscrape.com/media/cache/ad/96/ad96e9c9f1664cbcb0e9627b007fb6f9.jpg
+2025-12-03 00:31:42 [INFO] Parser: MechanizeAgent: File downloaded successfully, size 30823 bytes
+2025-12-03 00:31:42 [INFO] Parser: Image downloaded, size: 30823 bytes
+2025-12-03 00:31:42 [INFO] Parser: Image saved - Music/Rip_it_Up_and_Start_Again_1.jpg
+2025-12-03 00:31:42 [INFO] Parser: Creating Item object
+2025-12-03 00:31:42 [INFO] Item initialized: name=Rip it Up and Start Again, price=35.02, category=Music
+2025-12-03 00:31:42 [INFO] Cart: Item added - name=Rip it Up and Start Again, price=35.02
+2025-12-03 00:31:42 [INFO] Parser: Parsed product - Rip it Up and Start Again, price: 35.02, category: Music
+2025-12-03 00:31:42 [INFO] Parser: Worker 1 sleeping for 1.0 seconds
+2025-12-03 00:31:42 [INFO] Parser: MechanizeAgent: File downloaded successfully, size 52727 bytes
+2025-12-03 00:31:42 [INFO] Parser: Image downloaded, size: 52727 bytes
+2025-12-03 00:31:42 [INFO] Parser: Image saved - Music/Our_Band_Could_Be_Your_Life_Scenes_from_the_American_Indie_Underground_1981-1991_1.jpg
+2025-12-03 00:31:42 [INFO] Parser: Creating Item object
+2025-12-03 00:31:42 [INFO] Item initialized: name=Our Band Could Be Your Life: Scenes from the American Indie Underground, 1981-1991, price=57.25, category=Music
+2025-12-03 00:31:42 [INFO] Cart: Item added - name=Our Band Could Be Your Life: Scenes from the American Indie Underground, 1981-1991, price=57.25
+2025-12-03 00:31:42 [INFO] Parser: Parsed product - Our Band Could Be Your Life: Scenes from the American Indie Underground, 1981-1991, price: 57.25, category: Music
+2025-12-03 00:31:42 [INFO] Parser: Worker 2 sleeping for 1.0 seconds
+2025-12-03 00:31:43 [INFO] Parser: Worker 1 processing https://books.toscrape.com/catalogue/olio_984/index.html
+2025-12-03 00:31:43 [INFO] Parser: Starting to parse product page: https://books.toscrape.com/catalogue/olio_984/index.html
+2025-12-03 00:31:43 [INFO] Parser: Checking URL accessibility: https://books.toscrape.com/catalogue/olio_984/index.html (max retries: 3)
+2025-12-03 00:31:43 [INFO] Parser: MechanizeAgent: Checking URL https://books.toscrape.com/catalogue/olio_984/index.html
+2025-12-03 00:31:43 [INFO] Parser: URL https://books.toscrape.com/catalogue/olio_984/index.html is accessible, status: 200
+2025-12-03 00:31:43 [INFO] Parser: Fetching product page
+2025-12-03 00:31:43 [INFO] Parser: MechanizeAgent: Fetching page https://books.toscrape.com/catalogue/olio_984/index.html
+2025-12-03 00:31:43 [INFO] Parser: Worker 2 processing https://books.toscrape.com/catalogue/mesaerion-the-best-science-fiction-stories-1800-1849_983/index.html
+2025-12-03 00:31:43 [INFO] Parser: Starting to parse product page: https://books.toscrape.com/catalogue/mesaerion-the-best-science-fiction-stories-1800-1849_983/index.html
+2025-12-03 00:31:43 [INFO] Parser: Checking URL accessibility: https://books.toscrape.com/catalogue/mesaerion-the-best-science-fiction-stories-1800-1849_983/index.html (max retries: 3)
+2025-12-03 00:31:43 [INFO] Parser: MechanizeAgent: Checking URL https://books.toscrape.com/catalogue/mesaerion-the-best-science-fiction-stories-1800-1849_983/index.html
+2025-12-03 00:31:43 [INFO] Parser: URL https://books.toscrape.com/catalogue/mesaerion-the-best-science-fiction-stories-1800-1849_983/index.html is accessible, status: 200
+2025-12-03 00:31:43 [INFO] Parser: Fetching product page
+2025-12-03 00:31:43 [INFO] Parser: MechanizeAgent: Fetching page https://books.toscrape.com/catalogue/mesaerion-the-best-science-fiction-stories-1800-1849_983/index.html
+2025-12-03 00:31:43 [INFO] Parser: MechanizeAgent: Page fetched, status 200
+2025-12-03 00:31:43 [INFO] Parser: PageWrapper created, body size 19527 bytes, code 200
+2025-12-03 00:31:43 [INFO] Parser: Product page fetched successfully
+2025-12-03 00:31:43 [INFO] Parser: Extracting product data
+2025-12-03 00:31:43 [INFO] Parser: Product name found: Olio
+2025-12-03 00:31:43 [INFO] Parser: Product name extracted: Olio
+2025-12-03 00:31:43 [INFO] Parser: Product price found: £23.88 -> 23.88
+2025-12-03 00:31:43 [INFO] Parser: Product price extracted: 23.88
+2025-12-03 00:31:43 [INFO] Parser: Product description found, length: 19
+2025-12-03 00:31:43 [INFO] Parser: Product description extracted, length: 19
+2025-12-03 00:31:43 [INFO] Parser: Built full URL from relative path: https://books.toscrape.com/media/cache/b1/0e/b10eabab1e1c811a6d47969904fd5755.jpg
+2025-12-03 00:31:43 [INFO] Parser: Product image URL found: https://books.toscrape.com/media/cache/b1/0e/b10eabab1e1c811a6d47969904fd5755.jpg
+2025-12-03 00:31:43 [INFO] Parser: Product image URL extracted: https://books.toscrape.com/media/cache/b1/0e/b10eabab1e1c811a6d47969904fd5755.jpg
+2025-12-03 00:31:43 [INFO] Parser: Product category found: Poetry
+2025-12-03 00:31:43 [INFO] Parser: Product category extracted: Poetry
+2025-12-03 00:31:43 [INFO] Parser: Starting image download and save
+2025-12-03 00:31:43 [INFO] Parser: Starting image download: https://books.toscrape.com/media/cache/b1/0e/b10eabab1e1c811a6d47969904fd5755.jpg
+2025-12-03 00:31:43 [INFO] Parser: Filename sanitized: 'Poetry' -> 'Poetry'
+2025-12-03 00:31:43 [INFO] Parser: Category directory name: Poetry
+2025-12-03 00:31:43 [INFO] Parser: Category directory already exists: D:/uchoba/5 course/Distributed database development technologies/1 lab/media/Poetry
+2025-12-03 00:31:43 [INFO] Parser: File extension extracted: .jpg from https://books.toscrape.com/media/cache/b1/0e/b10eabab1e1c811a6d47969904fd5755.jpg
+2025-12-03 00:31:43 [INFO] Parser: File extension determined: .jpg
+2025-12-03 00:31:43 [INFO] Parser: Filename sanitized: 'Olio' -> 'Olio'
+2025-12-03 00:31:43 [INFO] Parser: Target file path: D:/uchoba/5 course/Distributed database development technologies/1 lab/media/Poetry/Olio.jpg
+2025-12-03 00:31:43 [INFO] Parser: File already exists, generating unique name
+2025-12-03 00:31:43 [INFO] Parser: Filename sanitized: 'Olio' -> 'Olio'
+2025-12-03 00:31:43 [INFO] Parser: Unique filename generated: Olio_1.jpg
+2025-12-03 00:31:43 [INFO] Parser: Downloading image file
+2025-12-03 00:31:43 [INFO] Parser: MechanizeAgent: Downloading file https://books.toscrape.com/media/cache/b1/0e/b10eabab1e1c811a6d47969904fd5755.jpg
+2025-12-03 00:31:43 [INFO] Parser: MechanizeAgent: File downloaded successfully, size 8276 bytes
+2025-12-03 00:31:43 [INFO] Parser: Image downloaded, size: 8276 bytes
+2025-12-03 00:31:43 [INFO] Parser: Image saved - Poetry/Olio_1.jpg
+2025-12-03 00:31:43 [INFO] Parser: Creating Item object
+2025-12-03 00:31:43 [INFO] Item initialized: name=Olio, price=23.88, category=Poetry
+2025-12-03 00:31:43 [INFO] Cart: Item added - name=Olio, price=23.88
+2025-12-03 00:31:43 [INFO] Parser: Parsed product - Olio, price: 23.88, category: Poetry
+2025-12-03 00:31:43 [INFO] Parser: Worker 1 sleeping for 1.0 seconds
+2025-12-03 00:31:44 [INFO] Parser: MechanizeAgent: Page fetched, status 200
+2025-12-03 00:31:44 [INFO] Parser: PageWrapper created, body size 19954 bytes, code 200
+2025-12-03 00:31:44 [INFO] Parser: Product page fetched successfully
+2025-12-03 00:31:44 [INFO] Parser: Extracting product data
+2025-12-03 00:31:44 [INFO] Parser: Product name found: Mesaerion: The Best Science Fiction Stories 1800-1849
+2025-12-03 00:31:44 [INFO] Parser: Product name extracted: Mesaerion: The Best Science Fiction Stories 1800-1849
+2025-12-03 00:31:44 [INFO] Parser: Product price found: £37.59 -> 37.59
+2025-12-03 00:31:44 [INFO] Parser: Product price extracted: 37.59
+2025-12-03 00:31:44 [INFO] Parser: Product description found, length: 19
+2025-12-03 00:31:44 [INFO] Parser: Product description extracted, length: 19
+2025-12-03 00:31:44 [INFO] Parser: Built full URL from relative path: https://books.toscrape.com/media/cache/e8/1f/e81f850db9b9622c65619c9f15748de7.jpg
+2025-12-03 00:31:44 [INFO] Parser: Product image URL found: https://books.toscrape.com/media/cache/e8/1f/e81f850db9b9622c65619c9f15748de7.jpg
+2025-12-03 00:31:44 [INFO] Parser: Product image URL extracted: https://books.toscrape.com/media/cache/e8/1f/e81f850db9b9622c65619c9f15748de7.jpg
+2025-12-03 00:31:44 [INFO] Parser: Product category found: Science Fiction
+2025-12-03 00:31:44 [INFO] Parser: Product category extracted: Science Fiction
+2025-12-03 00:31:44 [INFO] Parser: Starting image download and save
+2025-12-03 00:31:44 [INFO] Parser: Starting image download: https://books.toscrape.com/media/cache/e8/1f/e81f850db9b9622c65619c9f15748de7.jpg
+2025-12-03 00:31:44 [INFO] Parser: Filename sanitized: 'Science Fiction' -> 'Science_Fiction'
+2025-12-03 00:31:44 [INFO] Parser: Category directory name: Science_Fiction
+2025-12-03 00:31:44 [INFO] Parser: Category directory already exists: D:/uchoba/5 course/Distributed database development technologies/1 lab/media/Science_Fiction
+2025-12-03 00:31:44 [INFO] Parser: File extension extracted: .jpg from https://books.toscrape.com/media/cache/e8/1f/e81f850db9b9622c65619c9f15748de7.jpg
+2025-12-03 00:31:44 [INFO] Parser: File extension determined: .jpg
+2025-12-03 00:31:44 [INFO] Parser: Filename sanitized: 'Mesaerion: The Best Science Fiction Stories 1800-1849' -> 'Mesaerion_The_Best_Science_Fiction_Stories_1800-1849'
+2025-12-03 00:31:44 [INFO] Parser: Target file path: D:/uchoba/5 course/Distributed database development technologies/1 lab/media/Science_Fiction/Mesaerion_The_Best_Science_Fiction_Stories_1800-1849.jpg
+2025-12-03 00:31:44 [INFO] Parser: File already exists, generating unique name
+2025-12-03 00:31:44 [INFO] Parser: Filename sanitized: 'Mesaerion: The Best Science Fiction Stories 1800-1849' -> 'Mesaerion_The_Best_Science_Fiction_Stories_1800-1849'
+2025-12-03 00:31:44 [INFO] Parser: Unique filename generated: Mesaerion_The_Best_Science_Fiction_Stories_1800-1849_1.jpg
+2025-12-03 00:31:44 [INFO] Parser: Downloading image file
+2025-12-03 00:31:44 [INFO] Parser: MechanizeAgent: Downloading file https://books.toscrape.com/media/cache/e8/1f/e81f850db9b9622c65619c9f15748de7.jpg
+2025-12-03 00:31:44 [INFO] Parser: MechanizeAgent: File downloaded successfully, size 50384 bytes
+2025-12-03 00:31:44 [INFO] Parser: Image downloaded, size: 50384 bytes
+2025-12-03 00:31:44 [INFO] Parser: Image saved - Science_Fiction/Mesaerion_The_Best_Science_Fiction_Stories_1800-1849_1.jpg
+2025-12-03 00:31:44 [INFO] Parser: Creating Item object
+2025-12-03 00:31:44 [INFO] Item initialized: name=Mesaerion: The Best Science Fiction Stories 1800-1849, price=37.59, category=Science Fiction
+2025-12-03 00:31:44 [INFO] Cart: Item added - name=Mesaerion: The Best Science Fiction Stories 1800-1849, price=37.59
+2025-12-03 00:31:44 [INFO] Parser: Parsed product - Mesaerion: The Best Science Fiction Stories 1800-1849, price: 37.59, category: Science Fiction
+2025-12-03 00:31:44 [INFO] Parser: Worker 2 sleeping for 1.0 seconds
+2025-12-03 00:31:45 [INFO] Parser: Worker 1 processing https://books.toscrape.com/catalogue/libertarianism-for-beginners_982/index.html
+2025-12-03 00:31:45 [INFO] Parser: Starting to parse product page: https://books.toscrape.com/catalogue/libertarianism-for-beginners_982/index.html
+2025-12-03 00:31:45 [INFO] Parser: Checking URL accessibility: https://books.toscrape.com/catalogue/libertarianism-for-beginners_982/index.html (max retries: 3)
+2025-12-03 00:31:45 [INFO] Parser: MechanizeAgent: Checking URL https://books.toscrape.com/catalogue/libertarianism-for-beginners_982/index.html
+2025-12-03 00:31:45 [INFO] Parser: URL https://books.toscrape.com/catalogue/libertarianism-for-beginners_982/index.html is accessible, status: 200
+2025-12-03 00:31:45 [INFO] Parser: Fetching product page
+2025-12-03 00:31:45 [INFO] Parser: MechanizeAgent: Fetching page https://books.toscrape.com/catalogue/libertarianism-for-beginners_982/index.html
+2025-12-03 00:31:45 [INFO] Parser: Worker 2 processing https://books.toscrape.com/catalogue/its-only-the-himalayas_981/index.html
+2025-12-03 00:31:45 [INFO] Parser: Starting to parse product page: https://books.toscrape.com/catalogue/its-only-the-himalayas_981/index.html
+2025-12-03 00:31:45 [INFO] Parser: Checking URL accessibility: https://books.toscrape.com/catalogue/its-only-the-himalayas_981/index.html (max retries: 3)
+2025-12-03 00:31:45 [INFO] Parser: MechanizeAgent: Checking URL https://books.toscrape.com/catalogue/its-only-the-himalayas_981/index.html
+2025-12-03 00:31:45 [INFO] Parser: MechanizeAgent: Page fetched, status 200
+2025-12-03 00:31:45 [INFO] Parser: PageWrapper created, body size 18956 bytes, code 200
+2025-12-03 00:31:45 [INFO] Parser: Product page fetched successfully
+2025-12-03 00:31:45 [INFO] Parser: Extracting product data
+2025-12-03 00:31:45 [INFO] Parser: Product name found: Libertarianism for Beginners
+2025-12-03 00:31:45 [INFO] Parser: Product name extracted: Libertarianism for Beginners
+2025-12-03 00:31:45 [INFO] Parser: Product price found: £51.33 -> 51.33
+2025-12-03 00:31:45 [INFO] Parser: Product price extracted: 51.33
+2025-12-03 00:31:45 [INFO] Parser: Product description found, length: 19
+2025-12-03 00:31:45 [INFO] Parser: Product description extracted, length: 19
+2025-12-03 00:31:45 [INFO] Parser: Built full URL from relative path: https://books.toscrape.com/media/cache/91/a4/91a46253e165d144ef5938f2d456b88f.jpg
+2025-12-03 00:31:45 [INFO] Parser: Product image URL found: https://books.toscrape.com/media/cache/91/a4/91a46253e165d144ef5938f2d456b88f.jpg
+2025-12-03 00:31:45 [INFO] Parser: Product image URL extracted: https://books.toscrape.com/media/cache/91/a4/91a46253e165d144ef5938f2d456b88f.jpg
+2025-12-03 00:31:45 [INFO] Parser: Product category found: Politics
+2025-12-03 00:31:45 [INFO] Parser: Product category extracted: Politics
+2025-12-03 00:31:45 [INFO] Parser: Starting image download and save
+2025-12-03 00:31:45 [INFO] Parser: Starting image download: https://books.toscrape.com/media/cache/91/a4/91a46253e165d144ef5938f2d456b88f.jpg
+2025-12-03 00:31:45 [INFO] Parser: Filename sanitized: 'Politics' -> 'Politics'
+2025-12-03 00:31:45 [INFO] Parser: Category directory name: Politics
+2025-12-03 00:31:45 [INFO] Parser: Category directory already exists: D:/uchoba/5 course/Distributed database development technologies/1 lab/media/Politics
+2025-12-03 00:31:45 [INFO] Parser: File extension extracted: .jpg from https://books.toscrape.com/media/cache/91/a4/91a46253e165d144ef5938f2d456b88f.jpg
+2025-12-03 00:31:45 [INFO] Parser: File extension determined: .jpg
+2025-12-03 00:31:45 [INFO] Parser: Filename sanitized: 'Libertarianism for Beginners' -> 'Libertarianism_for_Beginners'
+2025-12-03 00:31:45 [INFO] Parser: Target file path: D:/uchoba/5 course/Distributed database development technologies/1 lab/media/Politics/Libertarianism_for_Beginners.jpg
+2025-12-03 00:31:45 [INFO] Parser: File already exists, generating unique name
+2025-12-03 00:31:45 [INFO] Parser: Filename sanitized: 'Libertarianism for Beginners' -> 'Libertarianism_for_Beginners'
+2025-12-03 00:31:45 [INFO] Parser: Unique filename generated: Libertarianism_for_Beginners_1.jpg
+2025-12-03 00:31:45 [INFO] Parser: Downloading image file
+2025-12-03 00:31:45 [INFO] Parser: MechanizeAgent: Downloading file https://books.toscrape.com/media/cache/91/a4/91a46253e165d144ef5938f2d456b88f.jpg
+2025-12-03 00:31:45 [INFO] Parser: URL https://books.toscrape.com/catalogue/its-only-the-himalayas_981/index.html is accessible, status: 200
+2025-12-03 00:31:45 [INFO] Parser: Fetching product page
+2025-12-03 00:31:45 [INFO] Parser: MechanizeAgent: Fetching page https://books.toscrape.com/catalogue/its-only-the-himalayas_981/index.html
+2025-12-03 00:31:45 [INFO] Parser: MechanizeAgent: File downloaded successfully, size 36411 bytes
+2025-12-03 00:31:45 [INFO] Parser: Image downloaded, size: 36411 bytes
+2025-12-03 00:31:45 [INFO] Parser: Image saved - Politics/Libertarianism_for_Beginners_1.jpg
+2025-12-03 00:31:45 [INFO] Parser: Creating Item object
+2025-12-03 00:31:45 [INFO] Item initialized: name=Libertarianism for Beginners, price=51.33, category=Politics
+2025-12-03 00:31:45 [INFO] Cart: Item added - name=Libertarianism for Beginners, price=51.33
+2025-12-03 00:31:45 [INFO] Parser: Parsed product - Libertarianism for Beginners, price: 51.33, category: Politics
+2025-12-03 00:31:45 [INFO] Parser: Worker 1 sleeping for 1.0 seconds
+2025-12-03 00:31:45 [INFO] Parser: MechanizeAgent: Page fetched, status 200
+2025-12-03 00:31:45 [INFO] Parser: PageWrapper created, body size 19362 bytes, code 200
+2025-12-03 00:31:45 [INFO] Parser: Product page fetched successfully
+2025-12-03 00:31:45 [INFO] Parser: Extracting product data
+2025-12-03 00:31:45 [INFO] Parser: Product name found: It's Only the Himalayas
+2025-12-03 00:31:45 [INFO] Parser: Product name extracted: It's Only the Himalayas
+2025-12-03 00:31:45 [INFO] Parser: Product price found: £45.17 -> 45.17
+2025-12-03 00:31:45 [INFO] Parser: Product price extracted: 45.17
+2025-12-03 00:31:45 [INFO] Parser: Product description found, length: 19
+2025-12-03 00:31:45 [INFO] Parser: Product description extracted, length: 19
+2025-12-03 00:31:45 [INFO] Parser: Built full URL from relative path: https://books.toscrape.com/media/cache/6d/41/6d418a73cc7d4ecfd75ca11d854041db.jpg
+2025-12-03 00:31:45 [INFO] Parser: Product image URL found: https://books.toscrape.com/media/cache/6d/41/6d418a73cc7d4ecfd75ca11d854041db.jpg
+2025-12-03 00:31:45 [INFO] Parser: Product image URL extracted: https://books.toscrape.com/media/cache/6d/41/6d418a73cc7d4ecfd75ca11d854041db.jpg
+2025-12-03 00:31:45 [INFO] Parser: Product category found: Travel
+2025-12-03 00:31:45 [INFO] Parser: Product category extracted: Travel
+2025-12-03 00:31:45 [INFO] Parser: Starting image download and save
+2025-12-03 00:31:45 [INFO] Parser: Starting image download: https://books.toscrape.com/media/cache/6d/41/6d418a73cc7d4ecfd75ca11d854041db.jpg
+2025-12-03 00:31:45 [INFO] Parser: Filename sanitized: 'Travel' -> 'Travel'
+2025-12-03 00:31:45 [INFO] Parser: Category directory name: Travel
+2025-12-03 00:31:45 [INFO] Parser: Category directory already exists: D:/uchoba/5 course/Distributed database development technologies/1 lab/media/Travel
+2025-12-03 00:31:45 [INFO] Parser: File extension extracted: .jpg from https://books.toscrape.com/media/cache/6d/41/6d418a73cc7d4ecfd75ca11d854041db.jpg
+2025-12-03 00:31:45 [INFO] Parser: File extension determined: .jpg
+2025-12-03 00:31:45 [INFO] Parser: Filename sanitized: 'It's Only the Himalayas' -> 'Its_Only_the_Himalayas'
+2025-12-03 00:31:45 [INFO] Parser: Target file path: D:/uchoba/5 course/Distributed database development technologies/1 lab/media/Travel/Its_Only_the_Himalayas.jpg
+2025-12-03 00:31:45 [INFO] Parser: File already exists, generating unique name
+2025-12-03 00:31:45 [INFO] Parser: Filename sanitized: 'It's Only the Himalayas' -> 'Its_Only_the_Himalayas'
+2025-12-03 00:31:45 [INFO] Parser: Unique filename generated: Its_Only_the_Himalayas_1.jpg
+2025-12-03 00:31:45 [INFO] Parser: Downloading image file
+2025-12-03 00:31:45 [INFO] Parser: MechanizeAgent: Downloading file https://books.toscrape.com/media/cache/6d/41/6d418a73cc7d4ecfd75ca11d854041db.jpg
+2025-12-03 00:31:46 [INFO] Parser: MechanizeAgent: File downloaded successfully, size 51619 bytes
+2025-12-03 00:31:46 [INFO] Parser: Image downloaded, size: 51619 bytes
+2025-12-03 00:31:46 [INFO] Parser: Image saved - Travel/Its_Only_the_Himalayas_1.jpg
+2025-12-03 00:31:46 [INFO] Parser: Creating Item object
+2025-12-03 00:31:46 [INFO] Item initialized: name=It's Only the Himalayas, price=45.17, category=Travel
+2025-12-03 00:31:46 [INFO] Cart: Item added - name=It's Only the Himalayas, price=45.17
+2025-12-03 00:31:46 [INFO] Parser: Parsed product - It's Only the Himalayas, price: 45.17, category: Travel
+2025-12-03 00:31:46 [INFO] Parser: Worker 2 sleeping for 1.0 seconds
+2025-12-03 00:31:46 [INFO] Parser: Worker 1 finished
+2025-12-03 00:31:47 [INFO] Parser: Worker 2 finished
+2025-12-03 00:31:47 [INFO] Parser: Parsing completed. Total items: 20
+2025-12-03 00:31:47 [INFO] Engine: Website parser finished, items=20
+2025-12-03 00:31:47 [INFO] Engine: Running method run_save_to_csv
+2025-12-03 00:31:47 [INFO] Cart: Starting save to CSV file output/data.csv
+2025-12-03 00:31:47 [INFO] Cart: Successfully saved 20 items to CSV file output/data.csv
+2025-12-03 00:31:47 [INFO] Engine: Data saved to CSV output/data.csv
+2025-12-03 00:31:47 [INFO] Engine: Running method run_save_to_json
+2025-12-03 00:31:47 [INFO] Cart: Starting save to JSON file output/data.json
+2025-12-03 00:31:47 [INFO] Cart: Successfully saved 20 items to JSON file output/data.json
+2025-12-03 00:31:47 [INFO] Engine: Data saved to JSON output/data.json
+2025-12-03 00:31:47 [INFO] Engine: Running method run_save_to_yaml
+2025-12-03 00:31:47 [INFO] Cart: Starting save to YAML directory output/yaml
+2025-12-03 00:31:47 [INFO] Cart: Successfully saved 20 items to YAML directory output/yaml
+2025-12-03 00:31:47 [INFO] Engine: Data saved to YAML directory output/yaml
+2025-12-03 00:31:47 [INFO] Engine: Running method run_save_to_mongodb
+2025-12-03 00:31:47 [INFO] Engine: Items saved to MongoDB
+2025-12-03 00:31:47 [INFO] Engine: Results archived to output/results_20251203_003147.zip
+2025-12-03 00:31:47 [INFO] Engine: Archive sending scheduled for valentynvikovan@gmail.com
+2025-12-03 00:31:47 [INFO] DatabaseConnector: Closing connection to mongodb
+2025-12-03 00:31:47 [INFO] DatabaseConnector: MongoDB connection closed
+2025-12-03 00:31:47 [INFO] Engine: Database connection closed
+2025-12-03 00:31:47 [INFO] Application: archive created at output/results_20251203_003147.zip
+2025-12-03 00:31:47 [INFO] Application: finished successfully
+2025-12-03 00:37:55 [INFO] Application: interactive main started
+2025-12-03 00:38:21 [INFO] Application: Archive sending scheduled via Sidekiq to valentyn.vikovan@gmai.com
+2025-12-03 00:42:40 [INFO] Application: interrupted by user
+2025-12-03 00:42:48 [INFO] Application: interactive main started
+2025-12-03 00:43:00 [INFO] Configurator initialized with default configuration
+2025-12-03 00:43:00 [INFO] Configurator: Starting configuration with 6 parameter(s)
+2025-12-03 00:43:00 [INFO] Configurator: Updated run_website_parser from 0 to 0
+2025-12-03 00:43:00 [INFO] Configurator: Updated run_save_to_csv from 0 to 0
+2025-12-03 00:43:00 [INFO] Configurator: Updated run_save_to_json from 0 to 0
+2025-12-03 00:43:00 [INFO] Configurator: Updated run_save_to_yaml from 0 to 0
+2025-12-03 00:43:00 [INFO] Configurator: Updated run_save_to_sqlite from 0 to 0
+2025-12-03 00:43:00 [INFO] Configurator: Updated run_save_to_mongodb from 0 to 0
+2025-12-03 00:43:00 [INFO] Configurator: Configuration completed - 6 parameter(s) updated
+2025-12-03 00:43:00 [INFO] Configurator initialized with default configuration
+2025-12-03 00:43:00 [INFO] Engine: Configuration loaded from config/default_config.yaml and config/yaml_config
+2025-12-03 00:43:00 [INFO] Engine: Logging initialized
+2025-12-03 00:43:00 [INFO] Configurator: Starting configuration with 6 parameter(s)
+2025-12-03 00:43:00 [INFO] Configurator: Updated run_website_parser from 0 to 0
+2025-12-03 00:43:00 [INFO] Configurator: Updated run_save_to_csv from 0 to 0
+2025-12-03 00:43:00 [INFO] Configurator: Updated run_save_to_json from 0 to 0
+2025-12-03 00:43:00 [INFO] Configurator: Updated run_save_to_yaml from 0 to 0
+2025-12-03 00:43:00 [INFO] Configurator: Updated run_save_to_sqlite from 0 to 0
+2025-12-03 00:43:00 [INFO] Configurator: Updated run_save_to_mongodb from 0 to 0
+2025-12-03 00:43:00 [INFO] Configurator: Configuration completed - 6 parameter(s) updated
+2025-12-03 00:43:00 [INFO] DatabaseConnector: Initializing
+2025-12-03 00:43:00 [INFO] DatabaseConnector: Initialized
+2025-12-03 00:43:00 [INFO] DatabaseConnector: Starting connection to database
+2025-12-03 00:43:04 [INFO] DatabaseConnector: Connecting to MongoDB
+2025-12-03 00:43:04 [INFO] DatabaseConnector: MongoDB connected successfully (uri=mongodb://localhost:27017, db=my_database)
+2025-12-03 00:43:04 [INFO] DatabaseConnector: Successfully connected to mongodb
+2025-12-03 00:43:04 [INFO] Engine: Database connected
+2025-12-03 00:43:04 [INFO] Engine: run_methods with params: {run_website_parser: 0, run_save_to_csv: 0, run_save_to_json: 0, run_save_to_yaml: 0, run_save_to_sqlite: 0, run_save_to_mongodb: 0}
+2025-12-03 00:43:04 [INFO] Engine: Results archived to output/results_20251203_004304.zip
+2025-12-03 00:43:04 [INFO] Engine: Archive sending scheduled for valentynvikovan@gmail.com
+2025-12-03 00:43:04 [INFO] DatabaseConnector: Closing connection to mongodb
+2025-12-03 00:43:04 [INFO] DatabaseConnector: MongoDB connection closed
+2025-12-03 00:43:04 [INFO] Engine: Database connection closed
+2025-12-03 00:43:04 [INFO] Application: archive created at output/results_20251203_004304.zip
