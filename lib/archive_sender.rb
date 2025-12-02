@@ -11,6 +11,24 @@ module MyApplicationVikovan
 
     sidekiq_options retry: 3, queue: :default
 
+    def self.prompt_email
+      loop do
+        print 'Enter email address: '
+        email = STDIN.gets.to_s.strip
+
+        if email.empty?
+          puts 'Email cannot be empty.'
+          next
+        end
+
+        if email =~ /\A[^@\s]+@[^@\s]+\.[^@\s]+\z/
+          return email
+        else
+          puts 'Invalid email format. Please try again.'
+        end
+      end
+    end
+
     def perform(archive_path, email_options = {})
       return unless archive_path && File.exist?(archive_path)
 

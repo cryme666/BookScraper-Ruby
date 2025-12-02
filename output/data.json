@@ -1,0 +1,142 @@
+[
+  {
+    "name": "A Light in the Attic",
+    "price": 51.77,
+    "description": "Product Description",
+    "category": "Poetry",
+    "image_path": "Poetry/A_Light_in_the_Attic_1.jpg"
+  },
+  {
+    "name": "Tipping the Velvet",
+    "price": 53.74,
+    "description": "Product Description",
+    "category": "Historical Fiction",
+    "image_path": "Historical_Fiction/Tipping_the_Velvet_1.jpg"
+  },
+  {
+    "name": "Soumission",
+    "price": 50.1,
+    "description": "Product Description",
+    "category": "Fiction",
+    "image_path": "Fiction/Soumission_1.jpg"
+  },
+  {
+    "name": "Sharp Objects",
+    "price": 47.82,
+    "description": "Product Description",
+    "category": "Mystery",
+    "image_path": "Mystery/Sharp_Objects_1.jpg"
+  },
+  {
+    "name": "Sapiens: A Brief History of Humankind",
+    "price": 54.23,
+    "description": "Product Description",
+    "category": "History",
+    "image_path": "History/Sapiens_A_Brief_History_of_Humankind_1.jpg"
+  },
+  {
+    "name": "The Requiem Red",
+    "price": 22.65,
+    "description": "Product Description",
+    "category": "Young Adult",
+    "image_path": "Young_Adult/The_Requiem_Red_1.jpg"
+  },
+  {
+    "name": "The Dirty Little Secrets of Getting Your Dream Job",
+    "price": 33.34,
+    "description": "Product Description",
+    "category": "Business",
+    "image_path": "Business/The_Dirty_Little_Secrets_of_Getting_Your_Dream_Job_1.jpg"
+  },
+  {
+    "name": "The Coming Woman: A Novel Based on the Life of the Infamous Feminist, Victoria Woodhull",
+    "price": 17.93,
+    "description": "Product Description",
+    "category": "Default",
+    "image_path": "Default/The_Coming_Woman_A_Novel_Based_on_the_Life_of_the_Infamous_Feminist_Victoria_Woodhull_1.jpg"
+  },
+  {
+    "name": "The Black Maria",
+    "price": 52.15,
+    "description": "Product Description",
+    "category": "Poetry",
+    "image_path": "Poetry/The_Black_Maria_1.jpg"
+  },
+  {
+    "name": "The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics",
+    "price": 22.6,
+    "description": "Product Description",
+    "category": "Default",
+    "image_path": "Default/The_Boys_in_the_Boat_Nine_Americans_and_Their_Epic_Quest_for_Gold_at_the_1936_Berlin_Olympics_1.jpg"
+  },
+  {
+    "name": "Starving Hearts (Triangular Trade Trilogy, #1)",
+    "price": 13.99,
+    "description": "Product Description",
+    "category": "Default",
+    "image_path": "Default/Starving_Hearts_Triangular_Trade_Trilogy_1_1.jpg"
+  },
+  {
+    "name": "Shakespeare's Sonnets",
+    "price": 20.66,
+    "description": "Product Description",
+    "category": "Poetry",
+    "image_path": "Poetry/Shakespeares_Sonnets_1.jpg"
+  },
+  {
+    "name": "Set Me Free",
+    "price": 17.46,
+    "description": "Product Description",
+    "category": "Young Adult",
+    "image_path": "Young_Adult/Set_Me_Free_1.jpg"
+  },
+  {
+    "name": "Scott Pilgrim's Precious Little Life (Scott Pilgrim #1)",
+    "price": 52.29,
+    "description": "Product Description",
+    "category": "Sequential Art",
+    "image_path": "Sequential_Art/Scott_Pilgrims_Precious_Little_Life_Scott_Pilgrim_1_1.jpg"
+  },
+  {
+    "name": "Rip it Up and Start Again",
+    "price": 35.02,
+    "description": "Product Description",
+    "category": "Music",
+    "image_path": "Music/Rip_it_Up_and_Start_Again_1.jpg"
+  },
+  {
+    "name": "Our Band Could Be Your Life: Scenes from the American Indie Underground, 1981-1991",
+    "price": 57.25,
+    "description": "Product Description",
+    "category": "Music",
+    "image_path": "Music/Our_Band_Could_Be_Your_Life_Scenes_from_the_American_Indie_Underground_1981-1991_1.jpg"
+  },
+  {
+    "name": "Olio",
+    "price": 23.88,
+    "description": "Product Description",
+    "category": "Poetry",
+    "image_path": "Poetry/Olio_1.jpg"
+  },
+  {
+    "name": "Mesaerion: The Best Science Fiction Stories 1800-1849",
+    "price": 37.59,
+    "description": "Product Description",
+    "category": "Science Fiction",
+    "image_path": "Science_Fiction/Mesaerion_The_Best_Science_Fiction_Stories_1800-1849_1.jpg"
+  },
+  {
+    "name": "Libertarianism for Beginners",
+    "price": 51.33,
+    "description": "Product Description",
+    "category": "Politics",
+    "image_path": "Politics/Libertarianism_for_Beginners_1.jpg"
+  },
+  {
+    "name": "It's Only the Himalayas",
+    "price": 45.17,
+    "description": "Product Description",
+    "category": "Travel",
+    "image_path": "Travel/Its_Only_the_Himalayas_1.jpg"
+  }
+]
