@@ -6,6 +6,8 @@ require 'faker'
 require 'json'
 require 'csv'
 require 'yaml'
+require 'mechanize'
+require_relative 'item_container'
 
 module MyApplicationVikovan
   VERSION = '1.0.0'.freeze
@@ -212,6 +214,7 @@ module MyApplicationVikovan
 
   class Cart
     include Enumerable
+    include ItemContainer
 
     attr_accessor :items
 
@@ -403,5 +406,6 @@ module MyApplicationVikovan
       new.config.keys
     end
   end
+
 end
 
