@@ -12,3 +12,7 @@ gem "mechanize"
 gem 'rubocop', require: false
 gem "sqlite3"
 gem "mongo"
+gem "rubyzip"
+gem "sidekiq"
+gem "pony"
+gem "dotenv"
