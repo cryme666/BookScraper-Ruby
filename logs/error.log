@@ -380,3 +380,5 @@ D:/uchoba/5 course/Distributed database development technologies/1 lab/lib/web_p
 2025-12-02 20:23:52 [ERROR] Parser: Product category not found in breadcrumb
 2025-12-02 20:23:53 [ERROR] Parser: Product category not found in breadcrumb
 2025-12-02 20:23:53 [ERROR] Parser: Product category not found in breadcrumb
+2025-12-02 22:05:48 [ERROR] DatabaseConnector: Unsupported database type 'invalid_db_type'
+2025-12-02 22:05:58 [ERROR] DatabaseConnector: Unsupported database type 'invalid_db_type'

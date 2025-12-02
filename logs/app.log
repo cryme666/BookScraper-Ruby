@@ -3761,3 +3761,105 @@
 2025-12-02 20:23:54 [INFO] Parser: Worker 1 finished
 2025-12-02 20:23:54 [INFO] Parser: Worker 2 finished
 2025-12-02 20:23:54 [INFO] Parser: Parsing completed. Total items: 21
+2025-12-02 22:05:47 [INFO] DatabaseConnector: Initializing
+2025-12-02 22:05:47 [INFO] DatabaseConnector: Initialized
+2025-12-02 22:05:47 [INFO] DatabaseConnector: Initializing
+2025-12-02 22:05:47 [INFO] DatabaseConnector: Initialized
+2025-12-02 22:05:47 [INFO] DatabaseConnector: Starting connection to database
+2025-12-02 22:05:47 [INFO] DatabaseConnector: Connecting to SQLite
+2025-12-02 22:05:47 [INFO] DatabaseConnector: SQLite DB file: db/test_sqlite.db
+2025-12-02 22:05:47 [INFO] DatabaseConnector: SQLite connected successfully
+2025-12-02 22:05:47 [INFO] DatabaseConnector: Successfully connected to sqlite
+2025-12-02 22:05:47 [INFO] DatabaseConnector: Closing connection to sqlite
+2025-12-02 22:05:47 [INFO] DatabaseConnector: SQLite connection closed
+2025-12-02 22:05:47 [INFO] DatabaseConnector: Initializing
+2025-12-02 22:05:47 [INFO] DatabaseConnector: Initialized
+2025-12-02 22:05:47 [INFO] DatabaseConnector: Starting connection to database
+2025-12-02 22:05:47 [INFO] DatabaseConnector: Connecting to SQLite
+2025-12-02 22:05:47 [INFO] DatabaseConnector: SQLite DB file: db/test_sqlite.db
+2025-12-02 22:05:47 [INFO] DatabaseConnector: SQLite connected successfully
+2025-12-02 22:05:47 [INFO] DatabaseConnector: Successfully connected to sqlite
+2025-12-02 22:05:47 [INFO] DatabaseConnector: Closing connection to sqlite
+2025-12-02 22:05:47 [INFO] DatabaseConnector: SQLite connection closed
+2025-12-02 22:05:47 [INFO] DatabaseConnector: Initializing
+2025-12-02 22:05:47 [INFO] DatabaseConnector: Initialized
+2025-12-02 22:05:47 [INFO] DatabaseConnector: Starting connection to database
+2025-12-02 22:05:47 [INFO] DatabaseConnector: Connecting to SQLite
+2025-12-02 22:05:47 [INFO] DatabaseConnector: SQLite DB file: db/local_database.sqlite
+2025-12-02 22:05:47 [INFO] DatabaseConnector: SQLite connected successfully
+2025-12-02 22:05:47 [INFO] DatabaseConnector: Successfully connected to sqlite
+2025-12-02 22:05:47 [INFO] DatabaseConnector: Closing connection to sqlite
+2025-12-02 22:05:47 [INFO] DatabaseConnector: SQLite connection closed
+2025-12-02 22:05:47 [INFO] DatabaseConnector: Initializing
+2025-12-02 22:05:47 [INFO] DatabaseConnector: Initialized
+2025-12-02 22:05:47 [INFO] DatabaseConnector: Initializing
+2025-12-02 22:05:47 [INFO] DatabaseConnector: Initialized
+2025-12-02 22:05:47 [INFO] DatabaseConnector: Starting connection to database
+2025-12-02 22:05:48 [INFO] DatabaseConnector: Connecting to MongoDB
+2025-12-02 22:05:48 [INFO] DatabaseConnector: MongoDB connected successfully (uri=mongodb://localhost:27017, db=test_database)
+2025-12-02 22:05:48 [INFO] DatabaseConnector: Successfully connected to mongodb
+2025-12-02 22:05:48 [INFO] DatabaseConnector: Initializing
+2025-12-02 22:05:48 [INFO] DatabaseConnector: Initialized
+2025-12-02 22:05:48 [INFO] DatabaseConnector: Starting connection to database
+2025-12-02 22:05:48 [INFO] DatabaseConnector: Connecting to MongoDB
+2025-12-02 22:05:48 [INFO] DatabaseConnector: MongoDB connected successfully (uri=mongodb://localhost:27017, db=test_database)
+2025-12-02 22:05:48 [INFO] DatabaseConnector: Successfully connected to mongodb
+2025-12-02 22:05:48 [INFO] DatabaseConnector: Closing connection to mongodb
+2025-12-02 22:05:48 [INFO] DatabaseConnector: MongoDB connection closed
+2025-12-02 22:05:48 [INFO] DatabaseConnector: Initializing
+2025-12-02 22:05:48 [INFO] DatabaseConnector: Initialized
+2025-12-02 22:05:48 [INFO] DatabaseConnector: Starting connection to database
+2025-12-02 22:05:48 [INFO] DatabaseConnector: Initializing
+2025-12-02 22:05:48 [INFO] DatabaseConnector: Initialized
+2025-12-02 22:05:57 [INFO] DatabaseConnector: Initializing
+2025-12-02 22:05:57 [INFO] DatabaseConnector: Initialized
+2025-12-02 22:05:57 [INFO] DatabaseConnector: Initializing
+2025-12-02 22:05:57 [INFO] DatabaseConnector: Initialized
+2025-12-02 22:05:57 [INFO] DatabaseConnector: Starting connection to database
+2025-12-02 22:05:57 [INFO] DatabaseConnector: Connecting to SQLite
+2025-12-02 22:05:57 [INFO] DatabaseConnector: SQLite DB file: db/test_sqlite.db
+2025-12-02 22:05:57 [INFO] DatabaseConnector: SQLite connected successfully
+2025-12-02 22:05:57 [INFO] DatabaseConnector: Successfully connected to sqlite
+2025-12-02 22:05:57 [INFO] DatabaseConnector: Closing connection to sqlite
+2025-12-02 22:05:57 [INFO] DatabaseConnector: SQLite connection closed
+2025-12-02 22:05:57 [INFO] DatabaseConnector: Initializing
+2025-12-02 22:05:57 [INFO] DatabaseConnector: Initialized
+2025-12-02 22:05:57 [INFO] DatabaseConnector: Starting connection to database
+2025-12-02 22:05:57 [INFO] DatabaseConnector: Connecting to SQLite
+2025-12-02 22:05:57 [INFO] DatabaseConnector: SQLite DB file: db/test_sqlite.db
+2025-12-02 22:05:57 [INFO] DatabaseConnector: SQLite connected successfully
+2025-12-02 22:05:57 [INFO] DatabaseConnector: Successfully connected to sqlite
+2025-12-02 22:05:57 [INFO] DatabaseConnector: Closing connection to sqlite
+2025-12-02 22:05:57 [INFO] DatabaseConnector: SQLite connection closed
+2025-12-02 22:05:57 [INFO] DatabaseConnector: Initializing
+2025-12-02 22:05:57 [INFO] DatabaseConnector: Initialized
+2025-12-02 22:05:57 [INFO] DatabaseConnector: Starting connection to database
+2025-12-02 22:05:57 [INFO] DatabaseConnector: Connecting to SQLite
+2025-12-02 22:05:57 [INFO] DatabaseConnector: SQLite DB file: db/local_database.sqlite
+2025-12-02 22:05:57 [INFO] DatabaseConnector: SQLite connected successfully
+2025-12-02 22:05:57 [INFO] DatabaseConnector: Successfully connected to sqlite
+2025-12-02 22:05:57 [INFO] DatabaseConnector: Closing connection to sqlite
+2025-12-02 22:05:57 [INFO] DatabaseConnector: SQLite connection closed
+2025-12-02 22:05:57 [INFO] DatabaseConnector: Initializing
+2025-12-02 22:05:57 [INFO] DatabaseConnector: Initialized
+2025-12-02 22:05:57 [INFO] DatabaseConnector: Initializing
+2025-12-02 22:05:57 [INFO] DatabaseConnector: Initialized
+2025-12-02 22:05:57 [INFO] DatabaseConnector: Starting connection to database
+2025-12-02 22:05:58 [INFO] DatabaseConnector: Connecting to MongoDB
+2025-12-02 22:05:58 [INFO] DatabaseConnector: MongoDB connected successfully (uri=mongodb://localhost:27017, db=test_database)
+2025-12-02 22:05:58 [INFO] DatabaseConnector: Successfully connected to mongodb
+2025-12-02 22:05:58 [INFO] DatabaseConnector: Closing connection to mongodb
+2025-12-02 22:05:58 [INFO] DatabaseConnector: MongoDB connection closed
+2025-12-02 22:05:58 [INFO] DatabaseConnector: Initializing
+2025-12-02 22:05:58 [INFO] DatabaseConnector: Initialized
+2025-12-02 22:05:58 [INFO] DatabaseConnector: Starting connection to database
+2025-12-02 22:05:58 [INFO] DatabaseConnector: Connecting to MongoDB
+2025-12-02 22:05:58 [INFO] DatabaseConnector: MongoDB connected successfully (uri=mongodb://localhost:27017, db=test_database)
+2025-12-02 22:05:58 [INFO] DatabaseConnector: Successfully connected to mongodb
+2025-12-02 22:05:58 [INFO] DatabaseConnector: Closing connection to mongodb
+2025-12-02 22:05:58 [INFO] DatabaseConnector: MongoDB connection closed
+2025-12-02 22:05:58 [INFO] DatabaseConnector: Initializing
+2025-12-02 22:05:58 [INFO] DatabaseConnector: Initialized
+2025-12-02 22:05:58 [INFO] DatabaseConnector: Starting connection to database
+2025-12-02 22:05:58 [INFO] DatabaseConnector: Initializing
+2025-12-02 22:05:58 [INFO] DatabaseConnector: Initialized
