@@ -1,5 +1,5 @@
 database_config:
-  database_type: sqlite
+  database_type: mongodb
   sqlite_database:
     db_file: db/local_database.sqlite
     timeout: 5000

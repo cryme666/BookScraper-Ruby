@@ -116,7 +116,7 @@ module MyApplicationVikovan
       files = Dir[File.join(output_dir, '**', '*')].select { |f| File.file?(f) }
       return nil if files.empty?
 
-      ::Zip::File.open(archive_path, ::Zip::File::CREATE) do |zipfile|
+      ::Zip::File.open(archive_path, create: true) do |zipfile|
         files.each do |file|
           relative_path = file.sub(%r{\A#{Regexp.escape(output_dir + File::SEPARATOR)}}, '')
           zipfile.add(relative_path, file) unless zipfile.find_entry(relative_path)

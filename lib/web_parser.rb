@@ -612,14 +612,19 @@ module MyApplicationVikovan
 
       def extract_product_category(product)
         return '' unless product.is_a?(PageWrapper)
-        
-        breadcrumb = product.at('ul.breadcrumb li:last-child a')
-        if breadcrumb
-          category = breadcrumb.text.strip
-          LoggerManager.log_processed_file("Parser: Product category found: #{category}") if LoggerManager.logger
-          return category
+
+        breadcrumb_items = product.search('ul.breadcrumb li')
+
+        if breadcrumb_items && breadcrumb_items.size >= 2
+          category_node = breadcrumb_items[-2]
+          category = category_node.text.strip
+
+          if category && !category.empty?
+            LoggerManager.log_processed_file("Parser: Product category found: #{category}") if LoggerManager.logger
+            return category
+          end
         end
-        
+
         LoggerManager.log_error("Parser: Product category not found in breadcrumb") if LoggerManager.logger
         ''
       end
