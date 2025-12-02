@@ -8,4 +8,5 @@ gem "nokogiri"
 gem "httparty"
 gem "faraday"
 gem "faker"
+gem "mechanize"
 gem 'rubocop', require: false

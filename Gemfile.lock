@@ -1,10 +1,15 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    addressable (2.8.8)
+      public_suffix (>= 2.0.2, < 8.0)
     ast (2.4.3)
+    base64 (0.3.0)
     bigdecimal (3.3.1)
     concurrent-ruby (1.3.5)
+    connection_pool (2.5.5)
     csv (3.3.5)
+    domain_name (0.6.20240107)
     faker (3.5.2)
       i18n (>= 1.8.11, < 2)
     faraday (2.14.0)
@@ -13,6 +18,8 @@ GEM
       logger
     faraday-net_http (3.4.2)
       net-http (~> 0.5)
+    http-cookie (1.1.0)
+      domain_name (~> 0.5)
     httparty (0.23.2)
       csv
       mini_mime (>= 1.0.0)
@@ -23,11 +30,32 @@ GEM
     language_server-protocol (3.17.0.5)
     lint_roller (1.1.0)
     logger (1.7.0)
+    mechanize (2.14.0)
+      addressable (~> 2.8)
+      base64
+      domain_name (~> 0.5, >= 0.5.20190701)
+      http-cookie (~> 1.0, >= 1.0.3)
+      mime-types (~> 3.3)
+      net-http-digest_auth (~> 1.4, >= 1.4.1)
+      net-http-persistent (>= 2.5.2, < 5.0.dev)
+      nkf
+      nokogiri (~> 1.11, >= 1.11.2)
+      rubyntlm (~> 0.6, >= 0.6.3)
+      webrick (~> 1.7)
+      webrobots (~> 0.1.2)
+    mime-types (3.7.0)
+      logger
+      mime-types-data (~> 3.2025, >= 3.2025.0507)
+    mime-types-data (3.2025.0924)
     mini_mime (1.1.5)
     multi_xml (0.7.2)
       bigdecimal (~> 3.1)
     net-http (0.8.0)
       uri (>= 0.11.1)
+    net-http-digest_auth (1.4.1)
+    net-http-persistent (4.0.6)
+      connection_pool (~> 2.2, >= 2.2.4)
+    nkf (0.2.0)
     nokogiri (1.18.10-x64-mingw-ucrt)
       racc (~> 1.4)
     parallel (1.27.0)
@@ -35,6 +63,7 @@ GEM
       ast (~> 2.4.1)
       racc
     prism (1.6.0)
+    public_suffix (7.0.0)
     racc (1.8.1)
     rainbow (3.1.1)
     regexp_parser (2.11.3)
@@ -53,10 +82,14 @@ GEM
       parser (>= 3.3.7.2)
       prism (~> 1.4)
     ruby-progressbar (1.13.0)
+    rubyntlm (0.6.5)
+      base64
     unicode-display_width (3.2.0)
       unicode-emoji (~> 4.1)
     unicode-emoji (4.1.0)
     uri (1.1.1)
+    webrick (1.9.2)
+    webrobots (0.1.2)
 
 PLATFORMS
   x64-mingw-ucrt
@@ -65,6 +98,7 @@ DEPENDENCIES
   faker
   faraday
   httparty
+  mechanize
   nokogiri
   rubocop
 
