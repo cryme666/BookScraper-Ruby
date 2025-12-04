@@ -1,4 +1,5 @@
 web_scraping:
+  agent_type: mechanize
   start_page: https://books.toscrape.com
   base_url: https://books.toscrape.com
   product_name_selector: "article.product_pod h3 a"
